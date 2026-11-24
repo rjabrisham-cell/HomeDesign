@@ -1,0 +1,18 @@
+{
+  "observed_at": "1405/09/03",
+  "metrics": {
+    "announced_partnerships": 2,
+    "listed_acceptors_fmcg": 10,
+    "documented_capabilities": 8,
+    "forms_or_entry_seen": 2,
+    "operational_steps_documented": 8,
+    "full_deal_L4": 0,
+    "evidence": 18,
+    "relations": 10,
+    "conflicts_open": 6
+  },
+  "xlsx": "D:\\HomeDesign\\artifacts\\Barook_Kasbno_Deep_Research_Directory.xlsx",
+  "scenario_md": "D:\\HomeDesign\\artifacts\\Barook_Trade_Scenario_v0.3_Research.md",
+  "html": "D:\\HomeDesign\\artifacts\\Barook_Kasbno_Deep_Research_FA.html",
+  "pdf": "D:\\HomeDesign\\artifacts\\Barook_Kasbno_Deep_Research_FA.pdf"
+}

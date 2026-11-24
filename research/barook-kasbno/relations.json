@@ -1,0 +1,102 @@
+[
+  [
+    "REL-BK-01",
+    "ENT-TEJARAT",
+    "ENT-BAROOK",
+    "product_partner_kasbno",
+    "تجمیع‌کننده ثبت‌نام/کارت/گزارش",
+    2,
+    "EV-BK-001;EV-BK-004",
+    "NEW/CONFIRM official"
+  ],
+  [
+    "REL-BK-02",
+    "ENT-ECOTAM",
+    "PRD-KASBNO",
+    "hosts_product_page",
+    "کسب‌نو در اکوتام",
+    2,
+    "EV-BK-004",
+    "CONFIRM"
+  ],
+  [
+    "REL-BK-03",
+    "ENT-BAROOK",
+    "ENT-HUG",
+    "acceptor_with_ops_guide",
+    "خرید+پوز+سررسید",
+    3,
+    "EV-BK-009",
+    "NEW depth vs prior"
+  ],
+  [
+    "REL-BK-04",
+    "ENT-BAROOK",
+    "ENT-SAYESAMAN",
+    "acceptor_plus_private_wallet",
+    "لیست FMCG + کیف اختصاصی",
+    2,
+    "EV-BK-001;EV-BK-012",
+    "NEW wallet model"
+  ],
+  [
+    "REL-BK-05",
+    "ENT-BAROOK",
+    "ENT-SNAPPMKT",
+    "announced_credit_network",
+    "اعلام همکاری؛ خرج در پرو ادعا",
+    1,
+    "EV-BK-014",
+    "NEW announce L1"
+  ],
+  [
+    "REL-BK-06",
+    "ENT-BAROOK",
+    "ENT-GOLRANG",
+    "listed_acceptor",
+    "نام در FMCG",
+    1,
+    "EV-BK-001",
+    "CONFIRM name"
+  ],
+  [
+    "REL-BK-07",
+    "ENT-BAROOK",
+    "ENT-BEHPAKHSH",
+    "listed_acceptor",
+    "نام در FMCG",
+    1,
+    "EV-BK-001",
+    "CONFIRM"
+  ],
+  [
+    "REL-BK-08",
+    "ENT-BAROOK",
+    "ENT-TOSAN",
+    "pos_hardware",
+    "P10 آموزش",
+    2,
+    "EV-BK-011",
+    "NEW"
+  ],
+  [
+    "REL-BK-09",
+    "ENT-BAROOK",
+    "ENT-MELLAT",
+    "mentioned_backing",
+    "فوتر؛ نقش کسب‌نو نامشخص",
+    0,
+    "EV-BK-002",
+    "lead"
+  ],
+  [
+    "REL-BK-10",
+    "PRD-SAYE-WALLET",
+    "ENT-TEJARAT",
+    "risk_transfer_on_uplift",
+    "افزایش سقف→اعتبارسنجی بانک",
+    1,
+    "EV-BK-012",
+    "NEW"
+  ]
+]
