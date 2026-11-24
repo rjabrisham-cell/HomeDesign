@@ -1,0 +1,187 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "url": "https://www.varanegar.com/varanegar-pepsi-success-story/",
+    "title": "داستان موفقیت ورانگر–پپسی؛ مصاحبه IT ساتراپ دینا",
+    "observed_at": "1405/09/03",
+    "snippet": "ویدیوی مصاحبه با دکتر رزا امیراحمدی، مدیر فناوری اطلاعات شرکت ساتراپ دینا پپسی",
+    "type": "case_study"
+  },
+  {
+    "evidence_id": "EV-002",
+    "url": "https://www.varanegar.com/از-زبان-مشتریان/",
+    "title": "از زبان مشتریان ورانگر",
+    "observed_at": "1405/09/03",
+    "snippet": "خانم الهی مدیر آی‌تی صنایع غذایی برتر (نویدکاران): همکاری بیش از یک دهه با ورانگر؛ نرم‌افزار پخش و فروش",
+    "type": "customer_quote"
+  },
+  {
+    "evidence_id": "EV-003",
+    "url": "https://www.varanegar.com/ماژول-فروش-b2b/",
+    "title": "ماژول فروش B2B ورانگر",
+    "observed_at": "1405/09/03",
+    "snippet": "ثبت سفارش آنلاین، قیمت اختصاصی، کنترل سقف اعتبار، موجودی لحظه‌ای؛ قابلیت محصول نه اثبات نصب خاص",
+    "type": "product_page"
+  },
+  {
+    "evidence_id": "EV-004",
+    "url": "https://telegram.me/s/tebyanphsoftware?before=727",
+    "title": "کانال آرسن/تبیان — دریافت فاکتور هجرت/فردوس/رازی",
+    "observed_at": "1405/09/03",
+    "snippet": "امکان دریافت فاکتورهای خرید شرکتهای هجرت، فردوس و رازی؛ گزینه فراخوانی از شرکتهای پخش و HIX؛ داروپخش و الیت مستقیم",
+    "type": "support_post"
+  },
+  {
+    "evidence_id": "EV-005",
+    "url": "https://www.hejratco.com/",
+    "title": "سایت پخش هجرت",
+    "observed_at": "1405/09/03",
+    "snippet": "پورتال اینترنتی مشتریان و سامانه اطلاع‌رسانی تراکنش در فهرست خدمات؛ URL ورود عمومی در خزش باز نشد (504 در یک تلاش)",
+    "type": "corporate_site",
+    "access_note": "504 on one fetch; content via search snippet + retry needed"
+  },
+  {
+    "evidence_id": "EV-006",
+    "url": "http://orders.razico.ir/",
+    "title": "پرتال سفارش‌دهی اینترنتی رازی",
+    "observed_at": "1405/09/03",
+    "snippet": "فرم ورود کاربر/رمز + کپچا؛ خوش‌آمد به پرتابل سفارش‌دهی",
+    "type": "login_page"
+  },
+  {
+    "evidence_id": "EV-007",
+    "url": "https://my.razico.ir/Authentication/Login",
+    "title": "سامانه مشتریان رازی",
+    "observed_at": "1405/09/03",
+    "snippet": "ورود با نام کاربری و رمز عبور",
+    "type": "login_page"
+  },
+  {
+    "evidence_id": "EV-008",
+    "url": "https://soghatemakoran.ir/panel/",
+    "title": "ورود مشتریان سوغات مکران",
+    "observed_at": "1405/09/03",
+    "snippet": "شماره موبایل + کد مشتری؛ فرم متقاضی جدید با واتساپ",
+    "type": "login_page"
+  },
+  {
+    "evidence_id": "EV-009",
+    "url": "https://soghatemakoran.ir/",
+    "title": "لندینگ سوغات مکران",
+    "observed_at": "1405/09/03",
+    "snippet": "سفارش اپ/واتساپ؛ حداقل سفارش اپ ۲٬۵۰۰٬۰۰۰ تومان؛ موبایل مراد بلوچی ۰۹۱۵۹۱۵۴۵۵۰؛ محدوده نیکشهر و اطراف",
+    "type": "landing"
+  },
+  {
+    "evidence_id": "EV-010",
+    "url": "https://cafebazaar.ir/app/ir.soghatmakran.app",
+    "title": "اپ سوغات مکران در بازار",
+    "observed_at": "1405/09/03",
+    "snippet": "اپ اندروید ir.soghatmakran.app؛ توضیحات پخش غذایی",
+    "type": "app_store"
+  },
+  {
+    "evidence_id": "EV-011",
+    "url": "https://www.payla.net/home/application",
+    "title": "اپ‌ها و نقش‌های پایلا",
+    "observed_at": "1405/09/03",
+    "snippet": "مغازه‌دار: سفارش، پیگیری، مدیریت روش پرداخت و تسویه؛ پنل پخش: قیمت چندسطحی و روش پرداخت",
+    "type": "product_page"
+  },
+  {
+    "evidence_id": "EV-012",
+    "url": "https://idmt.ir/ساخت-اپلیکیشن-پخش-مواد-غذایی",
+    "title": "مطالعهٔ موردی ساخت پخش‌من",
+    "observed_at": "1405/09/03",
+    "snippet": "مارکت‌پلیس عمده؛ جستجو بر اساس شهر؛ سفارش‌ها؛ کیف پول؛ تماس ۰۵۱۳۶۰۳۸۵۰۶",
+    "type": "case_study"
+  },
+  {
+    "evidence_id": "EV-013",
+    "url": "https://pakhshmart.com/",
+    "title": "سیمرغ — پوشش گلرنگ پخش و پدیده پایدار",
+    "observed_at": "1405/09/03",
+    "snippet": "پلتفرم سفارش آنلاین گروه گلرنگ؛ برندهای تحت پوشش: گلرنگ پخش، پدیده پایدار؛ تلفن ۴۲۴۱۸۶۲۴",
+    "type": "landing"
+  },
+  {
+    "evidence_id": "EV-014",
+    "url": "https://app.pakhshmart.com/",
+    "title": "ورود سیمرغ OTP",
+    "observed_at": "1405/09/03",
+    "snippet": "شماره موبایل ثبت‌شده در شرکت‌های پخش + دریافت رمز یک‌بارمصرف؛ نسخه ۷.۴.۶ در مشاهده قبلی",
+    "type": "login_page"
+  },
+  {
+    "evidence_id": "EV-015",
+    "url": "https://davooddehghan.ir/wp-content/uploads/ilia-logistic-1402.pdf",
+    "title": "PDF تحول در مسیر تحویل — نمونه تکساران/آپتایم/اسنپ‌مارکت‌پرو",
+    "observed_at": "1405/09/03",
+    "snippet": "تکساران پارمیس مشتری B2B آپتایم از ۱۴۰۲؛ لجستیک نه پنل سفارش خرده‌فروش؛ اسنپ مارکت پرو نیز در همان گزارش به‌عنوان مشتری آپتایم",
+    "type": "pdf_report"
+  },
+  {
+    "evidence_id": "EV-016",
+    "url": "https://www.linkedin.com/posts/optime-ai_%D8%A2%D9%BE%D8%AA%D8%A7%DB%8C%D9%85-%D9%84%D8%AC%D8%B3%D8%AA%DB%8C%DA%A9%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF-%D8%A8%D9%87%DB%8C%D9%86%D9%87%D8%B3%D8%A7%D8%B2%DB%8C%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-activity-7390301973977141248-dzu0",
+    "title": "آپتایم × قاسم ایران",
+    "observed_at": "1405/09/03",
+    "snippet": "همکاری لجستیکی قاسم ایران با آپتایم؛ مسیربندی و مانیتورینگ توزیع",
+    "type": "linkedin"
+  },
+  {
+    "evidence_id": "EV-017",
+    "url": "https://www.bonnychow.ir/questions",
+    "title": "FAQ بانی‌چاو — تسویه و اعتبار",
+    "observed_at": "1405/09/03",
+    "snippet": "کارتخوان هنگام تحویل؛ درگاه برای open items؛ تمدید اعتبار حداکثر ۷۲س پس از اعلام وصول مالی",
+    "type": "faq"
+  },
+  {
+    "evidence_id": "EV-018",
+    "url": "https://www.bonnychow.ir/registration",
+    "title": "ثبت‌نام کد خریدار بانی‌چاو",
+    "observed_at": "1405/09/03",
+    "snippet": "کد خریدار سولیکو؛ سفارش آنلاین پس از ثبت؛ پرداخت نقدی/کارت هنگام تحویل یا آنلاین طبق دوره بازپرداخت",
+    "type": "registration"
+  },
+  {
+    "evidence_id": "EV-019",
+    "url": "https://www.ghasemiran.org/fa/page/ghasemiran-B2B.html",
+    "title": "صفحه رسمی B2B قاسم ایران",
+    "observed_at": "1405/09/03",
+    "snippet": "اپ B2B برای دارندگان کد مشتری؛ جستجو، تخفیف، فاکتور رسمی، تحویل ناوگان",
+    "type": "product_page"
+  },
+  {
+    "evidence_id": "EV-020",
+    "url": "https://dastavval.com/article/art-guide-site-order-step-by-step",
+    "title": "راهنمای سفارش دست اول",
+    "observed_at": "1405/09/03",
+    "snippet": "کاتالوگ، MOQ، تخفیف تیراژ، سبد، پیش‌فاکتور",
+    "type": "official_guide"
+  },
+  {
+    "evidence_id": "EV-021",
+    "url": "https://dastavval.com/article/art-guide-safe-escrow-payment-cheque",
+    "title": "راهنمای نقد/امانی/چک دست اول",
+    "observed_at": "1405/09/03",
+    "snippet": "Escrow شاپرک؛ نقد با تخفیف؛ چک صیادی ۳۰/۶۰/۹۰؛ ثبت صیاد",
+    "type": "official_guide"
+  },
+  {
+    "evidence_id": "EV-022",
+    "url": "https://www.apir.ir/pages/member-companies",
+    "title": "انجمن ملی صنعت پخش — فهرست اعضا",
+    "observed_at": "1405/09/03",
+    "snippet": "منبع دایرکتوری؛ آپدیت پاییز ۱۴۰۵ روی سایت",
+    "type": "directory"
+  },
+  {
+    "evidence_id": "EV-023",
+    "url": "https://myket.ir/app/com.shagerd.app",
+    "title": "اپ شاگرد در مایکت (بررسی ادعای ممیزی)",
+    "observed_at": "1405/09/03",
+    "snippet": "اپ POS/AI فروشگاهی عازم — نه پنل پخش خرده‌فروش؛ شاهد ممیزی برای «شاگرد پخش» در این URL تأیید نشد",
+    "type": "negative_match"
+  }
+]

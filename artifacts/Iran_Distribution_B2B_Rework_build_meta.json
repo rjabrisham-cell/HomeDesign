@@ -1,0 +1,30 @@
+{
+  "observed_at": "1405/09/03",
+  "metrics": {
+    "assoc_companies": 234,
+    "round1_log_rows": 250,
+    "round2_log_rows": 237,
+    "distinct_legal_in_pilot_relations": 12,
+    "providers_new": 7,
+    "system_families": 3,
+    "relations_total": 20,
+    "relations_changed_vs_baseline": 18,
+    "proof_level_counts": {
+      "1": 12,
+      "2": 5,
+      "0": 1,
+      "3": 2
+    },
+    "operational_steps_documented_or_observed": 12,
+    "documented_deals_level4": 0,
+    "open_gaps": 8
+  },
+  "xlsx": "D:\\HomeDesign\\artifacts\\Iran_Distribution_B2B_Rework_Directory.xlsx",
+  "html": "D:\\HomeDesign\\artifacts\\Iran_Distribution_B2B_Rework_Report_FA.html",
+  "pdf": "D:\\HomeDesign\\artifacts\\Iran_Distribution_B2B_Rework_Report_FA.pdf",
+  "pilot_cases": 12,
+  "evidence_count": 23,
+  "relations_count": 20,
+  "order_steps_count": 18,
+  "crawl_log_count": 487
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "observed_at_jalali": "1405/09/03",
+    "mission": "rework-relation-proof",
+    "baseline": "artifacts/Iran_Distribution_B2B_* (prior delivery accepted only as lead directory)",
+    "proof_levels": {
+      "0": "سرنخ",
+      "1": "راهکار یا همکاری مستند",
+      "2": "ورودی مشاهده‌شده",
+      "3": "گام خرید مستند/مشاهده‌شده",
+      "4": "پرداخت یا تسویه همان سفارش"
+    }
+  },
+  "identity_fixes": [
+    {
+      "issue": "DIST-004 collision in baseline",
+      "fix": "LEGAL-RAZI-PHARMA = شركت پخش رازي (razico.ir); LEGAL-RAZI-CHESB = شرکت یکتا همراه رازی (separate). SYS-RAZI-ORDERS and SYS-ARSEN are system families, not company ids."
+    },
+    {
+      "issue": "Simorgh dual companies",
+      "fix": "LEGAL-GOLRANG-PAKHSH and LEGAL-PADIDEH-PAYDAR both relate to SYS-SIMORGH; Simorgh is system family id SYS-SIMORGH not a legal member name."
+    }
+  ],
+  "entities": [
+    {"id": "LEGAL-SATRAP-DINA", "kind": "distributor", "name": "شرکت پخش ساتراپ دینا", "assoc_row": 32, "activity": "غذایی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-NAVIDKARAN", "kind": "distributor", "name": "شرکت تولیدی نویدکاران برتر", "assoc_row": 72, "activity": "غذایی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-HEJRAT", "kind": "distributor", "name": "شركت پخش هجرت", "assoc_row": 7, "activity": "دارویی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-FERDOWS", "kind": "distributor", "name": "شركت پخش فردوس", "assoc_row": 6, "activity": "دارویی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-RAZI-PHARMA", "kind": "distributor", "name": "شركت پخش رازي", "assoc_row": 4, "activity": "دارویی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-RAZI-CHESB", "kind": "distributor", "name": "شرکت یکتا همراه رازی", "assoc_row": 105, "activity": "چسب", "scope": "استاني- تهران", "in_assoc": true},
+    {"id": "LEGAL-GOLRANG-PAKHSH", "kind": "distributor", "name": "شرکت گلرنگ پخش", "assoc_row": 16, "activity": "غذایی- بهداشتی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-PADIDEH-PAYDAR", "kind": "distributor", "name": "شرکت پخش پدیده پایدار", "assoc_row": 38, "activity": "بهداشتي", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-TAKSARAN", "kind": "distributor", "name": "شرکت تکساران پارمیس", "assoc_row": 53, "activity": "غذایی", "scope": "استانی- تهران", "in_assoc": true},
+    {"id": "LEGAL-BONNYCHOW", "kind": "distributor", "name": "شركت پخش باني چاو ایرانیان", "assoc_row": 26, "activity": "غذایی", "scope": "سراسري", "in_assoc": true},
+    {"id": "LEGAL-GHASEM", "kind": "distributor", "name": "شركت قاسم ايران", "assoc_row": 13, "activity": "غذایی- دارویی", "scope": "سراسري- تهران", "in_assoc": true},
+    {"id": "LEGAL-SOGHAT-MAKRAN", "kind": "distributor", "name": "پخش سوغات مکران", "assoc_row": null, "activity": "غذایی منطقه‌ای", "scope": "نیکشهر و اطراف", "in_assoc": false},
+    {"id": "PROV-VARANEGAR", "kind": "provider", "name": "ورانگر", "product": "نرم‌افزار پخش مویرگی + ماژول فروش B2B"},
+    {"id": "PROV-ARSEN", "kind": "provider", "name": "نرم‌افزار داروخانه آرسن / تبیان", "product": "دریافت فاکتور خرید از پخش و HIX"},
+    {"id": "PROV-HIX", "kind": "provider", "name": "HIX", "product": "واسط تبادل دارویی (در متن آرسن)"},
+    {"id": "PROV-PAYLA", "kind": "provider", "name": "پایلا", "product": "شبکه تأمین/توزیع + اپ مغازه‌دار/بازاریاب/راننده/پنل پخش"},
+    {"id": "PROV-PAKHSHMAN", "kind": "provider", "name": "پخش‌من (IDMT)", "product": "مارکت‌پلیس پخش عمده"},
+    {"id": "PROV-OPTIME", "kind": "provider", "name": "آپتایم", "product": "بهینه‌سازی لجستیک/مسیربندی"},
+    {"id": "PROV-DASTAVVAL", "kind": "provider", "name": "دست اول", "product": "سفارش عمده کارخانه + نقد/چک/امانی"},
+    {"id": "SYS-SIMORGH", "kind": "system_family", "name": "سیمرغ / PakhshMart", "product": "پورتال سفارش گروه گلرنگ"},
+    {"id": "SYS-RAZI-ORDERS", "kind": "system_family", "name": "orders.razico.ir / my.razico.ir", "product": "سفارش و سامانه مشتریان رازی"},
+    {"id": "SYS-MAKRAN-PANEL", "kind": "system_family", "name": "پنل و اپ سوغات مکران", "product": "ورود موبایل+کد مشتری"}
+  ],
+  "pilot_case_ids": [
+    "CASE-01", "CASE-02", "CASE-03", "CASE-04", "CASE-05", "CASE-06",
+    "CASE-07", "CASE-08", "CASE-09", "CASE-10", "CASE-11", "CASE-12"
+  ]
+}
