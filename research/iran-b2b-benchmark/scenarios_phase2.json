@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "title": "Iran B2B Wholesale & Credit Journey Scenario Bank — Phase 2",
+    "observation_date_gregorian": "2026-11-24",
+    "observation_date_jalali": "1405/09/03",
+    "phase1_input": "Iran-B2B-Credit-Competitor-Benchmark-FA.pdf",
+    "scenario_count_target": "20-50",
+    "notes": "IDs stable across PDF/XLSX/CSV. Labels: observed|official_doc|product_claim|secondary|unknown|simulation_design"
+  },
+  "hypothesis_tests": [
+    {
+      "id": "H1",
+      "claim_phase1": "بازار سفارش عمده و بازار اعتبار جدا هستند",
+      "verdict": "PARTIAL_REVISED",
+      "finding": "نزدیک‌ترین معاملهٔ واحد مستند: طرح کسب‌نو بانک تجارت با تجمیع‌کننده باروک — هویت کسب‌وکاری فروشگاه + خرید از تأمین‌کننده طرف قرارداد + اعتبار مصرفی روی همان خرید + تسویه تضمینی بانک برای تأمین‌کننده. شواهد اتصال پرداخت باروک داخل پین‌دیس از نظر کاربر مایکت (۶ مهر ۱۴۰۵) آمده و هنوز صفحهٔ رسمی مشترک پین‌دیس×باروک مشاهده نشد. الگوی موازی: نوی‌پو/پالیز/گرین‌پی برای زنجیره کشاورزی.",
+      "evidence_ids": ["E-BAROOK-01", "E-ECOTAM-01", "E-PINDIS-MYKET-01", "E-GP-01", "E-NAVIPO-NEWS-01"]
+    },
+    {
+      "id": "H2",
+      "claim_phase1": "نوع کسب‌وکارها متفاوت است و باید با پرسش مالکیت/فاکتور/پول جدا شوند",
+      "verdict": "SUPPORTED",
+      "finding": "پین‌دیس: عرضه ترکیبی خرید پلتفرم از تأمین‌کننده یا فروش تأمین‌کننده روی سامانه؛ کیفیت بر عهده تأمین‌کننده؛ فاکتور همراه ارسال. بنک مارکت: مالک موجودی خود شرکت/انبار. بنک‌بازار: آگهی/درخواست، قیمت توافقی، تسویه مستقیم محتمل. اسنپ ساپلای: HoReCa. پخش‌یار: ادعای بازارگاه+چکی/اعتباری بدون قرارداد عمومی. دیجی‌کالا بیزینس: عمده سازمانی چنددسته.",
+      "evidence_ids": ["E-PD-TERMS-01", "E-BM-01", "E-BB-01", "E-SS-01", "E-PK-01", "E-DK-01"]
+    },
+    {
+      "id": "H3",
+      "claim_phase1": "پذیرندگی BNPL، رفاه کارکنان و اعتبار خرید موجودی باید جدا شوند",
+      "verdict": "SUPPORTED_AND_SHARPENED",
+      "finding": "دیجی‌پی سازمانی = رفاه کارکنان + تنخواه تدارکات سازمان (B2O)، نه اعتبار خرید فروشگاه از پخش FMCG. تارا/کیپا رفاهی. باروک/کسب‌نو و نوی‌پو اعتبار خرید موجودی/نهاده کسب‌وکاری‌اند.",
+      "evidence_ids": ["E-DP-B2O-01", "E-DP-ORG-MAG-01", "E-TA-01", "E-KP-01", "E-BAROOK-01"]
+    },
+    {
+      "id": "H4",
+      "claim_phase1": "برخی آمار از لندینگ/اپ/ثانویه است و نیاز به راستی‌آزمایی دارد",
+      "verdict": "SUPPORTED",
+      "finding": "پین‌دیس: سایت ۵۰هزار+ خرده‌فروش/۶۵۰هزار+ سفارش؛ پلی‌استور/مایکت ۱۸هزار خرده‌فروش؛ مایکت ۷هزار دانلود. تعاریف «مشتری/خرده‌فروش/دانلود» یکی نیستند. اسنپ‌مارکت‌پرو: گزارش تیر ۱۴۰۴ فروش عمده محدود تهران در اسنپ‌فود (بیشتر B2C Bulk). بنک‌بازار: مرجع کیفیت/طرف حقوقی معامله در فرانت عمومی مبهم.",
+      "evidence_ids": ["E-PD-01", "E-PD-02", "E-PINDIS-MYKET-01", "E-NEWS-SMP-01", "E-BB-01"]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "MP-PINDIS-REG-01",
+      "company": "پین‌دیس",
+      "product": "ثبت‌نام خرده‌فروش",
+      "role": "فروشگاه/داروخانه/بهداشتی",
+      "goal": "ایجاد حساب و احراز اولیه برای سفارش عمده",
+      "channel": "اپ/سایت app.pindis.com",
+      "territory": "استان‌های پوشش‌داده‌شده ادعا",
+      "steps": [
+        {"n": 1, "pre": "بدون حساب", "action": "نصب اپ یا ورود وب", "fields": "—", "system": "صفحه ورود/ثبت‌نام", "decision": "کاربر", "evidence": "E-PINDIS-MYKET-01", "label": "product_claim"},
+        {"n": 2, "pre": "فرم ثبت‌نام", "action": "ورود فیلدها", "fields": "شماره همراه؛ نام و نام‌خانوادگی؛ نام فروشگاه؛ کد ملی؛ آدرس و لوکیشن (مایکت). قوانین: حقیقی=نام/همراه/کدملی/کدپستی/کد نقش؛ حقوقی=شناسه ملی/اقتصادی/اقامتگاه", "system": "ساخت حساب کاربری", "decision": "سامانه + اصل صحت اطلاعات اعلامی", "evidence": "E-PD-TERMS-01;E-PINDIS-MYKET-01", "label": "official_doc"},
+        {"n": 3, "pre": "حساب ساخته‌شده", "action": "در صورت درخواست مدارک تکمیلی", "fields": "مدارک حسب صلاح‌دید پین‌دیس", "system": "تأیید/تعلیق/مسدود در صورت نقص", "decision": "عملیات پین‌دیس", "evidence": "E-PD-TERMS-01", "label": "official_doc"}
+      ],
+      "exceptions": ["اطلاعات نادرست→مسدود؛ بیش از یک حساب→تخلف؛ زیر ۱۸ سال ممنوع"],
+      "outcome": "حساب فعال برای مشاهده کاتالوگ/سفارش در محدوده پوشش",
+      "money": "هنوز مصرف اعتبار نیست؛ کیف اعتبار فقط برای خدمات پین‌دیس و غیرقابل برداشت نقدی",
+      "confidence": "high",
+      "access_boundary": "فرم دقیق UI پشت لاگین کامل مشاهده نشد؛ فیلدها از مایکت+قوانین"
+    },
+    {
+      "id": "MP-PINDIS-ORDER-01",
+      "company": "پین‌دیس",
+      "product": "ثبت سفارش عمده FMCG",
+      "role": "خریدار فروشگاه",
+      "goal": "تأمین موجودی با انتخاب زمان تحویل",
+      "channel": "اپ",
+      "territory": "پوشش استانی ادعا",
+      "steps": [
+        {"n": 1, "pre": "حساب فعال", "action": "مرور/جست‌وجوی کالا و مقایسه قیمت", "fields": "SKU/برند", "system": "نمایش قیمت؛ جشنواره", "decision": "خریدار", "evidence": "E-PD-01", "label": "product_claim"},
+        {"n": 2, "pre": "کالا انتخابی", "action": "افزودن به سبد", "fields": "تعداد/واحد", "system": "سبد؛ رزرو نیست تا ثبت نهایی", "decision": "سامانه", "evidence": "E-PD-TERMS-01 ماده۷", "label": "official_doc"},
+        {"n": 3, "pre": "سبد", "action": "انتخاب زمان ارسال و نهایی‌سازی", "fields": "بازه تحویل؛ شخص تحویل‌گیرنده", "system": "سفارش ثبت؛ SMS از ۹۰۰۰۸۲۱۲/۲۰۰۰۸۲۱۲", "decision": "خریدار+پین‌دیس پردازش در روز کاری", "evidence": "E-PD-TERMS-01", "label": "official_doc"},
+        {"n": 4, "pre": "سفارش ثبت‌شده", "action": "پرداخت (نقدی/درگاه/اعتبار در صورت فعال)", "fields": "عامل پرداخت تعریف‌شده در سامانه", "system": "تأیید پرداخت", "decision": "درگاه/طرح اعتباری", "evidence": "E-PD-TERMS-01 عامل پرداخت؛ E-PINDIS-MYKET-01 باروک", "label": "official_doc+secondary_user"}
+      ],
+      "exceptions": ["خطای قیمت→بلااثر کردن سفارش؛ اتمام موجودی؛ توقف سفارش‌گیری"],
+      "outcome": "سفارش در صف پردازش/ارسال؛ فاکتور تأمین‌کننده همراه کالا",
+      "money": "مالک پیشنهاد: یا پین‌دیس پس از خرید از تأمین‌کننده، یا تأمین‌کننده روی سامانه؛ VAT جدا؛ هزینه ارسال/بسته ممکن است جدا",
+      "confidence": "high_for_rules; medium_for_UI",
+      "access_boundary": "مقایسه دو پیشنهاد زنده پشت لاگین انجام نشد"
+    },
+    {
+      "id": "MP-PINDIS-DELIVERY-01",
+      "company": "پین‌دیس",
+      "product": "تحویل و مرجوعی عدم حضور",
+      "role": "فروشگاه + عملیات ارسال",
+      "goal": "دریافت بار در محل فروشگاه",
+      "channel": "فیزیکی+اعلان",
+      "territory": "آدرس ثبت‌شده",
+      "steps": [
+        {"n": 1, "pre": "سفارش آماده ارسال", "action": "معرفی شخص مطمئن تحویل‌گیرنده و مکان", "fields": "شخص/مکان", "system": "برنامه ارسال", "decision": "خریدار", "evidence": "E-PD-TERMS-01 ماده۲", "label": "official_doc"},
+        {"n": 2, "pre": "رسیدن بار", "action": "تحویل یا عدم حضور", "fields": "—", "system": "در صورت عدم حضور/تغییر مکان: مرجوع و خسارت مرجع بار بر عهده کاربر", "decision": "عملیات ارسال", "evidence": "E-PD-TERMS-01", "label": "official_doc"},
+        {"n": 3, "pre": "کیفیت/پس از فروش", "action": "طرح اختلاف کیفیت", "fields": "—", "system": "مسئولیت کیفیت/قیمت/پس از فروش بر عهده تأمین‌کننده", "decision": "تأمین‌کننده", "evidence": "E-PD-TERMS-01 ماده۲", "label": "official_doc"}
+      ],
+      "exceptions": ["کسری تحویل: جزئیات فلو عمومی ناکافی — نامعلوم"],
+      "outcome": "بستن تحویل یا مرجوع با هزینه کاربر",
+      "money": "اثر مالی مرجوع روی اعتبار/فاکتور در قوانین عمومی کامل نیست",
+      "confidence": "high_for_no_show; low_for_partial_shortage",
+      "access_boundary": "پنل اختلاف داخلی مشاهده نشد"
+    },
+    {
+      "id": "MP-BONAK-ORDER-01",
+      "company": "بنک مارکت",
+      "product": "عمده‌فروشی انباردار",
+      "role": "خریدار کسب‌وکار",
+      "goal": "خرید کارتنی FMCG از موجودی شرکت",
+      "channel": "وب bonak.market",
+      "territory": "ارسال از انبار افسریه/شیرازی ادعا",
+      "steps": [
+        {"n": 1, "pre": "بازدیدکننده", "action": "مشاهده کاتالوگ با قیمت و تعداد در بسته", "fields": "—", "system": "لیست قیمت‌دار عمومی", "decision": "خریدار", "evidence": "E-BM-01", "label": "observed"},
+        {"n": 2, "pre": "انتخاب کالا", "action": "سفارش/سبد (جزئیات لاگین)", "fields": "نامعلوم کامل", "system": "سفارش به انبار خود شرکت", "decision": "بنک مارکت مالک موجودی و فاکتور", "evidence": "E-BM-01", "label": "observed+inference"}
+      ],
+      "exceptions": ["حداقل سفارش/پرداخت در محل در فرانت عمومی کامل مشاهده نشد"],
+      "outcome": "مدل عمده‌فروش تک‌عرضه‌کننده نه بازارگاه چندفروشنده",
+      "money": "حاشیه فروش؛ اعتبار/چک در صفحه اصلی مشاهده نشد",
+      "confidence": "medium_high",
+      "access_boundary": "چک‌اوت پشت لاگین"
+    },
+    {
+      "id": "MP-BONAKBAZAR-RFQ-01",
+      "company": "بنک‌بازار",
+      "product": "حجره و درخواست خرید",
+      "role": "تأمین‌کننده/خریدار عمده",
+      "goal": "یافتن طرف معامله و توافق قیمت",
+      "channel": "وب",
+      "territory": "ملی/اعلام بار",
+      "steps": [
+        {"n": 1, "pre": "بازدید", "action": "مشاهده تأمین‌کنندگان و آگهی موجودی", "fields": "قیمت توافقی/اعلام بار", "system": "لیست حجره", "decision": "پلتفرم نمایش", "evidence": "E-BB-01", "label": "observed"},
+        {"n": 2, "pre": "نیاز خرید", "action": "ثبت درخواست خرید", "fields": "کالا/مقدار", "system": "درخواست؛ وضعیت منقضی مشاهده شد", "decision": "خریدار→تأمین‌کننده", "evidence": "E-BB-01", "label": "observed"},
+        {"n": 3, "pre": "پاسخ", "action": "مذاکره/توافق", "fields": "—", "system": "سبد پرداخت آنلاین بسته‌شده احراز نشد", "decision": "طرفین؛ مرجع کیفیت عمومی مبهم", "evidence": "E-BB-01", "label": "observed"}
+      ],
+      "exceptions": ["انقضای درخواست"],
+      "outcome": "مدل لید/استعلام نه چک‌اوت مارکت‌پلیس کامل",
+      "money": "تسویه مستقیم طرفین محتمل‌تر (فرضیه تا خلافش ثابت شود)",
+      "confidence": "medium",
+      "access_boundary": "قرارداد حجره عمومی نیست"
+    },
+    {
+      "id": "MP-SNAPSUP-01",
+      "company": "اسنپ ساپلای",
+      "product": "تأمین مواد اولیه رستوران",
+      "role": "رستوران/HoReCa",
+      "goal": "سفارش عمده مواد اولیه",
+      "channel": "موبایل/وب",
+      "territory": "بر اساس سرویس",
+      "steps": [
+        {"n": 1, "pre": "ثبت‌نام کسب‌وکار", "action": "تکمیل اطلاعات لازم FAQ", "fields": "اطلاعات ثبت‌نام (جزئیات کامل در خزش متنی محدود)", "system": "حساب خریدار", "decision": "ساپلای", "evidence": "E-SS-01", "label": "product_claim"},
+        {"n": 2, "pre": "کاتالوگ", "action": "سفارش و انتخاب زمان تحویل", "fields": "سبد", "system": "سفارش؛ آمار +۲۰۰هزار سفارش ادعا", "decision": "خریدار", "evidence": "E-SS-01", "label": "product_claim"}
+      ],
+      "exceptions": ["کیف پول اسنپ‌فود: سؤال FAQ مطرح؛ پاسخ کامل استخراج نشد"],
+      "outcome": "مخاطب رستوران نه سوپرمارکت محله",
+      "money": "نسبت با اسنپ‌پی در همان سفارش احراز نشد",
+      "confidence": "medium",
+      "access_boundary": "لاگین"
+    },
+    {
+      "id": "MP-PAKHSHIAR-01",
+      "company": "پخش‌یار",
+      "product": "بازارگاه پخش + تسویه اعتباری/چکی (ادعا)",
+      "role": "فروشگاه/پخش",
+      "goal": "اتصال به پخش و خرید با تخفیف پلکانی",
+      "channel": "وب",
+      "territory": "+۴۵ شهر ادعا",
+      "steps": [
+        {"n": 1, "pre": "لندینگ", "action": "درخواست عضویت/تماس", "fields": "نامعلوم عمومی", "system": "ادعای +۳۸۰۰ فروشگاه", "decision": "عملیات", "evidence": "E-PK-01", "label": "product_claim"},
+        {"n": 2, "pre": "فعال", "action": "سفارش از پخش‌ها", "fields": "—", "system": "تخفیف پلکانی ادعا؛ شرط پله در FAQ باز نشده در خزش", "decision": "نامعلوم", "evidence": "E-PK-01", "label": "product_claim"},
+        {"n": 3, "pre": "تسویه", "action": "اعتباری/چکی", "fields": "—", "system": "عنوان FAQ وجود دارد ولی متن پاسخ در خزش خالی/ناقص", "decision": "نامعلوم — خلأ شاهد", "evidence": "E-PK-01", "label": "unknown"}
+      ],
+      "exceptions": ["خلأ: قاعده پله تخفیف و ذی‌نفع چک"],
+      "outcome": "ادعا قوی؛ قرارداد عمومی ضعیف",
+      "money": "بدهکار احتمالی فروشگاه به پخش — تأیید نشده",
+      "confidence": "low_medium",
+      "access_boundary": "FAQ بدون متن پاسخ قابل استخراج"
+    },
+    {
+      "id": "MP-DKBIZ-01",
+      "company": "دیجی‌کالا بیزینس",
+      "product": "خرید عمده سازمانی",
+      "role": "خریدار سازمانی",
+      "goal": "سفارش عمده چنددسته",
+      "channel": "وب",
+      "territory": "ملی لجستیک دیجی‌کالا",
+      "steps": [
+        {"n": 1, "pre": "بازدید", "action": "جست‌وجوی کالا عمده", "fields": "—", "system": "کاتالوگ", "decision": "خریدار", "evidence": "E-DK-01", "label": "observed"},
+        {"n": 2, "pre": "سفارش", "action": "خرید عمده", "fields": "احراز پشت لاگین", "system": "سفارش", "decision": "دیجی‌کالا بیزینس", "evidence": "E-DK-01", "label": "product_claim"}
+      ],
+      "exceptions": ["اتصال خودکار دیجی‌پی روی همین دامنه در خزش احراز نشد"],
+      "outcome": "عمده سازمانی؛ تمرکز سوپرمحله‌ای کمتر از پین‌دیس",
+      "money": "seller.digikala.com مسیر جدا B2C فروشنده است",
+      "confidence": "medium",
+      "access_boundary": "لاگین"
+    },
+    {
+      "id": "SW-IMIS-01",
+      "company": "آیمیس",
+      "product": "نرم‌افزار عمده‌فروشی/سفارش‌گیری پخش",
+      "role": "مدیر پخش، همکار، ویزیتور، اپراتور",
+      "goal": "سفارش آنلاین با قیمت گروهی و چک/اعتبار",
+      "channel": "سایت/اپ اختصاصی مشتری نرم‌افزار",
+      "territory": "دامنه مشتری",
+      "steps": [
+        {"n": 1, "pre": "گروه قیمتی تعریف‌شده", "action": "ورود پیامکی همکار/نماینده", "fields": "موبایل", "system": "قیمت گروه؛ مهمان «تماس بگیرید»", "decision": "سیستم", "evidence": "E-IMIS-01", "label": "product_claim"},
+        {"n": 2, "pre": "کاتالوگ", "action": "سفارش کارتنی با حداقل/حداکثر و تخفیف پلکانی خودکار", "fields": "تعداد کارتن/بسته", "system": "بازمحاسبه تخفیف", "decision": "قواعد مدیر", "evidence": "E-IMIS-01", "label": "product_claim"},
+        {"n": 3, "pre": "پرداخت", "action": "نقدی/چکی/اعتباری با رأس‌گیری", "fields": "چک/شرایط", "system": "نمایش سررسید", "decision": "مدیر پخش مالک سفارش و طلب", "evidence": "E-IMIS-01", "label": "product_claim"}
+      ],
+      "exceptions": ["بازارگاه باز نیست؛ قفل به یک شرکت پخش"],
+      "outcome": "ابزار عملیات پخش",
+      "money": "درآمد لایسنس نرم‌افزار؛ ریسک نکول نزد پخش",
+      "confidence": "medium_high_for_features",
+      "access_boundary": "دمو اختصاصی مشاهده نشد"
+    },
+    {
+      "id": "SW-NANO-01",
+      "company": "نانو ویزیتور",
+      "product": "سفارش‌گیری ویزیتوری آفلاین/آنلاین",
+      "role": "ویزیتور پخش",
+      "goal": "ثبت سفارش سر مغازه",
+      "channel": "اپ موبایل",
+      "territory": "مسیر ویزیت",
+      "steps": [
+        {"n": 1, "pre": "شروع روز", "action": "همگام‌سازی کاتالوگ/مشتری/تخفیف", "fields": "—", "system": "داده روی گوشی", "decision": "ویزیتور", "evidence": "E-NANO-01", "label": "product_claim"},
+        {"n": 2, "pre": "نزد مشتری", "action": "ثبت سفارش+امضا؛ چاپ فاکتور", "fields": "تعداد/تخفیف", "system": "صف آفلاین در صورت قطعی", "decision": "ویزیتور→مدیر تأیید", "evidence": "E-NANO-01", "label": "product_claim"},
+        {"n": 3, "pre": "اتصال", "action": "ارسال به سرور پخش", "fields": "—", "system": "داشبورد مدیریت", "decision": "مدیر فروش", "evidence": "E-NANO-01", "label": "product_claim"}
+      ],
+      "exceptions": ["بازارگاه چندپخش نیست"],
+      "outcome": "مالک سفارش=شرکت پخش",
+      "money": "وصول سنتی/نرم‌افزاری پخش",
+      "confidence": "medium",
+      "access_boundary": "دمو"
+    },
+    {
+      "id": "SW-KARA-01",
+      "company": "کارا",
+      "product": "پخش مویرگی یکپارچه",
+      "role": "مدیر/ویزیتور/مالی",
+      "goal": "از سفارش تا وصول با سقف اعتبار مشتری",
+      "channel": "وب+اپ",
+      "territory": "شعب پخش",
+      "steps": [
+        {"n": 1, "pre": "مشتری تعریف‌شده", "action": "ثبت سفارش با کنترل سقف اعتبار", "fields": "سفارش", "system": "رد/قبول بر اساس وضعیت مالی", "decision": "قواعد اعتبارسنجی مشتری", "evidence": "E-KARA-01", "label": "product_claim"},
+        {"n": 2, "pre": "تأیید", "action": "انبار→توزیع→وصول", "fields": "—", "system": "وضعیت‌های عملیاتی", "decision": "نقش‌های داخلی پخش", "evidence": "E-KARA-01", "label": "product_claim"}
+      ],
+      "exceptions": ["—"],
+      "outcome": "الگوی کنترل اعتبار نزد پخش سنتی دیجیتال‌شده",
+      "money": "طلب پخش از فروشگاه",
+      "confidence": "medium",
+      "access_boundary": "دمو"
+    },
+    {
+      "id": "CR-BAROOK-ONB-01",
+      "company": "باروک + بانک تجارت",
+      "product": "کسب‌نو (اعتبار خرید موجودی FMCG)",
+      "role": "سوپر/هایپر متقاضی",
+      "goal": "دریافت اعتبار گردان برای خرید از تأمین‌کنندگان طرف قرارداد",
+      "channel": "barook.ir + شعبه تجارت",
+      "territory": "ملی طرح بانک",
+      "steps": [
+        {"n": 1, "pre": "بدون اعتبار", "action": "ثبت‌نام در سایت/وب‌اپ باروک", "fields": "اطلاعات کسب‌وکار", "system": "حساب متقاضی", "decision": "کاربر", "evidence": "E-BAROOK-01;E-ECOTAM-01", "label": "secondary_official_echo"},
+        {"n": 2, "pre": "حساب", "action": "درخواست اعتبار + آپلود مدارک + نوبت شعبه", "fields": "کارت ملی؛ جواز/اجاره‌نامه (منبع ثانویه sapegah)؛ مدارک بانک", "system": "پرونده", "decision": "باروک/بانک", "evidence": "E-BAROOK-01;E-BAROOK-SEC-01", "label": "secondary"},
+        {"n": 3, "pre": "شعبه", "action": "افتتاح حساب، اعتبارسنجی، وثیقه/چک، قرارداد، تخصیص", "fields": "رتبه A/B یا ضامن؛ چک حدود ۱۲۵٪ سقف (منبع ثانویه)", "system": "صدور اعتبار/کارت", "decision": "بانک تجارت", "evidence": "E-BAROOK-01;E-BAROOK-SEC-01", "label": "secondary"},
+        {"n": 4, "pre": "تخصیص", "action": "دریافت کارت اعتباری کسب‌نو", "fields": "—", "system": "سقف فعال تا ۵۰ میلیارد ریال ادعا؛ اعتبار ۱ساله گردان", "decision": "بانک", "evidence": "E-ECOTAM-01;E-BAROOK-01", "label": "official_product_page+secondary"}
+      ],
+      "exceptions": ["رد رتبه؛ نقص مدرک؛ نیاز ضامن در رتبه ضعیف"],
+      "outcome": "قدرت خرید مدت‌دار فقط نزد تأمین‌کنندگان عضو شبکه",
+      "money": "تأمین‌کننده وجه=بانک تجارت؛ بدهکار=فروشگاه؛ نکول تأمین‌کننده توسط بانک پذیرفته می‌شود (ادعای طرح)؛ کارمزد پایین/حدود ۲٪ سالانه در منابع ثانویه",
+      "confidence": "high_for_model; medium_for_exact_fees",
+      "access_boundary": "barook.ir در زمان خزش ۵۰۰؛ ecotam.ir و منابع بانکی/خبری مبنا"
+    },
+    {
+      "id": "CR-BAROOK-BUY-01",
+      "company": "باروک/کسب‌نو",
+      "product": "مصرف اعتبار روی خرید عمده",
+      "role": "فروشگاه دارنده کارت",
+      "goal": "پرداخت همان سفارش موجودی با اعتبار کسب‌وکاری",
+      "channel": "نزد تأمین‌کننده طرف قرارداد / reportedly پین‌دیس",
+      "territory": "شبکه پذیرنده باروک",
+      "steps": [
+        {"n": 1, "pre": "کارت فعال؛ مانده سقف", "action": "انتخاب کالا از تأمین‌کننده عضو", "fields": "سفارش", "system": "پیش‌فاکتور", "decision": "خریدار", "evidence": "E-BAROOK-01", "label": "secondary_official_echo"},
+        {"n": 2, "pre": "پرداخت", "action": "پرداخت باروکی (غیرقابل برداشت نقدی)", "fields": "مبلغ ≤ مانده", "system": "رزرو/مصرف اعتبار؛ تأمین‌کننده تسویه تضمینی بانک", "decision": "سامانه+بانک", "evidence": "E-BAROOK-01;E-PINDIS-MYKET-01", "label": "secondary+user_report"},
+        {"n": 3, "pre": "پس از خرید", "action": "بازپرداخت یکجا ۱–۶ ماه؛ شارژ مجدد به اندازه اصل", "fields": "سررسید", "system": "کسر از حساب تجارت در موعد (منبع ثانویه)", "decision": "بانک", "evidence": "E-BAROOK-01;E-BAROOK-SEC-01", "label": "secondary"}
+      ],
+      "exceptions": ["تأمین‌کننده خارج شبکه→غیرقابل استفاده؛ کمبود سقف→نیاز نقد/کاهش سبد"],
+      "outcome": "نزدیک‌ترین پاسخ به سؤال محوری فاز۲ برای سوپرمارکت FMCG",
+      "money": "خط زمانی: تصویب سقف→مصرف روی فاکتور→طلب بانک از فروشگاه→تسویه تأمین‌کننده توسط بانک/طرح→بازپرداخت→آزادسازی/شارژ مجدد",
+      "confidence": "high_model; medium_pindis_integration",
+      "access_boundary": "ادغام UI پین‌دیس×باروک رسمی مشاهده نشد؛ گزارش کاربر مایکت"
+    },
+    {
+      "id": "CR-NAVIPO-01",
+      "company": "گرین‌پی / بانک کشاورزی / پالیز",
+      "product": "نوی‌پو + پالیزمارکت/بازارگاه",
+      "role": "ذی‌نفع زنجیره کشاورزی (دام/طیور/...)",
+      "goal": "خرید نهاده/کالا با اعتبار زنجیره",
+      "channel": "پالیز + شعبه بانک کشاورزی + کیف گرین‌پی",
+      "territory": "زنجیره‌های فعال",
+      "steps": [
+        {"n": 1, "pre": "متقاضی", "action": "ثبت در پالیز و احراز صلاحیت", "fields": "هویت/صلاحیت زنجیره", "system": "پرونده", "decision": "پالیز/گرین‌پی", "evidence": "E-GP-01;E-NAVIPO-NEWS-01", "label": "official+news"},
+        {"n": 2, "pre": "پرونده", "action": "مراجعه شعبه؛ اعتبارسنجی؛ ضمانت‌نامه بدون آورده نقدی ادعا", "fields": "مدارک بانکی", "system": "صدور نوی‌پو؛ شارژ کیف", "decision": "بانک کشاورزی", "evidence": "E-NAVIPO-NEWS-01", "label": "news_official_pr"},
+        {"n": 3, "pre": "کیف شارژ", "action": "خرید در بازارگاه/پالیزمارکت یا انتقال بین حلقه", "fields": "سفارش نهاده", "system": "مصرف اعتبار؛ کارمزد تا ۲.۲۵٪؛ سقف تا ۵ میلیارد تومان ادعا", "decision": "متقاضی+سامانه", "evidence": "E-GP-01", "label": "official_doc"},
+        {"n": 4, "pre": "سررسید", "action": "تسویه ۱–۱۲ ماه / در برخی گزارش‌ها تا ۳ ماه برای دام‌وطیور", "fields": "—", "system": "بستن/تمدید", "decision": "بانک", "evidence": "E-GP-01;E-NAVIPO-NEWS-01", "label": "official+news_conflict_window"}
+      ],
+      "exceptions": ["صنف سوپرمارکت عمومی FMCG نیست مگر حلقه مرتبط"],
+      "outcome": "بهترین شاهد «کالا+اعتبار+تسویه» در یک معماری؛ صنف متفاوت",
+      "money": "بدهکار ذی‌نفع؛ تأمین‌کننده وجه بانک؛ انتقال بین فروشگاه/توزیع/کشتارگاه ادعا",
+      "confidence": "high",
+      "access_boundary": "پنل پالیز لاگین نشد"
+    },
+    {
+      "id": "CR-DIGIPAY-M-ONB-01",
+      "company": "دیجی‌پی",
+      "product": "پذیرندگی فروش اعتباری",
+      "role": "پذیرنده حضوری/آنلاین/سوشال",
+      "goal": "فعال‌سازی ابزار پذیرش اقساطی",
+      "channel": "پنل مرچنت",
+      "territory": "ایران",
+      "steps": [
+        {"n": 1, "pre": "شروع", "action": "ثبت با کدملی+موبایل هم‌نام؛ رمز ≥۸ با حروف و نماد", "fields": "کدملی، موبایل، رمز", "system": "حساب", "decision": "کاربر", "evidence": "E-DP-ACADEMY-ONB-01", "label": "official_doc"},
+        {"n": 2, "pre": "عضویت شبکه", "action": "تعریف کسب‌وکار؛ مالک؛ شبا؛ فروشگاه آنلاین/حضوری؛ ابزار پذیرش", "fields": "لوگو، نام FA/EN، آدرس، کدپستی، صنف، اینماد/جواز حسب کانال", "system": "صف بررسی", "decision": "کارشناس دیجی‌پی (<۴۸س ادعا در لندینگ)", "evidence": "E-DP-ACADEMY-ONB-01;E-DP-01", "label": "official_doc"},
+        {"n": 3, "pre": "تأیید", "action": "انتخاب روش‌های پرداخت (۴قسطه/۶قسطه/سرماه/وام/کیف)", "fields": "شرایط تسویه صنفی", "system": "فعال‌سازی ابزار: QR ثابت، بارکد، لینک، درگاه، کارتخوان", "decision": "پذیرنده+دیجی‌پی", "evidence": "E-DP-ACADEMY-ONB-01;E-DP-02", "label": "official_doc"},
+        {"n": 4, "pre": "Live", "action": "مشاهده تراکنش و تقویم تسویه", "fields": "—", "system": "داشبورد؛ تأخیر نمایش <۳دقیقه ادعا", "decision": "پذیرنده", "evidence": "E-DP-02", "label": "official_doc"}
+      ],
+      "exceptions": ["رد مدرک؛ انقضای اینماد→قطع سرویس؛ قرارداد ۱ساله تمدید خودکار"],
+      "outcome": "فروش اقساطی به مصرف‌کننده؛ تسویه پذیرنده مستقل از نکول مشتری",
+      "money": "بدهکار مشتری؛ طلب دیجی‌پی؛ پرداخت به پذیرنده طبق T+N قراردادی",
+      "confidence": "high",
+      "access_boundary": "صف داخلی کارشناس مشاهده نشد"
+    },
+    {
+      "id": "CR-DIGIPAY-C-BNPL-01",
+      "company": "دیجی‌پی",
+      "product": "خرید BNPL مصرف‌کننده",
+      "role": "مشتری نهایی",
+      "goal": "خرید قسطی از پذیرنده",
+      "channel": "اپ/درگاه/QR",
+      "territory": "شبکه پذیرندگان",
+      "steps": [
+        {"n": 1, "pre": "انتخاب کالا نزد پذیرنده", "action": "انتخاب پرداخت دیجی‌پی", "fields": "—", "system": "شروع اعتبارسنجی/مصرف سقف", "decision": "دیجی‌پی", "evidence": "E-DP-01;E-DP-02", "label": "official_doc"},
+        {"n": 2, "pre": "تأیید", "action": "پرداخت اعتباری", "fields": "طرح اقساط", "system": "رسید؛ کد رهگیری (سوشال)", "decision": "مشتری", "evidence": "E-DP-02", "label": "official_doc"},
+        {"n": 3, "pre": "پس از خرید", "action": "بازپرداخت اقساط؛ رشد سقف با خوش‌حسابی ادعا", "fields": "—", "system": "آزادسازی تدریجی", "decision": "مشتری/دیجی‌پی", "evidence": "E-DP-02", "label": "official_doc"}
+      ],
+      "exceptions": ["رد اعتبار؛ تراکنش ناموفق با کسر — پیگیری پنل/پشتیبانی"],
+      "outcome": "کالا نزد مشتری؛ بدهی به دیجی‌پی",
+      "money": "نکول روی پذیرنده اثر ندارد (FAQ صریح)",
+      "confidence": "high",
+      "access_boundary": "—"
+    },
+    {
+      "id": "CR-DIGIPAY-ORG-01",
+      "company": "دیجی‌پی",
+      "product": "اعتبار سازمانی B2O",
+      "role": "سازمان / کارکنان / واحد تدارکات",
+      "goal": "رفاه کارکنان یا تنخواه خرید سازمانی",
+      "channel": "landing B2O / فرم",
+      "territory": "سازمان طرف قرارداد",
+      "steps": [
+        {"n": 1, "pre": "سازمان", "action": "درخواست؛ ارائه چک سازمان؛ تعیین سقف", "fields": "فرم سازمانی", "system": "قرارداد", "decision": "دیجی‌پی+سازمان", "evidence": "E-DP-B2O-01;E-DP-ORG-MAG-01", "label": "official_doc"},
+        {"n": 2, "pre": "تخصیص", "action": "کارکنان/تدارکات خرید از پذیرندگان", "fields": "—", "system": "۱–۴ قسطه به پشتوانه سازمان", "decision": "مصرف‌کننده سازمانی", "evidence": "E-DP-B2O-01", "label": "official_doc"}
+      ],
+      "exceptions": ["این مدل اعتبار خرید موجودی فروشگاه از پخش FMCG نیست"],
+      "outcome": "رفاه/تدارکات سازمان",
+      "money": "ضامن/پشتوانه: سازمان؛ بدهکار حسب قرارداد کارمند/سازمان",
+      "confidence": "high",
+      "access_boundary": "—"
+    },
+    {
+      "id": "CR-SNAPPPAY-M-01",
+      "company": "اسنپ‌پی",
+      "product": "پذیرندگی ۴قسطه",
+      "role": "پذیرنده",
+      "goal": "Live شدن درگاه",
+      "channel": "portal.snapppay.ir",
+      "territory": "ایران",
+      "steps": [
+        {"n": 1, "pre": "شروع", "action": "ثبت در پرتال؛ انتخاب آنلاین/حضوری/سوشال", "fields": "هویت کسب‌وکار", "system": "درخواست", "decision": "کاربر", "evidence": "E-SP-ACQ-01", "label": "official_doc"},
+        {"n": 2, "pre": "مدارک", "action": "کارت ملی، جواز، شبا؛ اینماد برای آنلاین", "fields": "مدارک", "system": "بررسی ۲روز+؛ فنی ۷روز+", "decision": "کارشناس", "evidence": "E-SP-02", "label": "official_doc"},
+        {"n": 3, "pre": "تأیید", "action": "Secret Key؛ سفارش آزمایشی ≥۱۰۰هزار؛ اعلام Live", "fields": "کالبک/IP", "system": "درگاه فعال", "decision": "فنی+پذیرنده", "evidence": "E-SP-02", "label": "official_doc"}
+      ],
+      "exceptions": ["رد دامنه/کالای ممنوعه؛ ویرایش درخواست بدون ثبت مجدد"],
+      "outcome": "فروش اعتباری مصرف‌کننده؛ تسویه تضمینی ادعا",
+      "money": "مشابه الگوی BNPL پذیرنده‌محور",
+      "confidence": "high",
+      "access_boundary": "پرتال داخلی"
+    },
+    {
+      "id": "CR-SNAPPPAY-C-01",
+      "company": "اسنپ‌پی",
+      "product": "خرید ۴قسطه مصرف‌کننده",
+      "role": "مشتری",
+      "goal": "خرید اقساطی",
+      "channel": "اپ/پذیرنده",
+      "territory": "شبکه",
+      "steps": [
+        {"n": 1, "pre": "اعتبار فعال", "action": "خرید و تقسیم ۴ قسط", "fields": "—", "system": "مصرف سقف", "decision": "اسنپ‌پی", "evidence": "E-SP-01", "label": "official_doc"}
+      ],
+      "exceptions": ["رد اعتبار"],
+      "outcome": "بدهی مشتری به اسنپ‌پی",
+      "money": "جزئیات نکول حقوقی عمومی محدود",
+      "confidence": "medium_high",
+      "access_boundary": "—"
+    },
+    {
+      "id": "CR-TARA-ORG-01",
+      "company": "تارا",
+      "product": "اعتبار/بن‌کیف/وام سازمانی",
+      "role": "سازمان و کارکنان",
+      "goal": "رفاه خرید در شبکه فروشگاهی",
+      "channel": "taracredit.com/org-req",
+      "territory": "شبکه +۲۳هزار فروشگاه ادعا",
+      "steps": [
+        {"n": 1, "pre": "سازمان", "action": "قرارداد؛ ضمانت سازمان", "fields": "فرم سازمانی", "system": "تخصیص", "decision": "تارا", "evidence": "E-TA-01", "label": "official_doc"},
+        {"n": 2, "pre": "کارمند", "action": "مصرف در پذیرندگان تارا", "fields": "—", "system": "خرید رفاهی", "decision": "کارمند", "evidence": "E-TA-01", "label": "official_doc"}
+      ],
+      "exceptions": ["نه خرید موجودی از پخش"],
+      "outcome": "رفاه کارکنان",
+      "money": "بدهکار سازمان/کارمند",
+      "confidence": "medium_high",
+      "access_boundary": "homepage 500 intermittently"
+    },
+    {
+      "id": "CR-KEEPA-ORG-01",
+      "company": "کیپا",
+      "product": "کیف‌پول سازمانی/فردی",
+      "role": "پرسنل سازمان / فرد",
+      "goal": "خرید اعتباری در نقاط فروش",
+      "channel": "keepa.ir / OTP خرید",
+      "territory": "+۱۶هزار نقطه ادعا",
+      "steps": [
+        {"n": 1, "pre": "تخصیص سازمان یا اعتبار فردی", "action": "خرید با رمز یکبارمصرف یا درگاه", "fields": "OTP", "system": "کسر از کیف", "decision": "کیپا", "evidence": "E-KP-01", "label": "official_doc"}
+      ],
+      "exceptions": ["غیرقابل برداشت نقدی"],
+      "outcome": "رفاه/BNPL شبکه",
+      "money": "بدون بهره ادعا برای برخی کیف‌ها",
+      "confidence": "medium",
+      "access_boundary": "—"
+    },
+    {
+      "id": "OPS-DIGIPAY-DOC-REJECT-01",
+      "company": "دیجی‌پی",
+      "product": "عملیات نقص مدرک پذیرنده",
+      "role": "پذیرنده + کارشناس",
+      "goal": "رفع نقص و ادامه فعال‌سازی",
+      "channel": "پنل",
+      "territory": "—",
+      "steps": [
+        {"n": 1, "pre": "پرونده ناقص", "action": "رد/درخواست اصلاح", "fields": "دلیل", "system": "وضعیت قابل ویرایش", "decision": "کارشناس", "evidence": "E-DP-ACADEMY-ONB-01;E-SP-ACQ-01 parallel", "label": "official_doc"},
+        {"n": 2, "pre": "اصلاح", "action": "بارگذاری مجدد", "fields": "مدارک", "system": "بازگشت به صف", "decision": "پذیرنده→کارشناس", "evidence": "E-DP-ACADEMY-ONB-01", "label": "official_doc"}
+      ],
+      "exceptions": ["تکرار رد"],
+      "outcome": "تأیید یا توقف",
+      "money": "—",
+      "confidence": "medium_high",
+      "access_boundary": "نام صف داخلی دیده نشد"
+    },
+    {
+      "id": "OPS-PINDIS-PRICE-CANCEL-01",
+      "company": "پین‌دیس",
+      "product": "خطای قیمت",
+      "role": "عملیات + خریدار",
+      "goal": "ابطال سفارش دارای خطای قیمت",
+      "channel": "سامانه",
+      "territory": "—",
+      "steps": [
+        {"n": 1, "pre": "سفارش با قیمت غلط", "action": "اعمال حق بلااثر نمودن", "fields": "—", "system": "لغو", "decision": "پین‌دیس", "evidence": "E-PD-TERMS-01 ماده۷", "label": "official_doc"}
+      ],
+      "exceptions": ["—"],
+      "outcome": "سفارش باطل؛ اطلاع از کانال رسمی",
+      "money": "بازگشت وجه حسب وضعیت پرداخت — جزئیات نامعلوم",
+      "confidence": "high_rule; medium_refund_path",
+      "access_boundary": "—"
+    },
+    {
+      "id": "OPS-BAROOK-DEFAULT-01",
+      "company": "باروک/بانک تجارت",
+      "product": "نکول خریدار کسب‌وکاری",
+      "role": "بانک / تأمین‌کننده / فروشگاه",
+      "goal": "تعیین مسئول ریسک",
+      "channel": "قرارداد طرح",
+      "territory": "—",
+      "steps": [
+        {"n": 1, "pre": "سررسید گذشته", "action": "وصول از حساب/وثیقه فروشگاه", "fields": "—", "system": "پیگیری بانک", "decision": "بانک", "evidence": "E-BAROOK-01", "label": "secondary_official_echo"},
+        {"n": 2, "pre": "تأمین‌کننده", "action": "عدم تحمل نکول خریدار (ادعای طرح)", "fields": "—", "system": "تسویه تضمینی", "decision": "بانک پذیرنده نکول", "evidence": "E-BAROOK-01", "label": "secondary_official_echo"}
+      ],
+      "exceptions": ["شرایط دقیق حقوقی قرارداد عمومی نیست"],
+      "outcome": "ریسک نکول از تأمین‌کننده به بانک منتقل می‌شود (ادعا)",
+      "money": "تفکیک طلب تأمین‌کننده از بدهی فروشگاه به بانک",
+      "confidence": "medium",
+      "access_boundary": "متن قرارداد عمومی نیست"
+    },
+    {
+      "id": "FIN-TWOSUPPLIER-SIM-01",
+      "company": "شبیه‌سازی پژوهشی مرجع",
+      "product": "دوپخشی + سقف اعتبار + مرجوعی",
+      "role": "فروشگاه / پخش A / پخش B / اعتباردهنده",
+      "goal": "عبور از کسری سقف و اثر مرجوعی قبل/بعد تسویه",
+      "channel": "simulation_design",
+      "territory": "—",
+      "steps": [
+        {"n": 1, "pre": "سفارش خام A 180m + B 70m = 250m؛ تخفیف A 8% → خالص A 165.6m؛ جمع 235.6m؛ سقف 200m؛ کسری اولیه 35.6m", "action": "گزینه عبور: (الف) پیش‌پرداخت نقدی 35.6m (ب) کاهش سبد (ج) تفکیک ارسال/تأیید نوبتی (د) افزایش سقف", "fields": "فرض سناریو", "system": "مانع تأیید در لحظه اگر رزرو کامل لازم باشد", "decision": "طراحی", "evidence": "SIM-01", "label": "simulation_design"},
+        {"n": 2, "pre": "فرض عبور با نقد 35.6m + اعتبار 200m", "action": "مصرف اعتبار روی 200m؛ نقد روی 35.6m", "fields": "—", "system": "مانده اعتبار 0؛ بدهی 200m؛ طلب پخش‌ها 235.6m که 200m از محل اعتبار/بانک و 35.6m نقد", "decision": "—", "evidence": "SIM-01", "label": "simulation_design"},
+        {"n": 3, "pre": "مرجوعی 10m از A قبل تسویه فروشنده", "action": "کاهش فاکتور A؛ آزادسازی اعتبار یا کاهش بدهی", "fields": "—", "system": "خالص A 155.6m؛ جمع 225.6m؛ کسری نسبت به سقف پس از اصلاح کمتر می‌شود", "decision": "طراحی", "evidence": "SIM-01", "label": "simulation_design"},
+        {"n": 4, "pre": "همان مرجوعی بعد از تسویه فروشنده", "action": "بستانکار کردن پخش یا دریافت کالا جایگزین؛ اثر روی سقف پیچیده‌تر", "fields": "—", "system": "نیاز قاعده استرداد بین بانک/پخش/فروشگاه — در بازار نمونه کامل مشاهده نشد", "decision": "طراحی", "evidence": "SIM-01", "label": "simulation_design"}
+      ],
+      "exceptions": ["اعداد فرضی"],
+      "outcome": "ابزار تصمیم‌گیری محصول؛ نه ادعای شرکت",
+      "money": "جدول مانده‌ها در PDF",
+      "confidence": "n/a_simulation",
+      "access_boundary": "—"
+    },
+    {
+      "id": "REF-B2B-CORE-01",
+      "company": "سناریوی مرجع پیشنهادی (طراحی)",
+      "product": "خرید عمده سوپر + شاخه اعتبار کسب‌وکاری",
+      "role": "فروشگاه / پخش / پلتفرم / بانک‌اعتبار",
+      "goal": "مسیر پایه قابل‌اجرا برای محصول آینده",
+      "channel": "design",
+      "territory": "سوپرمارکت شهری",
+      "steps": [
+        {"n": 1, "pre": "ورود", "action": "احراز صنف+موقعیت+مجوز", "fields": "کدملی/شناسه، جواز، لوکیشن", "system": "حساب خریدار", "decision": "عملیات پلتفرم", "evidence": "pattern:MP-PINDIS-REG-01", "label": "simulation_design"},
+        {"n": 2, "pre": "کاتالوگ", "action": "مقایسه چند پیشنهاد با واحد کارتن و قیمت مؤثر", "fields": "—", "system": "رتبه‌بندی پیشنهاد", "decision": "خریدار", "evidence": "pattern:MP-PINDIS-ORDER-01;SW-IMIS-01", "label": "simulation_design"},
+        {"n": 3, "pre": "سبد", "action": "تفکیک خودکار چندپخشی؛ نمایش سقف اعتبار و کسری", "fields": "روش پرداخت نقد/اعتبار/ترکیبی", "system": "رزرو موجودی فقط پس از تأیید پرداخت/اعتبار", "decision": "سیستم", "evidence": "pattern:E-PD-TERMS-01;CR-BAROOK-BUY-01", "label": "simulation_design"},
+        {"n": 4, "pre": "تأیید پخش", "action": "قبول/اصلاح/رد بر اساس موجودی و اعتبار مشتری نزد پخش", "fields": "—", "system": "وضعیت قابل مشاهده دو طرف", "decision": "پخش", "evidence": "pattern:SW-KARA-01", "label": "simulation_design"},
+        {"n": 5, "pre": "تحویل", "action": "رسید؛ ثبت کسری", "fields": "مغایرت", "system": "تیکت اختلاف", "decision": "فروشگاه+پخش+عملیات", "evidence": "pattern:MP-PINDIS-DELIVERY-01", "label": "simulation_design"},
+        {"n": 6, "pre": "بستن", "action": "تسویه پخش از محل بانک‌اعتبار یا نقد؛ بازپرداخت فروشگاه به بانک", "fields": "—", "system": "مانده‌ها جدا", "decision": "مالی", "evidence": "pattern:CR-BAROOK-BUY-01;CR-NAVIPO-01", "label": "simulation_design"}
+      ],
+      "exceptions": ["REF-B2B-RETURN-01"],
+      "outcome": "مرجع محصول؛ برچسب طراحی نه مشاهده یک شرکت واحد",
+      "money": "جداسازی بدهی فروشگاه به بانک از طلب پخش",
+      "confidence": "design",
+      "access_boundary": "—"
+    },
+    {
+      "id": "REF-B2B-RETURN-01",
+      "company": "سناریوی مرجع پیشنهادی (طراحی)",
+      "product": "کسری/مرجوعی جزئی",
+      "role": "فروشگاه / پخش / اعتباردهنده",
+      "goal": "اصلاح سفارش و اثر مالی تا اطلاع دو طرف",
+      "channel": "design",
+      "territory": "—",
+      "steps": [
+        {"n": 1, "pre": "تحویل ناقص", "action": "ثبت مغایرت در رسید دیجیتال", "fields": "SKU کسری، تعداد", "system": "قفل وضعیت تا تصمیم", "decision": "فروشگاه", "evidence": "SIM", "label": "simulation_design"},
+        {"n": 2, "pre": "بررسی", "action": "تأیید پخش یا ارجاع عملیات", "fields": "دلیل", "system": "سابقه تصمیم", "decision": "پخش/اپس", "evidence": "SIM", "label": "simulation_design"},
+        {"n": 3, "pre": "قبل تسویه", "action": "کاهش فاکتور؛ آزادسازی اعتبار متناسب", "fields": "—", "system": "اعلان به دو طرف", "decision": "سیستم", "evidence": "SIM", "label": "simulation_design"},
+        {"n": 4, "pre": "بعد تسویه", "action": "بستانکار پخش یا پرداخت جایگزین؛ تنظیم بدهی بانک", "fields": "—", "system": "سند اصلاحی", "decision": "مالی", "evidence": "SIM", "label": "simulation_design"}
+      ],
+      "exceptions": ["اختلاف عکس/شواهد"],
+      "outcome": "مسیر اجراپذیر برای کاهش اختلاف تحویل",
+      "money": "معیار سنجش پیشنهادی: زمان رفع مغایرت؛ نرخ برگشت پرونده",
+      "confidence": "design",
+      "access_boundary": "—"
+    },
+    {
+      "id": "CR-BALOAN-01",
+      "company": "بالون",
+      "product": "BNPL چک‌محور مصرف‌کننده",
+      "role": "مشتری/پذیرنده",
+      "goal": "خرید اقساطی شبکه",
+      "channel": "baloan.ir",
+      "territory": "پذیرندگان",
+      "steps": [{"n": 1, "pre": "درخواست", "action": "چک صیادی؛ اعتبارسنجی؛ خرید در شبکه", "fields": "چک", "system": "تخصیص", "decision": "بالون", "evidence": "E-BL-01", "label": "official_doc"}],
+      "exceptions": ["—"],
+      "outcome": "مصرف‌کننده؛ نه موجودی پخش",
+      "money": "بدهکار مشتری",
+      "confidence": "medium",
+      "access_boundary": "—"
+    },
+    {
+      "id": "CR-AZKI-01",
+      "company": "ازکی‌وام",
+      "product": "وام کالایی",
+      "role": "مصرف‌کننده",
+      "goal": "خرید اقساطی کالا",
+      "channel": "azkivam.com",
+      "territory": "کاتالوگ فروشگاهی",
+      "steps": [{"n": 1, "pre": "ثبت", "action": "چک؛ انتخاب کالا؛ اقساط", "fields": "مدارک", "system": "وام", "decision": "ازکی‌وام", "evidence": "E-AZ-01", "label": "official_doc"}],
+      "exceptions": ["ادعای سازمانی جدا از سوپر پخش"],
+      "outcome": "مصرف‌کننده/سازمانی محدود",
+      "money": "—",
+      "confidence": "medium",
+      "access_boundary": "—"
+    },
+    {
+      "id": "GAP-JEIHOON-01",
+      "company": "جیحون",
+      "product": "نامشخص اعتباری",
+      "role": "—",
+      "goal": "احراز خدمت",
+      "channel": "—",
+      "territory": "—",
+      "steps": [{"n": 1, "pre": "جست‌وجو", "action": "یافتن محصول اعتباری مستقل", "fields": "—", "system": "یافت نشد با شاهد کافی", "decision": "پژوهشگر", "evidence": "GAP", "label": "unknown"}],
+      "exceptions": ["خلأ"],
+      "outcome": "در فهرست خلأها",
+      "money": "نامعلوم",
+      "confidence": "low",
+      "access_boundary": "نیاز منبع کارفرما"
+    },
+    {
+      "id": "GAP-ARIAN-01",
+      "company": "آرین تدبیر",
+      "product": "غیرقابل احراز وب عمومی",
+      "role": "—",
+      "goal": "احراز",
+      "channel": "—",
+      "territory": "—",
+      "steps": [{"n": 1, "pre": "جست‌وجو", "action": "یافتن دامنه/محصول", "fields": "—", "system": "ناکافی", "decision": "—", "evidence": "GAP", "label": "unknown"}],
+      "exceptions": ["خلأ"],
+      "outcome": "خلأ",
+      "money": "نامعلوم",
+      "confidence": "low",
+      "access_boundary": "—"
+    },
+    {
+      "id": "MP-SMPRO-01",
+      "company": "اسنپ‌مارکت‌پرو",
+      "product": "فروش عمده/فله در اسنپ‌فود (گزارش ۱۴۰۴)",
+      "role": "مصرف‌کننده عمده‌خرید",
+      "goal": "خرید عمده سوپرمارکتی",
+      "channel": "اسنپ‌فود تهران محدود",
+      "territory": "تهران محدود در گزارش",
+      "steps": [
+        {"n": 1, "pre": "کاربر اسنپ‌فود", "action": "خرید عمده اقلام", "fields": "—", "system": "سفارش B2C Bulk", "decision": "کاربر", "evidence": "E-NEWS-SMP-01", "label": "secondary_news"}
+      ],
+      "exceptions": ["نباید با سفارش پخش به خرده‌فروش یکی گرفته شود"],
+      "outcome": "وضعیت: فعال محدود طبق خبر؛ B2B پخش احراز نشد",
+      "money": "نامعلوم",
+      "confidence": "medium_for_status",
+      "access_boundary": "—"
+    }
+  ]
+}
