@@ -1,0 +1,16 @@
+{
+  "observed_at": "1405/09/03",
+  "companies_count": 234,
+  "decision_makers_count": 234,
+  "links_count": 249,
+  "evidence_count": 40,
+  "status_counts": {
+    "NoEvidence": 220,
+    "Confirmed": 6,
+    "Candidate": 4,
+    "Partial": 3,
+    "Historical": 1
+  },
+  "xlsx": "D:\\HomeDesign\\artifacts\\Iran_Distribution_B2B_Directory.xlsx",
+  "pdf": "D:\\HomeDesign\\artifacts\\Iran_Distribution_B2B_Research_FA.pdf"
+}

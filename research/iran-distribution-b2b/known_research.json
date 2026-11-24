@@ -1,0 +1,366 @@
+{
+  "شركت به پخش": {
+    "company_id": "DIST-001",
+    "normalized": "به پخش (Beh Pakhsh / BPC)",
+    "website": "https://www.bpc.ir",
+    "portal_url": "اپ تاریخی به پخش مارکت (ir.bpc.market) + صرفه مارکت B2C sarfemarket.ir",
+    "app_name": "Beh Pakhsh Market",
+    "channel": "اپ B2B تاریخی برای عاملین + ویزیتور + صرفه مارکت B2C",
+    "login": "حساب عامل فروش (تاریخی)",
+    "payments": "نامشخص عمومی در ۱۴۰۵ برای مارکت B2B؛ صرفه مارکت لایه مصرف‌کننده است",
+    "credit": "نامشخص عمومی",
+    "status": "Historical",
+    "evidence": [
+      [
+        "مصاحبه تعادل ۱۳۹۹ — ۱۷هزار نصب به پخش مارکت",
+        "https://www.taadolnewspaper.ir/fa/news/176936/",
+        "Historical"
+      ],
+      [
+        "صفحه گروه بهشهر",
+        "https://bidc.ir/behpakhsh",
+        "Confirmed"
+      ],
+      [
+        "وب/ایمیل bpc.ir",
+        "keshavarz@bpc.ir",
+        "Confirmed"
+      ]
+    ],
+    "notes": "بزرگ‌ترین پخش کلاسیک؛ اپ B2B در ۱۳۹۹ فعال با ۳۵۰۰ کاربر ماهانه گزارش شد. وضعیت زنده ۱۴۰۵ نیاز به تأیید تلفنی ۶۰۹۱۲۴۰۱ یا استور دارد. صرفه مارکت B2C است نه جایگزین سفارش خرده‌فروش."
+  },
+  "شركت پخش البرز": {
+    "company_id": "DIST-002",
+    "normalized": "پخش البرز",
+    "website": "https://www.alborz.org (از دامنه ایمیل)",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "احتمالاً ویزیتور/تلفن ۶۲۹۳۷",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "Candidate",
+    "evidence": [
+      [
+        "دامنه alborz.org از ایمیل انجمن",
+        "info@alborz.org",
+        "Candidate"
+      ]
+    ],
+    "notes": "ایمیل‌های متعدد سازمانی؛ پورتال سفارش عمومی در خزش فعلی تأیید نشد."
+  },
+  "شركت پخش رازي": {
+    "company_id": "DIST-004",
+    "normalized": "پخش رازی (دارویی)",
+    "website": "https://www.razico.ir",
+    "portal_url": "http://orders.razico.ir/ و https://my.razico.ir",
+    "app_name": "پرتال سفارش‌دهی اینترنتی رازی",
+    "channel": "پورتال سفارش اینترنتی + سامانه مشتریان",
+    "login": "نام کاربری/رمز (نه OTP عمومی)",
+    "payments": "جزئیات درگاه پشت لاگین — Partial",
+    "credit": "اعتبار داروخانه‌ای قراردادی رایج در پخش دارو؛ جزئیات عمومی محدود",
+    "status": "Confirmed",
+    "evidence": [
+      [
+        "پورتال سفارش orders.razico.ir",
+        "http://orders.razico.ir/",
+        "Confirmed"
+      ],
+      [
+        "سامانه مشتریان my.razico.ir",
+        "https://my.razico.ir/Authentication/Login",
+        "Confirmed"
+      ],
+      [
+        "سایت رسمی",
+        "https://www.razico.ir",
+        "Confirmed"
+      ]
+    ],
+    "notes": "نمونهٔ قوی پخش دارویی با سفارش اینترنتی برای مشتریان ازپیش‌ثبت‌شده. حوزه دارو ≠ FMCG سوپرمارکت ولی الگوی پورتال انجمن است."
+  },
+  "شركت قاسم ايران": {
+    "company_id": "DIST-013",
+    "normalized": "قاسم ایران (گروه مینو)",
+    "website": "https://www.ghasemiran.org",
+    "portal_url": "https://www.ghasemiran.org/fa/page/ghasemiran-B2B.html",
+    "app_name": "اپ B2B قاسم ایران",
+    "channel": "اپ B2B رسمی + شبکه ویزیتور/ناوگان",
+    "login": "کد مشتری صادره از قاسم ایران",
+    "payments": "فاکتور رسمی؛ الگوهای تخفیف؛ جزئیات نقد/اعتبار پشت حساب مشتری",
+    "credit": "Partial — رابطه مالی مشتری در پخش FMCG/دارو",
+    "status": "Confirmed",
+    "evidence": [
+      [
+        "صفحه رسمی پلتفرم B2B",
+        "https://www.ghasemiran.org/fa/page/ghasemiran-B2B.html",
+        "Confirmed"
+      ],
+      [
+        "سایت قاسم ایران",
+        "https://www.ghasemiran.org/",
+        "Confirmed"
+      ]
+    ],
+    "notes": "مدیرعامل حسین یوسف خزرائی عضو هیئت‌مدیره انجمن. اپ فقط برای دارندگان کد مشتری. الگوی CRM-first کلاسیک."
+  },
+  "شرکت گلرنگ پخش": {
+    "company_id": "DIST-GPC",
+    "normalized": "گلرنگ پخش",
+    "website": "https://www.golrang-pakhsh.com",
+    "portal_url": "https://app.pakhshmart.com (سیمرغ)",
+    "app_name": "سیمرغ / PakhshMart",
+    "channel": "پلتفرم سیمرغ گروه گلرنگ + سازمان فروش",
+    "login": "OTP روی موبایل ثبت‌شده در شرکت‌های پخش گلرنگ",
+    "payments": "سفارش ۲۴/۷؛ تسویه طبق حساب مشتری (جزئیات درگاه عمومی محدود)",
+    "credit": "Partial — اعتبار قراردادی شبکه فروش",
+    "status": "Confirmed",
+    "evidence": [
+      [
+        "سیمرغ درباره",
+        "https://pakhshmart.com/",
+        "Confirmed"
+      ],
+      [
+        "ورود OTP اپ",
+        "https://app.pakhshmart.com/",
+        "Confirmed"
+      ],
+      [
+        "سایت گلرنگ پخش",
+        "https://www.golrang-pakhsh.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "سیمرغ پلتفرم یکپارچه سفارش از پخش‌های گروه گلرنگ است (گلرنگ پخش، پدیده پایدار و گزارش‌ها: مارینا/هستی). موبایل باید در سیستم پخش ثبت باشد."
+  },
+  "شرکت پخش پدیده پایدار": {
+    "company_id": "DIST-PSP",
+    "normalized": "پدیده پایدار پخش",
+    "website": "از دامنه psppakhsh.com",
+    "portal_url": "https://app.pakhshmart.com (سیمرغ)",
+    "app_name": "سیمرغ",
+    "channel": "سیمرغ + فروش میدانی",
+    "login": "OTP موبایل ثبت‌شده",
+    "payments": "از طریق سیمرغ/حساب مشتری",
+    "credit": "Partial",
+    "status": "Confirmed",
+    "evidence": [
+      [
+        "لیست پوشش سیمرغ: پدیده پایدار",
+        "https://pakhshmart.com/",
+        "Confirmed"
+      ],
+      [
+        "ایمیل psppakhsh.com انجمن",
+        "info@psppakhsh.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "پوشش رسمی در لندینگ سیمرغ."
+  },
+  "شرکت سلامت پخش هستی(گلرنگ)": {
+    "company_id": "DIST-SPH",
+    "normalized": "سلامت پخش هستی (گلرنگ)",
+    "website": "salamatpakhsh.com / golrangpi",
+    "portal_url": "احتمالاً اکوسیستم سیمرغ/گلرنگ — تأیید پوشش مستقیم Partial",
+    "app_name": "سیمرغ؟",
+    "channel": "شبکه گلرنگ",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "Partial",
+    "evidence": [
+      [
+        "LinkedIn گزارش پوشش چهار پخش گلرنگ شامل هستی/مارینا",
+        "linkedin simorgh posts",
+        "Partial"
+      ]
+    ],
+    "notes": "در برخی پست‌های سیمرغ به چهار پخش اشاره شده؛ لندینگ فعلی دو نام نشان می‌دهد. وضعیت پوشش سلامت پخش هستی: Partial."
+  },
+  "مارینا پخش هستی": {
+    "company_id": "DIST-MPH",
+    "normalized": "مارینا پخش هستی",
+    "website": "—",
+    "portal_url": "اکوسیستم گلرنگ/سیمرغ (Partial)",
+    "app_name": "سیمرغ؟",
+    "channel": "گلرنگ",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "Partial",
+    "evidence": [
+      [
+        "اشاره در پست‌های سیمرغ",
+        "linkedin",
+        "Partial"
+      ]
+    ],
+    "notes": "ایمیل انجمن info@company.com مشکوک/عمومی؛ داده تماس ضعیف."
+  },
+  "شركت پخش باني چاو ایرانیان": {
+    "company_id": "DIST-BONNY",
+    "normalized": "بانی چاو ایرانیان (سولیکو/کاله)",
+    "website": "https://www.bonnychow.ir",
+    "portal_url": "https://www.bonnychow.ir + پورتال مالی",
+    "app_name": "پورتال بانی چاو",
+    "channel": "پورتال سفارش آنلاین + کارشناس فروش + توزیع",
+    "login": "موبایل پس از دریافت کد خریدار سولیکو",
+    "payments": "کارتخوان هنگام تحویل + درگاه اینترنتی صورتحساب‌های باز + روش‌های رایج شرکت",
+    "credit": "اعتبار خرید برای مشتریان خوش‌حساب با دوره بازپرداخت تعریف‌شده؛ تمدید نمایش اعتبار حداکثر ۷۲س پس از اعلام وصول مالی (نه مهلت ۷۲ساعتهٔ خرید)",
+    "status": "Confirmed",
+    "evidence": [
+      [
+        "FAQ تسویه و اعتبار",
+        "https://www.bonnychow.ir/questions",
+        "Confirmed"
+      ],
+      [
+        "ثبت‌نام خریدار/کد",
+        "https://www.bonnychow.ir/registration",
+        "Confirmed"
+      ],
+      [
+        "تلفن ۶۱۳۷۰ انجمن",
+        "61370",
+        "Confirmed"
+      ]
+    ],
+    "notes": "نزدیک‌ترین نمونهٔ انجمن با سفارش آنلاین + پرداخت تحویل + درگاه + خط اعتبار قراردادی. سوءبرداشت رایج: ۷۲ ساعت = SLA تمدید اعتبار پس از پرداخت، نه credit window."
+  },
+  "شركت پخش يك و يك": {
+    "company_id": "DIST-1AND1",
+    "normalized": "پخش یک‌ویک",
+    "website": "https://www.p1and1.com (حدس قوی از ایمیل)",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "سازمان فروش",
+    "login": "—",
+    "payments": "نقد/چک/قراردادی رایج",
+    "credit": "قراردادی آفلاین محتمل",
+    "status": "Candidate",
+    "evidence": [
+      [
+        "ایمیل info@p1and1.com",
+        "info@p1and1.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "دامنه ایمیل رسمی؛ پورتال سفارش عمومی یافت نشد."
+  },
+  "شركت پخش پگاه": {
+    "company_id": "DIST-PEGAH",
+    "normalized": "پخش پگاه",
+    "website": "pegah.com اکوسیستم",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "شبکه لبنی پگاه",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "NoEvidence",
+    "evidence": [
+      [
+        "ایمیل info.p1@pegah.com",
+        "pegah.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "برند قوی؛ مسیر آنلاین عمومی سفارش خرده‌فروش در خزش فعلی دیده نشد."
+  },
+  "شركت گلستان": {
+    "company_id": "DIST-GOL",
+    "normalized": "گلستان",
+    "website": "golestan.com",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "توزیع برند",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "NoEvidence",
+    "evidence": [
+      [
+        "ایمیل DistVeepOffice@Golestan.Com",
+        "Golestan.Com",
+        "Confirmed"
+      ]
+    ],
+    "notes": ""
+  },
+  "شرکت یونیلیور ایران": {
+    "company_id": "DIST-UL",
+    "normalized": "یونیلیور ایران",
+    "website": "unileveriran.com",
+    "portal_url": "کانال‌های مدرن ترید / دیستریبیوتور — نه پورتال باز خرده‌فروش",
+    "app_name": "—",
+    "channel": "سیستم توزیع برند چندملیتی",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "Partial",
+    "evidence": [
+      [
+        "ایمیل‌های unileveriran.com انجمن",
+        "unileveriran.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "عضو انجمن؛ مدل توزیع برند ≠ مارکت‌پلیس باز."
+  },
+  "شركت توزيع داروپخش": {
+    "company_id": "DIST-ODP",
+    "normalized": "توزیع داروپخش",
+    "website": "ondpline.com",
+    "portal_url": "احتمالاً سامانه‌های سفارش دارویی",
+    "app_name": "—",
+    "channel": "پخش دارو",
+    "login": "—",
+    "payments": "—",
+    "credit": "اعتبار داروخانه رایج در صنعت",
+    "status": "Candidate",
+    "evidence": [
+      [
+        "ایمیل ondpline.com",
+        "office@ondpline.com",
+        "Confirmed"
+      ]
+    ],
+    "notes": "اولویت دارویی؛ نیاز به خزش تخصصی سامانه سفارش دارو."
+  },
+  "شرکت طلوع پخش آفتاب": {
+    "company_id": "DIST-TPA",
+    "normalized": "طلوع پخش آفتاب",
+    "website": "tpa-dist.com",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "—",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "Candidate",
+    "evidence": [
+      [
+        "دامنه tpa-dist.com از ایمیل‌های متعدد انجمن",
+        "tpa-dist.com",
+        "Candidate"
+      ]
+    ],
+    "notes": "عضو هیئت‌مدیره انجمن (صفرشریف). اولویت تماس برای کشف پورتال."
+  },
+  "شرکت مدبران کوشای ایرانیان": {
+    "company_id": "DIST-MKI",
+    "normalized": "مدبران کوشای ایرانیان",
+    "website": "—",
+    "portal_url": "—",
+    "app_name": "—",
+    "channel": "—",
+    "login": "—",
+    "payments": "—",
+    "credit": "—",
+    "status": "NoEvidence",
+    "evidence": [],
+    "notes": "نائب‌رئیس هیئت‌مدیره انجمن در گزارش‌ها؛ مسیر دیجیتال عمومی یافت نشد."
+  }
+}
