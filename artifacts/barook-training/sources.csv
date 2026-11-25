@@ -1,0 +1,18 @@
+﻿id,title,role,product,url,publisher,published,duration,access,transcript,flows
+SRC-TG-055,فهرست آموزش‌های باروک (ایندکس),all,Barook trainings index,https://t.me/barook_ir/55,barook_ir,observed via embed,,caption_ok_video_blocked,,index
+SRC-TG-110,پرداخت آنلاین توسط خریدار,supermarket,online credit pay,https://t.me/barook_ir/110,barook_ir,embed observed,0:52,caption_ok_video_blocked,transcripts/SRC-TG-110.md,F01
+SRC-TG-108,ثبت سفارش فروشگاه توسط شرکت پخش (آنلاین اوردرینگ),distributor,panel order register,https://t.me/barook_ir/108,barook_ir,embed observed,0:35,caption_ok_video_blocked,transcripts/SRC-TG-108.md,"F01,F04"
+SRC-TG-122,پوز — پرداخت پیش‌فاکتورهای پرداخت‌نشده,distributor+supermarket,POS unpaid,https://t.me/barook_ir/122,barook_ir,embed observed,0:34,caption_ok_video_blocked,transcripts/SRC-TG-122.md,F02
+SRC-TG-121,پوز — فروش اعتباری,distributor+supermarket,POS credit sale,https://t.me/barook_ir/121,barook_ir,embed observed,0:42,caption_ok_video_blocked,transcripts/SRC-TG-121.md,F03
+SRC-TG-141,بارگذاری فاکتورها در پنل تأمین‌کننده,supplier,invoice upload,https://t.me/barook_ir/141,barook_ir,embed observed,1:41,caption_ok_video_blocked,transcripts/SRC-TG-141.md,F05
+SRC-TG-150,شارژ کیف پول باروک,supermarket,wallet top-up,https://t.me/barook_ir/150,barook_ir,embed observed,0:58,caption_ok_video_blocked,transcripts/SRC-TG-150.md,F07
+SRC-TG-013,فعالسازی باروک‌کارت,supermarket,card activation,https://t.me/barook_ir/13,barook_ir,2024-07-ish,1:08,caption_ok_video_blocked,transcripts/SRC-TG-013.md,F08
+SRC-TG-058,دستگاه پوز P10 و نصب باروک,distributor,POS P10 install,https://t.me/barook_ir/58,barook_ir,embed observed,3:25,caption_ok_video_blocked,transcripts/SRC-TG-058.md,F09
+SRC-TG-060,به‌روزرسانی اپلیکیشن باروک روی پوز,distributor,POS app update,https://t.me/barook_ir/60,barook_ir,embed observed,1:07,caption_ok_video_blocked,transcripts/SRC-TG-060.md,F10
+SRC-TG-109,راهنمای استفاده از کسب‌نو حقوقی,legal_company,Kasbno legal,https://t.me/barook_ir/109,barook_ir,embed observed,0:58,caption_ok_video_blocked,transcripts/SRC-TG-109.md,F11
+SRC-TG-017,فیلم آموزشی نحوه کار با دستگاه pos باروک (نسخهٔ قدیمی‌تر),distributor+supermarket,POS legacy,https://t.me/barook_ir/17,barook_ir,2024-07-09,0:52,caption_thin_video_blocked,transcripts/SRC-TG-017.md,F03-legacy
+SRC-TG-SEARCH,جست‌وجوی #آموزش در کانال,all,catalog,https://telegram.me/s/barook_ir?q=%23آموزش,barook_ir,1405/09/04,,list_ok,,catalog
+SRC-OFF-FMCG,صفحه رسمی اعتبار کسب‌وکاری سوپرمارکت,supermarket,Kasbno FMCG,https://barook.ir/fmcg,barook.ir,1405/09/04,,full_html_ok,,F06
+SRC-PARTNER-AZIMI,باروک کارت چیست؟ رضوان پخش عظیمی,supermarket,partner guide,https://rezvanpakhsh.com/what-is-barook-cart/,rezvanpakhsh,partner page,,full_html_ok,,"F06,F03"
+SRC-TG-BONAK,بنک‌مارکت: دو مسیر پرداخت آنلاین یا کارت هنگام تحویل,supermarket,partner path,https://t.me/s/barook_ir/110,barook_ir context around 110+,channel feed,,caption_ok,,"F01,F02"
+SRC-PRIOR-XLSX,Barook_Kasbno_Deep_Research_Directory.xlsx — Evidence/OrderSteps/Gaps,research,prior,artifacts/Barook_Kasbno_Deep_Research_Directory.xlsx,prior agent pack,1405/09/03,,local,,G-BK-06 follow-up
