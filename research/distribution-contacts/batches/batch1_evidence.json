@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-11-25T19:50:39.406255+00:00",
+  "baseline": "D:\\HomeDesign\\artifacts\\contact-directory-baseline\\Distribution-Contact-Directory-FA.baseline.xlsx",
+  "working": "D:\\HomeDesign\\artifacts\\Distribution-Contact-Directory-FA.xlsx",
+  "cases": [
+    {
+      "case": "پخش پدیده پایدار",
+      "queries": [
+        "پخش پدیده پایدار تلفن تهران",
+        "site:irangaah.ir پخش پدیده پایدار",
+        "t.me golrangfamily پخش پدیده پایدار",
+        "راجی مدیرعامل پخش پدیده"
+      ],
+      "sources": [
+        "https://irangaah.ir/business/services/tehran/pakhsh-padideh-paydar",
+        "https://t.me/s/golrangfamily?q=%23%D9%BE%D8%AE%D8%B4_%D9%BE%D8%AF%DB%8C%D8%AF%D9%87_%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1",
+        "https://logiscm.ir/distribution/",
+        "https://linkedin.com/company/simorghgolrang"
+      ],
+      "prior": "ردیف مبنا شمارهٔ به‌هم‌چسبیدهٔ ۸۸۷۸۶۸۶۴۸۸۷۸۱۵۲۸ و «مدیر جدید ثبت نشده»",
+      "found": {
+        "phones": [
+          "02158124520",
+          "02158124000"
+        ],
+        "people": [
+          "صادق بیان",
+          "راجی"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02158124520",
+        "02158124000"
+      ],
+      "note": "۰۲۱۸۸۷۸۶۸۶۴ در مبنا به‌صورت به‌هم‌چسبیده هست → شمارهٔ تازه حساب نشد؛ ۵۸۱۲۴۵۲۰/۵۸۱۲۴۰۰۰ تازه است."
+    },
+    {
+      "case": "گلرنگ پخش",
+      "queries": [
+        "پیمان کاتبی گلرنگ پخش مدیرعامل",
+        "سیدعابدین حسینی گلرنگ پخش قائم مقام",
+        "linkedin golrangpakhsh بازدید یزد"
+      ],
+      "sources": [
+        "https://www.linkedin.com/posts/golrangpakhsh_%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D8%B9%D8%A7%D9%85%D9%84-%D8%A7%D8%B2-%D8%B4%D8%B9%D8%A8%D9%87-%DB%8C%D8%B2%D8%AF-activity-7470730054399004672-w9ZR",
+        "https://rasmio.com/person/33D85E8/%D9%BE%DB%8C%D9%85%D8%A7%D9%86%20%DA%A9%D8%A7%D8%AA%D8%A8%DB%8C/",
+        "https://logiscm.ir/distribution/"
+      ],
+      "prior": "پیمان کاتبی + 84237000 در مبنا",
+      "found": {
+        "phones": [
+          "02184237513"
+        ],
+        "people": [
+          "سیدعابدین حسینی",
+          "کنگاوری"
+        ],
+        "confirmed": [
+          "پیمان کاتبی مدیرعامل تا ۱۴۰۶/۰۳"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02184237513"
+      ]
+    },
+    {
+      "case": "پخش پگاه دلپذیر",
+      "queries": [
+        "پخش پگاه دلپذیر تلفن",
+        "مراکز پخش پگاه تهران",
+        "دلپذیر تماس دفتر مرکزی"
+      ],
+      "sources": [
+        "https://pegah.com/%d9%85%d8%b1%d8%a7%da%a9%d8%b2-%d9%be%d8%ae%d8%b4/",
+        "https://pegah.com/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/",
+        "https://t.me/s/estekhdam_tehran/93212",
+        "https://logiscm.ir/distribution/"
+      ],
+      "prior": "ردیف «پخش پگاه دلپذیر» بدون شماره",
+      "found": {
+        "phones": [
+          "02161939000",
+          "02161939173",
+          "02177242308",
+          "02136656620"
+        ],
+        "people": [
+          "مجید اخوان"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02161939000",
+        "02161939173",
+        "02177242308",
+        "02136656620"
+      ],
+      "note": "آگهی مرداد ۱۴۰۵ رابطهٔ برند را نشان می‌دهد؛ شماره از سایت پگاه."
+    },
+    {
+      "case": "باران پخش پویا",
+      "queries": [
+        "باران پخش پویا تلفن کرج",
+        "باران پخش پویا نادر پور محمد"
+      ],
+      "sources": [
+        "https://www.foodkeys.com/view/wholesale_trade/details?CompanyName=%D8%B4%D8%B1%DA%A9%D8%AA+%D8%A8%D8%A7%D8%B1%D8%A7%D9%86+%D9%BE%D8%AE%D8%B4+%D9%BE%D9%88%DB%8C%D8%A7&id=581"
+      ],
+      "prior": "بدون شماره در مبنا",
+      "found": {
+        "phones": [
+          "02632260572",
+          "02632260573",
+          "02632260574"
+        ],
+        "people": [
+          "نادر پور محمد"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02632260572",
+        "02632260573",
+        "02632260574"
+      ],
+      "note": "منبع foodkeys هشدار به‌روز‌نبودن دارد → زرد."
+    },
+    {
+      "case": "آریان لیان پخش",
+      "queries": [
+        "آریان لیان پخش تلفن",
+        "alppdc.ir"
+      ],
+      "sources": [
+        "https://logiscm.ir/distribution/"
+      ],
+      "prior": "بدون شماره",
+      "found": {
+        "phones": [
+          "02189328121"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02189328121"
+      ]
+    },
+    {
+      "case": "ایپک پخش یاران",
+      "queries": [
+        "ایپک پخش یاران تلفن",
+        "پخش سراسری ایپک استخدام"
+      ],
+      "sources": [
+        "https://www.momtaznews.com/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%BE%D8%AE%D8%B4-%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C-%D8%A7%DB%8C%D9%BE%DA%A9/"
+      ],
+      "prior": "بدون شماره",
+      "found": {
+        "phones": [
+          "02144220363",
+          "02144256854",
+          "02144256853"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "02144220363",
+        "02144256854",
+        "02144256853"
+      ],
+      "note": "تطبیق با «پخش سراسری ایپک» قطعی نیست → زرد."
+    },
+    {
+      "case": "آرین پخش پیشرو",
+      "queries": [
+        "آرین پخش پیشرو تلفن",
+        "arianpakhsh.com"
+      ],
+      "sources": [
+        "https://arianpakhsh.com/",
+        "https://iran-gazette.com/c/4hgqsd5ebukn/%D8%A2%D8%B1%DB%8C%D9%86-%D9%BE%D8%AE%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%88"
+      ],
+      "prior": "بدون شماره",
+      "found": {
+        "phones": [
+          "09129243421"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "09129243421"
+      ],
+      "note": "سایت آرین پخش (زنجیره‌ای) ممکن است غیر از «آرین پخش پیشرو» گلرنگ باشد → زرد."
+    },
+    {
+      "case": "آسان پخش سلوا",
+      "queries": [
+        "آسان پخش سلوا تلفن",
+        "آسان پخش تبریز"
+      ],
+      "sources": [
+        "https://www.mbartar.ir/ad=asanpakhsh",
+        "https://irangaah.ir/business/stores/tabriz/asan-pakhsh"
+      ],
+      "prior": "بدون شماره",
+      "found": {
+        "phones": [
+          "04135247212",
+          "09147364280"
+        ],
+        "people": [
+          "امیر رجایی"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "04135247212",
+        "09147364280"
+      ],
+      "note": "«سلوا» در منبع پیدا نشد؛ ممکن است شرکت دیگری باشد → زرد/مبهم."
+    },
+    {
+      "case": "بهستان پخش",
+      "queries": [
+        "بهستان پخش تماس",
+        "behestanpakhsh.com contact"
+      ],
+      "sources": [
+        "https://behestanpakhsh.com/pages/contact/",
+        "https://behestanpakhsh.com/pages/team/"
+      ],
+      "prior": "شرکت بهستان پخش قبلاً 84054000 + کمالی دارد؛ ردیف تکراری خالی",
+      "found": {
+        "confirmed_phone": "02184054000",
+        "confirmed_person": "محمدهادی کمالی"
+      },
+      "new_phones_vs_baseline": [],
+      "note": "انتقال/تأیید شمارهٔ موجود — شمارهٔ تازه نیست."
+    },
+    {
+      "case": "بانی چاو / پورسلطانی",
+      "queries": [
+        "علی اکبر پور سلطانی بانی چاو",
+        "بهرام خیری بانی چاو مدیرعامل"
+      ],
+      "sources": [
+        "https://www.bonnychow.ir/registration",
+        "https://rasmio.com/company/10861346120/%D8%A8%D8%A7%D9%86%DB%8C%20%DA%86%D8%A7%D9%88%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C%D8%A7%D9%86/"
+      ],
+      "prior": "پورسلطانی + 61370 در مبنا",
+      "found": {
+        "people": [
+          "بهرام خیری"
+        ],
+        "confirmed": [
+          "02161370"
+        ]
+      },
+      "new_phones_vs_baseline": []
+    },
+    {
+      "case": "جابه‌جایی ابول نژادیان",
+      "queries": [
+        "ابول نژادیان ماریناسان مدیرعامل",
+        "پخش پدیده پایدار صادق بیان"
+      ],
+      "sources": [
+        "https://t.me/s/golrangfamily?q=%23%D9%BE%D8%AE%D8%B4_%D9%BE%D8%AF%DB%8C%D8%AF%D9%87_%D9%BE%D8%A7%DB%8C%D8%AF%D8%A7%D8%B1",
+        "https://2kilopaper.ir/directory-cls_inds/listing/factories/tissue-paper/%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%b3%d9%84%d9%88%d9%84%d8%b2%db%8c-%d9%85%d8%a7%d8%b1%db%8c%d9%86%d8%a7%d8%b3%d8%a7%d9%86/",
+        "https://www.iahci.ir/%D8%A7%D8%B9%D8%B6%D8%A7"
+      ],
+      "prior": "در مبنا شخص ثبت نشده بود",
+      "found": {
+        "move": "پدیده پایدار → ماریناسان",
+        "phones": [
+          "02142354000",
+          "09918546788"
+        ]
+      },
+      "new_phones_vs_baseline": [
+        "09918546788"
+      ]
+    },
+    {
+      "case": "جابه‌جایی مهدی بهمن آبادی",
+      "queries": [
+        "مهدی بهمن آبادی بانی چاو",
+        "Mehdi Bahmanabadi DOGHAZAL"
+      ],
+      "sources": [
+        "https://linkedin.com/in/mehdi-bahmanabadi-b1b2a479",
+        "https://rasmio.com/person/467406A/%D9%85%D9%87%D8%AF%DB%8C%20%D8%A8%D9%87%D9%85%D9%86%20%D8%A2%D8%A8%D8%A7%D8%AF%DB%8C/"
+      ],
+      "prior": "در مبنا نبود",
+      "found": {
+        "move": "بانی چاو → DOGHAZAL TEA / عضو هیئت مدیره غزال پخش"
+      },
+      "new_phones_vs_baseline": []
+    },
+    {
+      "case": "سهراب کارگر",
+      "queries": [
+        "سهراب کارگر دراژه مدیرعامل",
+        "apir هیئت مدیره"
+      ],
+      "sources": [
+        "https://www.apir.ir/pages/board-of-directors",
+        "https://rasmio.com/company/10102995715/%D8%A8%D8%A7%D8%B2%D8%B1%DA%AF%D8%A7%D9%86%DB%8C%20%D8%AF%D8%B1%D8%A7%DA%98%D9%87/"
+      ],
+      "prior": "در مبنا بدون موبایل شخصی",
+      "found": {
+        "confirmed": "همچنان مدیرعامل دراژه و رئیس هیئت مدیره انجمن"
+      },
+      "new_phones_vs_baseline": [],
+      "note": "شمارهٔ شخصی یافت نشد."
+    },
+    {
+      "case": "مجید جعفر نژاد",
+      "queries": [
+        "مجید جعفر نژاد موبایل",
+        "مجید جعفر نژاد مدیرعامل پخش"
+      ],
+      "sources": [
+        "https://www.apir.ir/pages/board-of-directors"
+      ],
+      "prior": "نام در مبنا بدون موبایل کاری شخصی",
+      "found": {},
+      "new_phones_vs_baseline": [],
+      "note": "موبایل شخصی عمومی یافت نشد؛ فقط سمت سازمانی تأیید/در دسترس است."
+    },
+    {
+      "case": "محسن عبداله زاده",
+      "queries": [
+        "محسن عبداله زاده موبایل",
+        "محسن عبداله زاده مدیرعامل پخش"
+      ],
+      "sources": [
+        "https://www.apir.ir/pages/board-of-directors"
+      ],
+      "prior": "نام در مبنا بدون موبایل کاری شخصی",
+      "found": {},
+      "new_phones_vs_baseline": [],
+      "note": "موبایل شخصی عمومی یافت نشد؛ فقط سمت سازمانی تأیید/در دسترس است."
+    },
+    {
+      "case": "آرین نژاد",
+      "queries": [
+        "آرین نژاد موبایل",
+        "آرین نژاد مدیرعامل پخش"
+      ],
+      "sources": [
+        "https://www.apir.ir/pages/board-of-directors"
+      ],
+      "prior": "نام در مبنا بدون موبایل کاری شخصی",
+      "found": {},
+      "new_phones_vs_baseline": [],
+      "note": "موبایل شخصی عمومی یافت نشد؛ فقط سمت سازمانی تأیید/در دسترس است."
+    },
+    {
+      "case": "مانع دسترسی",
+      "queries": [
+        "t.me/estekhdam_tehran/93212 محتوای کامل آگهی پگاه"
+      ],
+      "sources": [
+        "https://t.me/s/estekhdam_tehran/93212"
+      ],
+      "prior": "—",
+      "found": {},
+      "note": "صفحهٔ پیش‌نمایش تلگرام آگهی هدف را در اسنیپت نشان نداد؛ پژوهش با سایت پگاه ادامه یافت.",
+      "access_barrier": true
+    }
+  ]
+}

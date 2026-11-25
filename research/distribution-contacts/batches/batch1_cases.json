@@ -1,0 +1,238 @@
+{
+  "no_phone_companies": [
+    {
+      "row": 1946,
+      "company": "آریان لیان پخش",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 1948,
+      "company": "آرین پخش پیشرو",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 1949,
+      "company": "آسان پخش سلوا",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2011,
+      "company": "اریان لیان پخش",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2013,
+      "company": "ارین پخش پیشرو",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2016,
+      "company": "اسان پخش سلوا",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2080,
+      "company": "ایپک پخش یاران",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2088,
+      "company": "باران پخش پویا",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2132,
+      "company": "به خوراک گستر کاسپین /پخش کاسپین",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2140,
+      "company": "بهستان پخش",
+      "person": "",
+      "phones": [],
+      "uncertain": true
+    }
+  ],
+  "people_no_phone": [
+    {
+      "row": 1937,
+      "company": "آرتا مهر",
+      "person": "مجید جعفر نژاد — عضو هیئت مدیره انجمن / مدیرعامل",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2201,
+      "company": "توسعه تجارت سهند یاران ایرانیان",
+      "person": "بهروز دولتی — مدیرعامل/منبع انجمن",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2289,
+      "company": "پخش دالفک پویش",
+      "person": "حسین ولی پور — مدیرعامل/منبع انجمن",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2304,
+      "company": "دراژه",
+      "person": "سهراب کارگر — رئیس هیئت مدیره انجمن / مدیرعامل",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2341,
+      "company": "راسن درمان",
+      "person": "نادر علی زاد نمینی — مدیرعامل",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2367,
+      "company": "روژین تاک",
+      "person": "آقای مراد دهنده",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2377,
+      "company": "زر نگار آرا",
+      "person": "اصغر ذیبخش — مدیرعامل/منبع انجمن",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2434,
+      "company": "پخش سراسری آرتامهر",
+      "person": "مجیدجعفرنژاد — مدیرعامل/منبع انجمن",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2436,
+      "company": "پخش سراسری دلوسه",
+      "person": "جهانگیر جمشیدی لاهیجانی — مدیرعامل/منبع انجمن",
+      "phones": [],
+      "uncertain": true
+    },
+    {
+      "row": 2671,
+      "company": "طلوع پخش آفتاب",
+      "person": "حمیدرضا صفرشریف — عضو هیئت مدیره انجمن",
+      "phones": [],
+      "uncertain": true
+    }
+  ],
+  "move_candidates": [
+    {
+      "row": 7,
+      "company": "آب های معدنی دماوند",
+      "person": "عرفان نبات زاده — مدیرعامل/منبع انجمن",
+      "phones": [
+        "02126247613"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 9,
+      "company": "شرکت آبهای معدنی آریا قلعه رودخان",
+      "person": "شهرام نیکخواه بهرامی — مدیرعامل/منبع انجمن",
+      "phones": [
+        "88448440"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 20,
+      "company": "شرکت آدوراطب",
+      "person": "محسن فیاض دستجردی — مدیرعامل/منبع انجمن",
+      "phones": [
+        "88385660-80"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 24,
+      "company": "آذین تجارت زیبا",
+      "person": "کوروش تبیانیان — مدیرعامل/منبع انجمن",
+      "phones": [
+        "02144417983"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 26,
+      "company": "آراد سلامت بوعلی",
+      "person": "سید سجاد حسینی نسب — مدیرعامل/منبع انجمن",
+      "phones": [
+        "22092577"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 28,
+      "company": "آرتا پخش آداک تدبیر",
+      "person": "ساناز سیفی نوفرستی — مدیرعامل/منبع انجمن",
+      "phones": [
+        "79163-22908357-22904676"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 44,
+      "company": "شرکت آرپا نوش",
+      "person": "کمال نجل احمد — مدیرعامل/منبع انجمن",
+      "phones": [
+        "88623820"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 46,
+      "company": "شرکت آریا برهان نوین قشم",
+      "person": "حجت خلیجی — مدیرعامل/منبع انجمن",
+      "phones": [
+        "57925000-161"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 48,
+      "company": "شرکت آریان کیمیا تک",
+      "person": "ناصر گورابی — مدیرعامل/منبع انجمن",
+      "phones": [
+        "23576000"
+      ],
+      "uncertain": false
+    },
+    {
+      "row": 52,
+      "company": "آرین پخش هونام",
+      "person": "مهدی عباس زاده — مدیرعامل/منبع انجمن",
+      "phones": [
+        "44504155"
+      ],
+      "uncertain": false
+    }
+  ]
+}
