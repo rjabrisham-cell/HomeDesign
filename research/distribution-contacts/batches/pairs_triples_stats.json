@@ -1,13 +1,20 @@
 {
-  "changed": 11,
   "rows": 3260,
-  "triple": 107,
+  "triple_co_pe_mob": 107,
   "pair_co_pe": 457,
   "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "co_phone": 743,
-  "co_only": 1278,
+  "other_rows": 2021,
   "accepted_kpi": 1239,
   "target": 5000,
-  "gap_accepted": 3761
+  "gap_accepted": 3761,
+  "rows_with_mobile": 782,
+  "rows_with_landline": 1829,
+  "columns": [
+    "شرکت",
+    "فرد مؤثر",
+    "شماره موبایل",
+    "تلفن"
+  ],
+  "note": "تلفن ثابت در شمارش اهداف نیست؛ فقط نگهداری می‌شود."
 }
