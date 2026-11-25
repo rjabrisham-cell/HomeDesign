@@ -1,0 +1,13 @@
+{
+  "changed": 11,
+  "rows": 3260,
+  "triple": 107,
+  "pair_co_pe": 457,
+  "pair_co_mob": 675,
+  "pair_pe_mob": 0,
+  "co_phone": 743,
+  "co_only": 1278,
+  "accepted_kpi": 1239,
+  "target": 5000,
+  "gap_accepted": 3761
+}
