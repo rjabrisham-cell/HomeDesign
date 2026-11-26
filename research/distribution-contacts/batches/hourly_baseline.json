@@ -1,15 +1,19 @@
 {
-  "ts": "2026-11-26T22:00:38.148801+00:00",
-  "rows": 5110,
-  "triple": 732,
-  "pair_co_pe": 1689,
-  "pair_co_mob": 621,
+  "ts": "2026-11-26T22:01:16.440798+00:00",
+  "rows": 5295,
+  "triple": 837,
+  "pair_co_pe": 1763,
+  "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "other": 2068,
-  "accepted_kpi": 3042,
-  "gap": 1958,
-  "note": "hourly report #3",
-  "prev_kpi": 2912,
-  "delta_kpi": 130,
-  "apply_kpi_last": 3090
+  "accepted_kpi": 3275,
+  "gap": 1725,
+  "note": "hourly report #3 apply-kpi",
+  "prev_kpi": 2960,
+  "delta_kpi": 315,
+  "sources_this_hour": [
+    "Fars association PDF remainder",
+    "APIR national+provincial boards scrape",
+    "Behestan remaining provinces",
+    "Exir/TDDI leftovers"
+  ]
 }
