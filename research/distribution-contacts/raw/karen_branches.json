@@ -1,0 +1,256 @@
+[
+  {
+    "company": "پخش سراسری کارن — شعبه کرمان",
+    "person": "آقای کاظمی پور — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09133415987",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه آذربایجان غربی",
+    "person": "آقای میرزاپور — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09148539050",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه اصفهان",
+    "person": "آقای دلیلی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09133696520",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه تهران",
+    "person": "آقای رحیمی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09195009334",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09120766053"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه خراسان رضوی",
+    "person": "آقای مجتبی حسینی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09158049099",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه فارس",
+    "person": "آقای سرگل زائی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09173401355",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09177009880"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه گیلان",
+    "person": "آقای روشنی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09112356899",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه مازندران",
+    "person": "آقای شاکری — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09127347838",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه کرمانشاه",
+    "person": "آقای چراغی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09189311231",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09182901702"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه کردستان",
+    "person": "آقای اعتمادی طلب — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09183129645",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه مرکزی",
+    "person": "آقای اعتمادی طلب — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09183129645",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه خوزستان",
+    "person": "آقای شبانکاره — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09169270200",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه اردبیل",
+    "person": "آقای حمیدی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09144785230",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه همدان",
+    "person": "آقای اعتمادی طلب — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09183129645",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه یزد",
+    "person": "آقای جعفری — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09133506204",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه زنجان",
+    "person": "آقای حمیدی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09144785230",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه آذربایجان شرقی",
+    "person": "آقای حمیدی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09144785230",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه چهارمحال بختیاری",
+    "person": "آقای دلیلی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09133696520",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه قم",
+    "person": "آقای بختیاری — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09122519492",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه ایلام",
+    "person": "آقای چراغی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09189311231",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09182901702"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه بوشهر",
+    "person": "آقای سرگل زائی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09173401355",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09177009880"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه هرمزگان",
+    "person": "آقای سرگل زائی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09173401355",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09177009880"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه کهکیلویه و بویراحمد",
+    "person": "آقای سرگل زائی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09173401355",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": [
+      "09177009880"
+    ]
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه خراسان شمالی",
+    "person": "آقای مجتبی حسینی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09158049099",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه خراسان جنوبی",
+    "person": "آقای مجتبی حسینی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09158049099",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه سمنان",
+    "person": "آقای حسن زاده — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09120766053",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه قزوین",
+    "person": "آقای حق رو — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09166050306",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه البرز",
+    "person": "آقای رضا حق رو — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09166050306",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه گلستان",
+    "person": "آقای خمیسی — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09113700573",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  },
+  {
+    "company": "پخش سراسری کارن — شعبه لرستان",
+    "person": "آقای خسروداد — مدیر/مخاطب شعبه (karendistribution)",
+    "mobile": "09169673940",
+    "land": "02188078362",
+    "src": "karen_scrape",
+    "extra_mobiles": []
+  }
+]
