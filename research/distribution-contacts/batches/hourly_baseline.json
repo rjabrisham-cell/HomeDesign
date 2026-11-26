@@ -1,14 +1,15 @@
 {
-  "ts": "2026-11-26T21:01:20.811638+00:00",
-  "rows": 4980,
-  "triple": 672,
-  "pair_co_pe": 1619,
+  "ts": "2026-11-26T22:00:38.148801+00:00",
+  "rows": 5110,
+  "triple": 732,
+  "pair_co_pe": 1689,
   "pair_co_mob": 621,
   "pair_pe_mob": 0,
   "other": 2068,
-  "accepted_kpi": 2912,
-  "gap": 2088,
-  "note": "hourly report #2",
-  "prev_kpi": 2835,
-  "delta_kpi": 77
+  "accepted_kpi": 3042,
+  "gap": 1958,
+  "note": "hourly report #3",
+  "prev_kpi": 2912,
+  "delta_kpi": 130,
+  "apply_kpi_last": 3090
 }
