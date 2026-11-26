@@ -1,19 +1,18 @@
 {
-  "ts": "2026-11-26T22:01:16.440798+00:00",
-  "rows": 5295,
-  "triple": 837,
-  "pair_co_pe": 1763,
+  "ts": "2026-11-26T23:01:12.945824+00:00",
+  "rows": 5368,
+  "triple": 841,
+  "pair_co_pe": 1832,
   "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "accepted_kpi": 3275,
-  "gap": 1725,
-  "note": "hourly report #3 apply-kpi",
-  "prev_kpi": 2960,
-  "delta_kpi": 315,
+  "accepted_kpi": 3348,
+  "gap": 1652,
+  "note": "hourly report #4 apply-kpi",
+  "prev_kpi": 3275,
+  "delta_kpi": 73,
   "sources_this_hour": [
-    "Fars association PDF remainder",
-    "APIR national+provincial boards scrape",
-    "Behestan remaining provinces",
-    "Exir/TDDI leftovers"
+    "Ghasem Iran branches+HQ",
+    "APKHZ Khuzestan food members",
+    "Tabriz directory mobiles"
   ]
 }
