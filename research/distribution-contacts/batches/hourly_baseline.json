@@ -1,12 +1,14 @@
 {
-  "ts": "2026-11-26T20:20:24.665279+00:00",
-  "rows": 4903,
-  "triple": 662,
-  "pair_co_pe": 1552,
+  "ts": "2026-11-26T21:01:20.811638+00:00",
+  "rows": 4980,
+  "triple": 672,
+  "pair_co_pe": 1619,
   "pair_co_mob": 621,
   "pair_pe_mob": 0,
   "other": 2068,
-  "accepted_kpi": 2835,
-  "gap": 2165,
-  "note": "hourly report #1 baseline"
+  "accepted_kpi": 2912,
+  "gap": 2088,
+  "note": "hourly report #2",
+  "prev_kpi": 2835,
+  "delta_kpi": 77
 }
