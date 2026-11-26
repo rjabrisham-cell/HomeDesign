@@ -1,14 +1,14 @@
 {
   "filled": 1,
-  "added": 77,
+  "added": 69,
   "mobile_fills": 0,
-  "land_updates": 0,
-  "rows": 4980,
+  "land_updates": 1,
+  "rows": 5049,
   "other": 2020,
   "pair_co_mob": 675,
-  "triple": 770,
-  "pair_co_pe": 1515,
+  "triple": 803,
+  "pair_co_pe": 1551,
   "pair_pe_mob": 0,
-  "accepted_kpi": 2960,
-  "gap": 2040
+  "accepted_kpi": 3029,
+  "gap": 1971
 }
