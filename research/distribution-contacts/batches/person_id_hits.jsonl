@@ -1822,3 +1822,229 @@
 {"company": "قاسم ایران — زنجان", "person": "سعید اسلامی — مدیر شعبه (ghasemiran)", "mobile": null, "land": "02435528031", "src": "ghasem_more"}
 {"company": "قاسم ایران — شهرکرد", "person": "فرهاد دارابی — مدیر شعبه (ghasemiran)", "mobile": null, "land": "03133801933", "src": "ghasem_more"}
 {"company": "قاسم ایران — بوشهر", "person": "عباس سرکوبی — مدیر شعبه (ghasemiran)", "mobile": null, "land": "07137204014", "src": "ghasem_more"}
+{"company": "ارمغان طبیعت سبز", "person": "مهندس وحید شیروانی — مدیرعامل (logiscm)", "mobile": null, "land": "02188952267", "src": "logiscm_pass2"}
+{"company": "به پخش", "person": "مجید محسنی مجد — مدیرعامل (logiscm)", "mobile": null, "land": "02160912401", "src": "logiscm_pass2"}
+{"company": "بهستان پخش", "person": "دکتر محسن عبداله زاده — مدیرعامل (logiscm)", "mobile": null, "land": "02184054000", "src": "logiscm_pass2"}
+{"company": "پارسیان پخش بیژن", "person": "نرگس اله یاری — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "پخش البرز", "person": "دکتر آرین نژاد — مدیرعامل (logiscm)", "mobile": null, "land": "02166702435", "src": "logiscm_pass2"}
+{"company": "پخش پگاه", "person": "مجید اکحوان — مدیرعامل (logiscm)", "mobile": null, "land": "02161939000", "src": "logiscm_pass2"}
+{"company": "پخش رازی", "person": "محمدرضا اسدآبادی — مدیرعامل (logiscm)", "mobile": null, "land": "02166715712", "src": "logiscm_pass2"}
+{"company": "پخش سراسری ایران", "person": "رحمت اله شفایی — مدیرعامل (logiscm)", "mobile": null, "land": "02166463411", "src": "logiscm_pass2"}
+{"company": "پخش فردوس", "person": "دکتر زجاجی — مدیرعامل (logiscm)", "mobile": null, "land": "02166009152", "src": "logiscm_pass2"}
+{"company": "پخش هجرت", "person": "دکتر مسعود بهرامی نوید — مدیرعامل (logiscm)", "mobile": null, "land": "02166461933", "src": "logiscm_pass2"}
+{"company": "پخش یک و یک", "person": "امیر نظری — مدیرعامل (logiscm)", "mobile": null, "land": "02144907008", "src": "logiscm_pass2"}
+{"company": "پرنیان مهیار", "person": "وفا تقی پوریان — مدیرعامل (logiscm)", "mobile": null, "land": "02188726091", "src": "logiscm_pass2"}
+{"company": "پوراپخش", "person": "محسن بیگلری(سرپرست) — مدیرعامل (logiscm)", "mobile": null, "land": "02189318000", "src": "logiscm_pass2"}
+{"company": "پیشگام لیا", "person": "محمد اسکندری — مدیرعامل (logiscm)", "mobile": null, "land": "02147695024", "src": "logiscm_pass2"}
+{"company": "پیشگامان پخش صدیق", "person": "مهندس بابک قره باغی — مدیرعامل (logiscm)", "mobile": null, "land": "02166433232", "src": "logiscm_pass2"}
+{"company": "تضامنی حلوایی و شریک", "person": "محمد رضا حلوایی — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "تولیدی نوشابه ارم نوش", "person": "دکتر رضا ابرقوئی — مدیرعامل (logiscm)", "mobile": null, "land": "02144545772", "src": "logiscm_pass2"}
+{"company": "خدمات حمایتی کشاورزی", "person": "حمید رسولی — مدیرعامل (logiscm)", "mobile": null, "land": "02188780436", "src": "logiscm_pass2"}
+{"company": "خرم پخش ایرانیان", "person": "سید علی مرتضوی — مدیرعامل (logiscm)", "mobile": null, "land": "02144994523", "src": "logiscm_pass2"}
+{"company": "داروپخش", "person": "دکتر محمد رضا مرادی — مدیرعامل (logiscm)", "mobile": null, "land": "02188888073", "src": "logiscm_pass2"}
+{"company": "دینه دارو درمان", "person": "سعید شفیعی — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "زرین ایگل", "person": "فرهاد حمزه — مدیرعامل (logiscm)", "mobile": null, "land": "02188828592", "src": "logiscm_pass2"}
+{"company": "سایه سمن", "person": "مقصود نصیرزاده — مدیرعامل (logiscm)", "mobile": null, "land": "02188800892", "src": "logiscm_pass2"}
+{"company": "سوپا", "person": "دکتر حمید درخشانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144422788", "src": "logiscm_pass2"}
+{"company": "شادی آوران شانجان", "person": "رحیم توکلی شانجانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144504647", "src": "logiscm_pass2"}
+{"company": "صنایع غذایی و آشامیدنی تهران گوار", "person": "مسعود نجفی اصل — مدیرعامل (logiscm)", "mobile": null, "land": "02142148000", "src": "logiscm_pass2"}
+{"company": "صنایع غذایی و لبنی بستنی میهن", "person": "ایوب پایداری — مدیرعامل (logiscm)", "mobile": null, "land": "02151064220", "src": "logiscm_pass2"}
+{"company": "طبیعت سبز میهن", "person": "محمد مختاریانی کندری — مدیرعامل (logiscm)", "mobile": null, "land": "02144354393", "src": "logiscm_pass2"}
+{"company": "قاسم ایران", "person": "علی محمد وحید کریمی — مدیرعامل (logiscm)", "mobile": null, "land": "02144543115", "src": "logiscm_pass2"}
+{"company": "کارن پیشرو تجارت ایرانیان", "person": "خشایار قاجار دوانلو — مدیرعامل (logiscm)", "mobile": null, "land": "02186046372", "src": "logiscm_pass2"}
+{"company": "گروه پخش انسی", "person": "دکتر مهیار رفیعی چیرانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144287623", "src": "logiscm_pass2"}
+{"company": "گل پخش اول", "person": "مهندس حسین علیقارداشی — مدیرعامل (logiscm)", "mobile": null, "land": "02188870070", "src": "logiscm_pass2"}
+{"company": "گلرنگ پخش", "person": "مهندس مهرتاش شاملی کازرونی — مدیرعامل (logiscm)", "mobile": null, "land": "02184237513", "src": "logiscm_pass2"}
+{"company": "لاوین رخ", "person": "فریبا نظرعراقی — مدیرعامل (logiscm)", "mobile": null, "land": "02144265890", "src": "logiscm_pass2"}
+{"company": "لبنیات و بستنی دومینو", "person": "فرامرز پایداری کندری — مدیرعامل (logiscm)", "mobile": null, "land": "02155267070", "src": "logiscm_pass2"}
+{"company": "لبنیات و بستنی شاد عباس آباد", "person": "جواد میزان — مدیرعامل (logiscm)", "mobile": null, "land": "02177551106", "src": "logiscm_pass2"}
+{"company": "لطیف طب", "person": "آرش خالدی — مدیرعامل (logiscm)", "mobile": null, "land": "02188372530", "src": "logiscm_pass2"}
+{"company": "محیا دارو", "person": "حمید ترکاشوند — مدیرعامل (logiscm)", "mobile": null, "land": "02188468111", "src": "logiscm_pass2"}
+{"company": "نویدکاران برتر", "person": "محسن فهیمی پور — مدیرعامل (logiscm)", "mobile": null, "land": "02188820204", "src": "logiscm_pass2"}
+{"company": "ارشیا داروی نوین ایرانیان", "person": "خلیل کاظمی — مدیرعامل (logiscm)", "mobile": null, "land": "02146880158", "src": "logiscm_pass2"}
+{"company": "اریکه درنا", "person": "زهره رسولوی بنیسی — مدیرعامل (logiscm)", "mobile": null, "land": "02144015110", "src": "logiscm_pass2"}
+{"company": "الوند یاران سحر", "person": "محمود توتونچیان — مدیرعامل (logiscm)", "mobile": null, "land": "02122669236", "src": "logiscm_pass2"}
+{"company": "الیت دارو", "person": "دکتر پوریا سمیعی — مدیرعامل (logiscm)", "mobile": null, "land": "02154881000", "src": "logiscm_pass2"}
+{"company": "ایران شکلات", "person": "اکبر شانه زن — مدیرعامل (logiscm)", "mobile": null, "land": "02122059383", "src": "logiscm_pass2"}
+{"company": "آدورا طب", "person": "دکتر سید علی مهدیان — مدیرعامل (logiscm)", "mobile": null, "land": "02188385660", "src": "logiscm_pass2"}
+{"company": "آرپا نوش", "person": "انور روزچنگ — مدیرعامل (logiscm)", "mobile": null, "land": "02188623820", "src": "logiscm_pass2"}
+{"company": "آریا برهان نوین قشم", "person": "حجت خلیجی — مدیرعامل (logiscm)", "mobile": null, "land": "02157925000", "src": "logiscm_pass2"}
+{"company": "آریان لیان پخش", "person": "ابوالفضل رمضانی — مدیرعامل (logiscm)", "mobile": null, "land": "02189328121", "src": "logiscm_pass2"}
+{"company": "آشنا رویان سحر", "person": "معصومه خاتمی قاضیانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144703939", "src": "logiscm_pass2"}
+{"company": "آهن ماشین توان", "person": "علی اکبر ملک زاده — مدیرعامل (logiscm)", "mobile": null, "land": "02166789360", "src": "logiscm_pass2"}
+{"company": "آیسان تک نام پویا", "person": "محمد عبداللهی — مدیرعامل (logiscm)", "mobile": null, "land": "02144443616", "src": "logiscm_pass2"}
+{"company": "بازار گستر پگاه", "person": "دکتر داوود خسروی — مدیرعامل (logiscm)", "mobile": null, "land": "02148073400", "src": "logiscm_pass2"}
+{"company": "بازرگانی اشجع باتری", "person": "مهدی اشجع — مدیرعامل (logiscm)", "mobile": null, "land": "02166311743", "src": "logiscm_pass2"}
+{"company": "بازرگانی پویا افرین پرشیا", "person": "رسول ملاعلی زاده قدیم — مدیرعامل (logiscm)", "mobile": null, "land": "02144059514", "src": "logiscm_pass2"}
+{"company": "بانی چاو ایرانیان", "person": "مهدی بهمن آبادی — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "برگ سیب سبز", "person": "سهراب کارگر — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "به پخش داروی بهشهر", "person": "دکتر بهروز پور محمدی — مدیرعامل (logiscm)", "mobile": null, "land": "02166021347", "src": "logiscm_pass2"}
+{"company": "به خوراک گستر کاسپین", "person": "احمد قنادی — مدیرعامل (logiscm)", "mobile": null, "land": "02166304153", "src": "logiscm_pass2"}
+{"company": "بهرسان دارو", "person": "پیمان سلطانی تهرانی — مدیرعامل (logiscm)", "mobile": null, "land": "02165236391", "src": "logiscm_pass2"}
+{"company": "بهنوش ایران", "person": "مهندس کاوس سلیمی — مدیرعامل (logiscm)", "mobile": null, "land": "02144556010", "src": "logiscm_pass2"}
+{"company": "بی‌ای تی پارس", "person": "کاخابر بنیدزه — مدیرعامل (logiscm)", "mobile": null, "land": "02122026076", "src": "logiscm_pass2"}
+{"company": "پارمیس طب", "person": "محسن مشایخی — مدیرعامل (logiscm)", "mobile": null, "land": "02136620291", "src": "logiscm_pass2"}
+{"company": "پخش اطلس دینا", "person": "عبداله کاظمی بیدختی — مدیرعامل (logiscm)", "mobile": null, "land": "02188191371", "src": "logiscm_pass2"}
+{"company": "پخش افق دارو پارس", "person": "مهندس مرادی — مدیرعامل (logiscm)", "mobile": null, "land": "02189332000", "src": "logiscm_pass2"}
+{"company": "پخش التیام", "person": "دکتر محسن نجارنیا — مدیرعامل (logiscm)", "mobile": null, "land": "02144545752", "src": "logiscm_pass2"}
+{"company": "پخش پارس خزر", "person": "طاها میرعمادی — مدیرعامل (logiscm)", "mobile": null, "land": "02144907206", "src": "logiscm_pass2"}
+{"company": "پخش پاکبان", "person": "مهندس رضا توانگر — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "پخش پدیده پایدار", "person": "صادق بیان — مدیرعامل (logiscm)", "mobile": null, "land": "02188786864", "src": "logiscm_pass2"}
+{"company": "پخش دارویی اکسیر", "person": "دکتر محمد هادی کمالی — مدیرعامل (logiscm)", "mobile": null, "land": "02177687801", "src": "logiscm_pass2"}
+{"company": "پخش راسن درمان", "person": "امیرعباس سالاری پور — مدیرعامل (logiscm)", "mobile": null, "land": "02166419093", "src": "logiscm_pass2"}
+{"company": "پخش ساتراپ دینا", "person": "فرهاد مرتضوی نژاد — مدیرعامل (logiscm)", "mobile": null, "land": "02188656168", "src": "logiscm_pass2"}
+{"company": "پخش سراسری باراکا", "person": "علیرضا بایرامی — مدیرعامل (logiscm)", "mobile": null, "land": "02144509080", "src": "logiscm_pass2"}
+{"company": "پخش سراسری بهداشت سلامت آوندفر", "person": "همایون سلطانی حسینی — مدیرعامل (logiscm)", "mobile": null, "land": "02166906001", "src": "logiscm_pass2"}
+{"company": "پخش سراسری کالای کالبر", "person": "بهروز قاسمیان — مدیرعامل (logiscm)", "mobile": null, "land": "02188732226", "src": "logiscm_pass2"}
+{"company": "پخش سریع حساس کالا", "person": "اسماعیل پارسا — مدیرعامل (logiscm)", "mobile": null, "land": "02188750055", "src": "logiscm_pass2"}
+{"company": "پخش سیلانه سبز یگانه", "person": "مهدی شیخلر — مدیرعامل (logiscm)", "mobile": null, "land": "02188500845", "src": "logiscm_pass2"}
+{"company": "پخش شکوفامنش", "person": "حمید شگفتی — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "پخش شمیم خوشگوار", "person": "حبیب اسداله نژاد — مدیرعامل (logiscm)", "mobile": null, "land": "02155841000", "src": "logiscm_pass2"}
+{"company": "پخش عقاب", "person": "امیرحسین ناصری — مدیرعامل (logiscm)", "mobile": null, "land": "02127360000", "src": "logiscm_pass2"}
+{"company": "پخش کاسپین", "person": "محمد اسماعیل ابوالحسنی هنده خاله — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "پخش مکمل کارن", "person": "زهرا مرتضوی — مدیرعامل (logiscm)", "mobile": null, "land": "02126204283", "src": "logiscm_pass2"}
+{"company": "پخش مهبان دارو", "person": "علی باقری مارنانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144626521", "src": "logiscm_pass2"}
+{"company": "پخش نینا", "person": "دکتر محمدحسن شباک — مدیرعامل (logiscm)", "mobile": null, "land": "02188861399", "src": "logiscm_pass2"}
+{"company": "پخش و پلا نوآرنده", "person": "سامان مزینانی — مدیرعامل (logiscm)", "mobile": null, "land": "02188318307", "src": "logiscm_pass2"}
+{"company": "پونل برسام", "person": "ابوالفضل حاج رجب علی طهرانی — مدیرعامل (logiscm)", "mobile": null, "land": "02188775522", "src": "logiscm_pass2"}
+{"company": "پویا پخش رشد", "person": "ساجد رضایی — مدیرعامل (logiscm)", "mobile": null, "land": "02188985151", "src": "logiscm_pass2"}
+{"company": "تجارت ستاره ایکاد", "person": "احمد روح اللهی — مدیرعامل (logiscm)", "mobile": null, "land": "02188774675", "src": "logiscm_pass2"}
+{"company": "تجارت گستر السا", "person": "شهرام جوانبخت — مدیرعامل (logiscm)", "mobile": null, "land": "02188533716", "src": "logiscm_pass2"}
+{"company": "تجهیزگران طب نوین", "person": "دکتر مسعود مظلوم — مدیرعامل (logiscm)", "mobile": null, "land": "02144507838", "src": "logiscm_pass2"}
+{"company": "تدبیر داروی تابان", "person": "دکتر کاظم سخنور — مدیرعامل (logiscm)", "mobile": null, "land": "02188231038", "src": "logiscm_pass2"}
+{"company": "تعاونی تولیدی و توزیعی اعضا انجمن داروسازان ایران", "person": "دکتر فرهود بصری — مدیرعامل (logiscm)", "mobile": null, "land": "02166948904", "src": "logiscm_pass2"}
+{"company": "تک ناز یاسمن", "person": "حوریه سعیدی نژاد — مدیرعامل (logiscm)", "mobile": null, "land": "02155585340", "src": "logiscm_pass2"}
+{"company": "تکساران پارمیس", "person": "حسین نو فلاح — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "تهران بوران", "person": "محمد رضا بوترابی — مدیرعامل (logiscm)", "mobile": null, "land": "02188312777", "src": "logiscm_pass2"}
+{"company": "توسعه بازار دماوند", "person": "جواد فنونی — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "توسعه تجارت جلال آرا", "person": "علی ابراهیم پور — مدیرعامل (logiscm)", "mobile": null, "land": "02188541234", "src": "logiscm_pass2"}
+{"company": "توسعه دارویی رسا", "person": "مهندس ملک محمد صباغی — مدیرعامل (logiscm)", "mobile": null, "land": "02122406007", "src": "logiscm_pass2"}
+{"company": "تولیدی بازرگانی خدماتی دارسو ارس", "person": "حمید تیموری — مدیرعامل (logiscm)", "mobile": null, "land": "02188448417", "src": "logiscm_pass2"}
+{"company": "جی تی‌ای پارس", "person": "غلامرضا ازرمی — مدیرعامل (logiscm)", "mobile": null, "land": "02184003502", "src": "logiscm_pass2"}
+{"company": "داروگستر باریج اسانس", "person": "ابوالفضل همتی — مدیرعامل (logiscm)", "mobile": null, "land": "02144279530", "src": "logiscm_pass2"}
+{"company": "داروگستر رازی", "person": "دکتر پیروز شیخ رضایی — مدیرعامل (logiscm)", "mobile": null, "land": "02188537027", "src": "logiscm_pass2"}
+{"company": "داروگستر نخبگان", "person": "بهزاد آسوده — مدیرعامل (logiscm)", "mobile": null, "land": "02187792000", "src": "logiscm_pass2"}
+{"company": "داروگستر یاسین", "person": "محمد شیری — مدیرعامل (logiscm)", "mobile": null, "land": "02144968243", "src": "logiscm_pass2"}
+{"company": "دایا خوراک و بهداشت", "person": "حمید سلامت — مدیرعامل (logiscm)", "mobile": null, "land": "02188782010", "src": "logiscm_pass2"}
+{"company": "دایا دارو", "person": "دکتر شهیاد زمانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144400940", "src": "logiscm_pass2"}
+{"company": "درمان یاب پخش آریا", "person": "مهندس حامد عربیان — مدیرعامل (logiscm)", "mobile": null, "land": "02187175401", "src": "logiscm_pass2"}
+{"company": "دنون لبنی پارس", "person": "دومینیک ژاکوپ هانری ماریون — مدیرعامل (logiscm)", "mobile": null, "land": "02188653446", "src": "logiscm_pass2"}
+{"company": "دنیا پخش یزد", "person": "علی موسوی — مدیرعامل (logiscm)", "mobile": null, "land": "02188748880", "src": "logiscm_pass2"}
+{"company": "دی دارو امید", "person": "دکتر حسین نامور — مدیرعامل (logiscm)", "mobile": null, "land": "02188995975", "src": "logiscm_pass2"}
+{"company": "رخ ارا پخش مهرآیین", "person": "محسن بیگلری — مدیرعامل (logiscm)", "mobile": null, "land": "02161983801", "src": "logiscm_pass2"}
+{"company": "رهاگستر دنیا", "person": "میثاق رزاقی داریان — مدیرعامل (logiscm)", "mobile": null, "land": "02188385065", "src": "logiscm_pass2"}
+{"company": "رهاورد تجارت امروز", "person": "سید مرتضی رهسپار میعادی — مدیرعامل (logiscm)", "mobile": null, "land": "02155672011", "src": "logiscm_pass2"}
+{"company": "رویال پیشگام شرق", "person": "محمد علی مجدزاده قائم مقامی — مدیرعامل (logiscm)", "mobile": null, "land": "02144906105", "src": "logiscm_pass2"}
+{"company": "زر سیما ایرانیان", "person": "مسعود معصومیان — مدیرعامل (logiscm)", "mobile": null, "land": "02147263000", "src": "logiscm_pass2"}
+{"company": "زرنگار پخش پایتخت", "person": "مجتبی براتی پورفرد — مدیرعامل (logiscm)", "mobile": null, "land": "02144070909", "src": "logiscm_pass2"}
+{"company": "زرین پخش بهشهر", "person": "سید حسین تقوی — مدیرعامل (logiscm)", "mobile": null, "land": "02160912574", "src": "logiscm_pass2"}
+{"company": "زرین پخش تهران", "person": "مجتبی دانش کهن — مدیرعامل (logiscm)", "mobile": null, "land": "02188107030", "src": "logiscm_pass2"}
+{"company": "زرین پخش نوین جهان", "person": "مرتضی مصطفی خواه — مدیرعامل (logiscm)", "mobile": null, "land": "02144544816", "src": "logiscm_pass2"}
+{"company": "زرین تجارت خاورمیانه", "person": "حیدر میزبان — مدیرعامل (logiscm)", "mobile": null, "land": "02188107020", "src": "logiscm_pass2"}
+{"company": "زم زم ایران", "person": "غلامرضا شعبانی — مدیرعامل (logiscm)", "mobile": null, "land": "02166701104", "src": "logiscm_pass2"}
+{"company": "سافروشام تهران گستر", "person": "شایان اوجی — مدیرعامل (logiscm)", "mobile": null, "land": "02144903857", "src": "logiscm_pass2"}
+{"company": "سامان پخش پیشتاز", "person": "سید ساسان افشین — مدیرعامل (logiscm)", "mobile": null, "land": "02122865747", "src": "logiscm_pass2"}
+{"company": "سامان سور خاورمیانه", "person": "زهرا تافخیران — مدیرعامل (logiscm)", "mobile": null, "land": "02122111330", "src": "logiscm_pass2"}
+{"company": "سپید پخش ارکید", "person": "سعید جوادی رزاز — مدیرعامل (logiscm)", "mobile": null, "land": "02177617369", "src": "logiscm_pass2"}
+{"company": "ستاره یخی آسیا", "person": "جمال رازقی جهرمی — مدیرعامل (logiscm)", "mobile": null, "land": "02188485480", "src": "logiscm_pass2"}
+{"company": "سحر گستر ماندگار", "person": "عباس محمدی — مدیرعامل (logiscm)", "mobile": null, "land": "02155207170", "src": "logiscm_pass2"}
+{"company": "سفیر نور جنت", "person": "حسن براتی — مدیرعامل (logiscm)", "mobile": null, "land": "02166786663", "src": "logiscm_pass2"}
+{"company": "سلامت پخش حامی پایدار", "person": "امیر فرید حسن بیگی خامنه — مدیرعامل (logiscm)", "mobile": null, "land": "02144922280", "src": "logiscm_pass2"}
+{"company": "سلامت پخش هستی", "person": "آشفته — مدیرعامل (logiscm)", "mobile": null, "land": "02124852000", "src": "logiscm_pass2"}
+{"company": "سها هلال", "person": "دکتر امیررضا فرخنده کیش — مدیرعامل (logiscm)", "mobile": null, "land": "02177654957", "src": "logiscm_pass2"}
+{"company": "سینا پخش ژن", "person": "دکترسیدابراهیم هاشمی — مدیرعامل (logiscm)", "mobile": null, "land": "02144630434", "src": "logiscm_pass2"}
+{"company": "شاهسوند پخش فراز", "person": "رضا عصمت پور — مدیرعامل (logiscm)", "mobile": null, "land": "02144067520", "src": "logiscm_pass2"}
+{"company": "شفا آراد", "person": "دکتر حمید صلواتی — مدیرعامل (logiscm)", "mobile": null, "land": "02188731323", "src": "logiscm_pass2"}
+{"company": "صباح پخش فجر گنبد", "person": "مهدی خمبری — مدیرعامل (logiscm)", "mobile": null, "land": "02166781040", "src": "logiscm_pass2"}
+{"company": "صفا پخش", "person": "ابوالفضل سلیمانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144195021", "src": "logiscm_pass2"}
+{"company": "صنایع غذایی بهروز نیک", "person": "بهرنگ پور ضیائی منش — مدیرعامل (logiscm)", "mobile": null, "land": "02144536090", "src": "logiscm_pass2"}
+{"company": "صنایع غذایی تین", "person": "میراسلام تیموری — مدیرعامل (logiscm)", "mobile": null, "land": "02146892751", "src": "logiscm_pass2"}
+{"company": "صنعتی داداش برادر،آیدین", "person": "مهندس رسول بیوک — مدیرعامل (logiscm)", "mobile": null, "land": "02166817941", "src": "logiscm_pass2"}
+{"company": "صنعتی غذایی عباسپور،آدرین", "person": "مجید عباسپور — مدیرعامل (logiscm)", "mobile": null, "land": "02144014301", "src": "logiscm_pass2"}
+{"company": "طلوع پخش آفتاب", "person": "رامین فتاحیان — مدیرعامل (logiscm)", "mobile": null, "land": "02166185828", "src": "logiscm_pass2"}
+{"company": "فراگیر پخش دماوند", "person": "دکتر مژده همت یار — مدیرعامل (logiscm)", "mobile": null, "land": "02152886000", "src": "logiscm_pass2"}
+{"company": "کالا ناوگان شرق", "person": "پیمان نبوی فرهمند — مدیرعامل (logiscm)", "mobile": null, "land": "08921220122", "src": "logiscm_pass2"}
+{"company": "کیلا جنوب", "person": "محمدرضا تافخیران — مدیرعامل (logiscm)", "mobile": null, "land": "02122144996", "src": "logiscm_pass2"}
+{"company": "کاپ کیش", "person": "حمیدرضا ابوالحسنی — مدیرعامل (logiscm)", "mobile": null, "land": "02144986530", "src": "logiscm_pass2"}
+{"company": "کاج طلائی", "person": "جاسم مقدس حسین زاده — مدیرعامل (logiscm)", "mobile": null, "land": "02144545220", "src": "logiscm_pass2"}
+{"company": "کارسان پخش سیال", "person": "محمد عالیخانی — مدیرعامل (logiscm)", "mobile": null, "land": "02166805578", "src": "logiscm_pass2"}
+{"company": "کارنونیک", "person": "محسن حیدری — مدیرعامل (logiscm)", "mobile": null, "land": "02176212379", "src": "logiscm_pass2"}
+{"company": "کوشا ستاره پاسارگاد", "person": "ترمه ارشد بختیاری — مدیرعامل (logiscm)", "mobile": null, "land": "02122661550", "src": "logiscm_pass2"}
+{"company": "کیمیا طب گستران سینوهه", "person": "مهدی سلطانی — مدیرعامل (logiscm)", "mobile": null, "land": "02166083806", "src": "logiscm_pass2"}
+{"company": "گروه صنعتی لینا", "person": "دکتر میرقدیر شهلایی — مدیرعامل (logiscm)", "mobile": null, "land": "02188307627", "src": "logiscm_pass2"}
+{"company": "گسترش پخش سانا", "person": "رضا بژوهان — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "گلچین درخشان تهران", "person": "سپیده عیوضی — مدیرعامل (logiscm)", "mobile": null, "land": "02188936082", "src": "logiscm_pass2"}
+{"company": "گلستان", "person": "احمد نصیری پور — مدیرعامل (logiscm)", "mobile": null, "land": "02148631000", "src": "logiscm_pass2"}
+{"company": "گلنان پوراتوس", "person": "حبیب اله حداد — مدیرعامل (logiscm)", "mobile": null, "land": "02148344000", "src": "logiscm_pass2"}
+{"company": "گیتی سلامت آریا", "person": "علیرضا سبحانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144071789", "src": "logiscm_pass2"}
+{"company": "لابراتوار اخوی", "person": "فرید اخوی — مدیرعامل (logiscm)", "mobile": null, "land": "02188778686", "src": "logiscm_pass2"}
+{"company": "لابراتوارهای داروهای گیاهی طبیعت زنده", "person": "مریم دیباجی — مدیرعامل (logiscm)", "mobile": null, "land": "02126412317", "src": "logiscm_pass2"}
+{"company": "لیوار", "person": "آرش افکاری ثمرین — مدیرعامل (logiscm)", "mobile": null, "land": "02188607979", "src": "logiscm_pass2"}
+{"company": "مدیریت منابع تجاری ایده گستران زمان", "person": "دکتر بابک فروهری — مدیرعامل (logiscm)", "mobile": null, "land": null, "src": "logiscm_pass2"}
+{"company": "مروارید زرین پارس", "person": "سیروس خاکپور — مدیرعامل (logiscm)", "mobile": null, "land": "02188504306", "src": "logiscm_pass2"}
+{"company": "مروارید کویر ایوانکی", "person": "حامد ایرانپرست اقدم — مدیرعامل (logiscm)", "mobile": null, "land": "02122377603", "src": "logiscm_pass2"}
+{"company": "مستر گروه رایا", "person": "سید رضا روحانی — مدیرعامل (logiscm)", "mobile": null, "land": "02122222750", "src": "logiscm_pass2"}
+{"company": "مشاء طب", "person": "رضا حاجی محمدی — مدیرعامل (logiscm)", "mobile": null, "land": "02144127905", "src": "logiscm_pass2"}
+{"company": "مکتاف", "person": "امیر گرمابدری — مدیرعامل (logiscm)", "mobile": null, "land": "02188317930", "src": "logiscm_pass2"}
+{"company": "مهرگان پخش حافظ", "person": "محمود خداداد حسینی — مدیرعامل (logiscm)", "mobile": null, "land": "02171752241", "src": "logiscm_pass2"}
+{"company": "مهیا پروتئین", "person": "بهزاد درخور — مدیرعامل (logiscm)", "mobile": null, "land": "02155525382", "src": "logiscm_pass2"}
+{"company": "نامی نیک نهاد", "person": "نعمت اله بابایی — مدیرعامل (logiscm)", "mobile": null, "land": "02188370669", "src": "logiscm_pass2"}
+{"company": "نگین آرمان زیبایی", "person": "رضا دلیری — مدیرعامل (logiscm)", "mobile": null, "land": "02177210903", "src": "logiscm_pass2"}
+{"company": "نوین پخش توس جاودان", "person": "حسن قاسمیان مقدم — مدیرعامل (logiscm)", "mobile": null, "land": "02188549178", "src": "logiscm_pass2"}
+{"company": "نیک پخش پرگاس", "person": "علی افراز اسفندیاری — مدیرعامل (logiscm)", "mobile": null, "land": "02166098549", "src": "logiscm_pass2"}
+{"company": "نیکنام پخش پرشین", "person": "جبرائیل درخور — مدیرعامل (logiscm)", "mobile": null, "land": "02155521325", "src": "logiscm_pass2"}
+{"company": "هنار دارو", "person": "برازش مرگانی — مدیرعامل (logiscm)", "mobile": null, "land": "02144907334", "src": "logiscm_pass2"}
+{"company": "یاراطب ثامن", "person": "علیرضا شه پرست — مدیرعامل (logiscm)", "mobile": null, "land": "02144083412", "src": "logiscm_pass2"}
+{"company": "یکتا همراه رازی", "person": "مهندس رامین میزانی — مدیرعامل (logiscm)", "mobile": null, "land": "02143975000", "src": "logiscm_pass2"}
+{"company": "یلدا پخش مزمز", "person": "محمد ترکمان جهانگیری — مدیرعامل (logiscm)", "mobile": null, "land": "02188323340", "src": "logiscm_pass2"}
+{"company": "یونیلیور ایران", "person": "کامران — مدیرعامل (logiscm)", "mobile": null, "land": "02187719498", "src": "logiscm_pass2"}
+{"company": "اروم نیکان", "person": "علیرضا صادقی منش — مدیرعامل (logiscm)", "mobile": null, "land": "04432553951", "src": "logiscm_pass2"}
+{"company": "پرآور پخش سپاهان", "person": "حسین همتی نژاد — مدیرعامل (logiscm)", "mobile": null, "land": "03136540244", "src": "logiscm_pass2"}
+{"company": "توزیع و حمل و نقل خاورمیانه ایمن بار", "person": "محمدجواد پورمشیر — مدیرعامل (logiscm)", "mobile": null, "land": "03132689072", "src": "logiscm_pass2"}
+{"company": "گل افشان چینود اصفهان", "person": "سعید کدخدایی — مدیرعامل (logiscm)", "mobile": null, "land": "03132335950", "src": "logiscm_pass2"}
+{"company": "سلیم البرز", "person": "سید هادی رئیس اسلام زاده — مدیرعامل (logiscm)", "mobile": null, "land": "01144833400", "src": "logiscm_pass2"}
+{"company": "تامین کالا باختر", "person": "سجاد هاشم پور — مدیرعامل (logiscm)", "mobile": null, "land": "04132459071", "src": "logiscm_pass2"}
+{"company": "صنعتی داداش برادر،شونیز", "person": "مهندس پرویز بیوک — مدیرعامل (logiscm)", "mobile": null, "land": "04133357002", "src": "logiscm_pass2"}
+{"company": "گروه صنعتی نجاتی (آناتا)", "person": "علی سالک نجات — مدیرعامل (logiscm)", "mobile": null, "land": "04136372020", "src": "logiscm_pass2"}
+{"company": "آبهای معدنی آریا قلعه رودخان", "person": "شهرام نیکخواه بهرامی — مدیرعامل (logiscm)", "mobile": null, "land": "01333402501", "src": "logiscm_pass2"}
+{"company": "کشتارگاه صنعتی آندیا", "person": "مهدی نوروزی — مدیرعامل (logiscm)", "mobile": null, "land": "02458532995", "src": "logiscm_pass2"}
+{"company": "خرم پی پروتئین", "person": "احمد جعفری — مدیرعامل (logiscm)", "mobile": null, "land": "02432221390", "src": "logiscm_pass2"}
+{"company": "توزیع و پخش آریا پارس دمس", "person": "محمد هاشم اوجی — مدیرعامل (logiscm)", "mobile": null, "land": "07138239836", "src": "logiscm_pass2"}
+{"company": "صنایع غذایی تیوندشت نمکین", "person": "کمال نصیری — مدیرعامل (logiscm)", "mobile": null, "land": "07137264058", "src": "logiscm_pass2"}
+{"company": "ارژن", "person": "سعید کریمی — مدیرعامل (logiscm)", "mobile": null, "land": "07137742086", "src": "logiscm_pass2"}
+{"company": "اهورا پخش امین", "person": "لیلا عرب نوبندگانی — مدیرعامل (logiscm)", "mobile": null, "land": "07132263210", "src": "logiscm_pass2"}
+{"company": "پاک فارس", "person": "دکتر علیرضا قدرتی — مدیرعامل (logiscm)", "mobile": null, "land": "07136324470", "src": "logiscm_pass2"}
+{"company": "زاگرس زرین پارس", "person": "نادر فیروز — مدیرعامل (logiscm)", "mobile": null, "land": "07136324874", "src": "logiscm_pass2"}
+{"company": "زرین غزال", "person": "علی محمد ابراهیمی — مدیرعامل (logiscm)", "mobile": null, "land": "07132272007", "src": "logiscm_pass2"}
+{"company": "ستاره بازار دریان", "person": "فریدون مصباحی داریان — مدیرعامل (logiscm)", "mobile": null, "land": "02832227075", "src": "logiscm_pass2"}
+{"company": "برگ سبز آترین", "person": "مریم اسدپور — مدیرعامل (logiscm)", "mobile": null, "land": "02636610121", "src": "logiscm_pass2"}
+{"company": "پخش دبش سبز گستر", "person": "اکبر رحیمی درآباد — مدیرعامل (logiscm)", "mobile": null, "land": "02637773015", "src": "logiscm_pass2"}
+{"company": "توسن پخش ستاره کیش", "person": "محمد امین خیری — مدیرعامل (logiscm)", "mobile": null, "land": "07644468968", "src": "logiscm_pass2"}
+{"company": "شفا پخش هیرکان", "person": "سید مهدی آقایی — مدیرعامل (logiscm)", "mobile": null, "land": "01732240684", "src": "logiscm_pass2"}
+{"company": "خوشگوار مشهد", "person": "حسینعلی رکنی یزدی — مدیرعامل (logiscm)", "mobile": null, "land": "05137661449", "src": "logiscm_pass2"}
+{"company": "رابین لجستیک", "person": "مخاطب دفتر — واتساپ/موبایل (logiscm)", "mobile": "09393590620", "land": "02156276048", "src": "logiscm_robin"}
+{"company": "رابین لجستیک", "person": "مخاطب دفتر ۲ — موبایل (logiscm)", "mobile": "09388983123", "land": "02156276048", "src": "logiscm_robin"}
+{"company": "خاقانی نوین سپاهان", "person": "جمشید سلطانی تهرانی — مدیرعامل / رئیس انجمن اصفهان (apesf)", "mobile": null, "land": null, "src": "apesf"}
+{"company": "پراور پخش سپاهان", "person": "حسین همتی‌نژاد — مدیرعامل / نایب رئیس انجمن اصفهان (apesf)", "mobile": null, "land": null, "src": "apesf"}
+{"company": "توزیع داروپخش — اصفهان", "person": "مهدی علیخانی — مدیر شعبه / خزانه‌دار انجمن اصفهان (apesf)", "mobile": null, "land": null, "src": "apesf"}
+{"company": "پخش ممتاز — شعبه اصفهان", "person": "معصومه اصغری — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "03115583427", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه تهران غرب", "person": "سید اسماعیل رضوی کلور — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "02144994960", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه کرمانشاه", "person": "میلاد فشخورانی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "08338282007", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه گرگان", "person": "سروش بهرامی گرجی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "01732470321", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه قزوین", "person": "محمد حقانی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "02833576911", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه رشت", "person": "سعید سالکی طالمی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "01332000353", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه اهواز", "person": "مسلم اسفند — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "06136574593", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه کرمان", "person": "محمد بنی‌اسدی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "03432741045", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه تبریز", "person": "سامان امینی بدر — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "04134240256", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه زاهدان", "person": "حسین نوکی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "05433592418", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه مازندران", "person": "امیر اسلامی اندارگلی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "01142295060", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه کرج", "person": "حمیدرضا پورکاظم آذربایجانی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "02146842600", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه اردبیل", "person": "عسگر شاکر دولق — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "04533823525", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه بندرعباس", "person": "امین زارعی سبهتی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": "07633624261", "src": "momtaz_branches"}
+{"company": "پخش ممتاز — شعبه تهران شرق", "person": "ابراهیمی — مدیر شعبه (momtaz.ir)", "mobile": null, "land": null, "src": "momtaz_branches"}
+{"company": "پخش ممتاز", "person": "بابک فروهری — مدیرعامل (momtaz)", "mobile": null, "land": "02102189391", "src": "momtaz_hq"}
+{"company": "پخش ممتاز", "person": "وصالی — معاون فروش و بازرگانی و مالی", "mobile": null, "land": null, "src": "momtaz_hq"}
+{"company": "پخش ممتاز", "person": "محسن قانون — مشاور مدیرعامل لجستیک", "mobile": null, "land": null, "src": "momtaz_hq"}
+{"company": "پخش ممتاز", "person": "افشاری — معاون فناوری اطلاعات", "mobile": null, "land": null, "src": "momtaz_hq"}
+{"company": "پخش ممتاز", "person": "رواسی — معاون سرمایه‌های انسانی", "mobile": null, "land": null, "src": "momtaz_hq"}
+{"company": "پخش ممتاز", "person": "مهدی اسدیان — مشاور حقوقی و وصول مطالبات", "mobile": null, "land": null, "src": "momtaz_hq"}

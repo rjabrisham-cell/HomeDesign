@@ -1,17 +1,18 @@
 {
-  "ts": "2026-11-27T00:00:35.320962+00:00",
-  "rows": 5587,
-  "triple": 841,
-  "pair_co_pe": 2052,
+  "ts": "2026-11-27T01:01:43.460053+00:00",
+  "rows": 5615,
+  "triple": 843,
+  "pair_co_pe": 2078,
   "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "accepted_kpi": 3568,
-  "gap": 1432,
-  "note": "hourly report #5 apply-kpi",
-  "prev_kpi": 3348,
-  "delta_kpi": 220,
+  "accepted_kpi": 3596,
+  "gap": 1404,
+  "note": "hourly report #6 apply-kpi",
+  "prev_kpi": 3568,
+  "delta_kpi": 28,
   "sources_this_hour": [
-    "logiscm Tehran distribution CEO directory (~200)",
-    "Ghasem Iran remaining provinces"
+    "Momtaz nationwide branches (+21)",
+    "Robin logistics mobiles",
+    "APEsf CEOs"
   ]
 }
