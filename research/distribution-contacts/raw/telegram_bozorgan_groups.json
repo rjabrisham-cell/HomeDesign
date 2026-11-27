@@ -1,5 +1,5 @@
 {
-  "note": "Private Telegram invite groups related to بزرگان تولید و پخش. Member phone dumps are not harvested here (personal contact scraping). Public company ads posted inside the group could be used if a member exports them.",
+  "note": "Public invite graph for بزرگان/پخش/تولید clusters. Cross-named siblings collected from group bios and kavala mirrors. Member phone dumps NOT harvested. Only publicly listed admin/company contacts are ingestible.",
   "groups": [
     {
       "name": "بزرگان صنعت پخش",
@@ -17,7 +17,13 @@
     {
       "name": "بزرگان تولید و پخش",
       "invite": "https://t.me/joinchat/BHIc3EGDw_OEydthTCLCrw",
-      "note": "invite preview only; legacy joinchat"
+      "note": "legacy joinchat; also cross-named as پل ارتباطی تولید و پخش"
+    },
+    {
+      "name": "بزرگان تولید و پخش / بازار و صنایع",
+      "invite": "https://t.me/joinchat/BNizkU3e3OQwix2-qd2BIQ",
+      "admin": "@Amir_Sh1387",
+      "instagram": "https://instagram.com/bozorgan_sanat_pakhsh"
     },
     {
       "name": "دورهمی پخشها و تولیدکنندگان خوشنام ایران",
@@ -25,10 +31,16 @@
       "admin": "@Amir_Sh1387"
     },
     {
-      "name": "بازار و صنایع",
-      "invite": "https://t.me/joinchat/BNizkU3e3OQwix2-qd2BIQ",
+      "name": "بازاریان فعال ایرانی",
+      "invite": "https://t.me/joinchat/BNizkULdYwiiAWTrqsS5pA",
       "admin": "@Amir_Sh1387",
-      "instagram": "https://instagram.com/bozorgan_sanat_pakhsh"
+      "instagram": "instagram.com/bozorgan_sanat_pakhsh"
+    },
+    {
+      "name": "بزرگان صنعت و تجارت",
+      "invite": "https://t.me/joinchat/BNizkUb6B29n3HYpd7dkNQ",
+      "admin": "@BSvTejarat",
+      "members_public_preview": 10933
     },
     {
       "name": "ایران پخش",
@@ -40,6 +52,49 @@
       "invite": "https://t.me/joinchat/PnoABJ5QBibKJqLX"
     },
     {
+      "name": "انجمن پخشهای خراسان",
+      "invite": "https://t.me/joinchat/Bml7QER1BUt0sT8Z7Eb6gw",
+      "topic": "غذایی بهداشتی آرایشی استخدام نمایندگی"
+    },
+    {
+      "name": "انجمن بازار مصلی مشهد",
+      "invite": "https://t.me/+TKPjKq9bGuEC2DBD",
+      "admin": "@bakhshi2898",
+      "manager": "محمد حسین بخشی",
+      "topic": "عمده مواد غذایی خشکبار شوینده بهداشتی خراسان"
+    },
+    {
+      "name": "موادغذایی وپخشی‌ها (البرز)",
+      "invite": "https://t.me/joinchat/BmScZlIJGO_qrXoDeBaOlw",
+      "admin": "@pakhsh123"
+    },
+    {
+      "name": "صنعت غذای ایران",
+      "invite": "https://t.me/joinchat/BhyVC0aqZpSry7G43n5sPQ",
+      "admin": "@senteam",
+      "related_username": "@salonnamayandegi"
+    },
+    {
+      "name": "تلاشگران صنعت غذا",
+      "invite": "https://t.me/joinchat/BZu9Sz9ayjOIJqFWeg54GQ"
+    },
+    {
+      "name": "مواد غذایی (تبلیغات تولیدکنندگان)",
+      "invite": "https://t.me/joinchat/E7qu5EPE9se2dXia9rHYdA"
+    },
+    {
+      "name": "فعالین مواد غذایی ایران",
+      "invite": null,
+      "admin": "@darabsell_admin",
+      "admin_mobile_public": "09170202405",
+      "topic": "تولید پخش ماشین‌آلات مواداولیه بازرگانی"
+    },
+    {
+      "name": "تبلیغات صنعت پخش و فروش",
+      "invite": "https://t.me/joinchat/Ddx1b09Ebng5MGI0",
+      "admin": "@estekhdamsanatepakhsh"
+    },
+    {
       "name": "استخدام و تبلیغات صنعت پخش مویرگی",
       "invite": "https://t.me/joinchat/KSgImRMit_Y2ZjE0",
       "admin": "@hosseinpanahdar"
@@ -49,10 +104,24 @@
       "invite": "https://t.me/joinchat/BHIc3DzmDPZPzTbx7-nriw"
     },
     {
+      "name": "آگهی استخدامی شرکت‌های پخش",
+      "invite": "https://t.me/joinchat/QBt8sYl9Bhv6oRlI",
+      "alt_invite": "https://t.me/joinchat/BOCT9kAbfLHiXAfAnlRo9g"
+    },
+    {
+      "name": "گروه استخدام صنعت پخش و فروش ایران",
+      "username": "@bamaestekhdam",
+      "admin": "@Bama_estekhdam_admin"
+    },
+    {
+      "name": "استخدام صنعت پخش تهران/البرز",
+      "username": "@estekhdame_sanate_pakshe_alborz",
+      "admin": "@estekhdamsanatepakhsh"
+    },
+    {
       "name": "تالارتوزیع کنندگان ابزار ایران",
       "invite": "https://t.me/+APTTZsD1dBVkMzY0",
-      "username": "@talartoziir",
-      "note": "top overlap with مدیران برتر دولت cluster (86 shared)"
+      "username": "@talartoziir"
     },
     {
       "name": "صادر کنندگان به عراق",
@@ -60,5 +129,11 @@
       "admin": "@AZ_GROUP",
       "channel": "@IRAQTEJARAT"
     }
+  ],
+  "public_admin_mobiles": [
+    {"company": "فعالین مواد غذایی ایران", "person": "ادمین گروه", "mobile": "09170202405", "source": "@darabsell_admin bio"},
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "حقیقی", "mobile": "09124267508"},
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "واهب", "mobile": "09131030997"},
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "جعفری", "mobile": "09361579367"}
   ]
 }
