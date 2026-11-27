@@ -1,0 +1,97 @@
+{
+  "query": "مدیران برتر دولت + بزرگان صنعت + مدیران روابط عمومی ها رسانه ها و هنرمندان و سرمایه گذاران",
+  "found": {
+    "exact_or_near_title": {
+      "name": "مدیران برتر دولت + بزرگان صنعت + مدیران روابط عمومی + مدیران رسانه",
+      "evidence": "Referenced as Telegram group source on marketing-iran.ir (795 members in sold dump; ~33 active). Public invite link not published on open web pages searched.",
+      "invite_link": null,
+      "note": "Private/invite-only; no scrape of member phones."
+    },
+    "related_public_channels": [
+      {
+        "name": "انجمن روابط عمومی ایران",
+        "username": "@pr_ir",
+        "url": "https://t.me/pr_ir",
+        "type": "public_channel"
+      },
+      {
+        "name": "انجمن صنفی روابط عمومی تهران",
+        "username": "@pra_ir",
+        "url": "https://t.me/pra_ir",
+        "type": "public_channel",
+        "phone_public": "09011016447",
+        "site": "https://pr-a.ir/"
+      },
+      {
+        "name": "انجمن متخصصان روابط عمومی",
+        "username": "@iaprs",
+        "url": "https://t.me/iaprs",
+        "type": "public_channel"
+      },
+      {
+        "name": "شارا - شبکه اطلاع‌رسانی روابط‌عمومی",
+        "username": "@sharapr",
+        "url": "https://t.me/sharapr",
+        "type": "public_channel",
+        "admin": "@kargozar80"
+      },
+      {
+        "name": "ماهنامه مدیریت ارتباطات",
+        "username": "@cm_magazine",
+        "url": "https://t.me/cm_magazine",
+        "type": "public_channel",
+        "phone_public": "02188356076"
+      },
+      {
+        "name": "انجمن مدیران",
+        "username": "@Managersclub",
+        "url": "https://t.me/Managersclub",
+        "type": "public_channel",
+        "contact": "@So_pezeshkian"
+      },
+      {
+        "name": "مدیران کارآفرین",
+        "username": "@modiran_karafarin",
+        "url": "https://t.me/modiran_karafarin",
+        "type": "public_channel",
+        "admin": "@Dr_vahid_hamed",
+        "phone_public": "09153062245"
+      },
+      {
+        "name": "کانال رسمی نخبگان کارآفرین",
+        "username": "@nokhbegankarafarin",
+        "url": "https://t.me/nokhbegankarafarin",
+        "type": "public_channel"
+      }
+    ],
+    "related_groups_with_invite": [
+      {
+        "name": "گروه مدیران حرفه‌ای ایران",
+        "invite": "https://t.me/+V7VvlZC7L6ExODNk",
+        "admin": "@Drmsafari"
+      },
+      {
+        "name": "سوپرگروه مدیران خلاق ایران",
+        "invite": "https://t.me/joinchat/ClbrxD9Mr14C9jGvCxZNsw",
+        "channel": "@modiran_khallagh"
+      },
+      {
+        "name": "گروه دولت الکترونیک",
+        "invite": "https://t.me/joinchat/GxCKNr56rJabldoM"
+      },
+      {
+        "name": "گروه رشته مدیریت دولتی",
+        "invite": "https://t.me/joinchat/MMRcTRXER8rUkMsfVxQb4w",
+        "channel": "https://t.me/PublicAdministrationChannel"
+      }
+    ],
+    "related_groups_mentioned_without_public_invite": [
+      "روابط عمومی ها و اصحاب رسانه",
+      "روابط عمومی و تبلیغات",
+      "مدیران صنایع و کارآفرینان کشور",
+      "نخبگان و فرهیختگان اقتصادی",
+      "سامانه خبرنگاران"
+    ]
+  },
+  "limitation": "Cannot join private Telegram groups or dump member mobile numbers. Can use public channel business contacts and member-exported public ads only."
+}
