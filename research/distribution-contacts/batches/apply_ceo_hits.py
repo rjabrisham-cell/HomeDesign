@@ -50,6 +50,37 @@ def has_person(pe: str) -> bool:
     )
 
 
+SALES_ONLY = ("کارشناس فروش", "ویزیتور", "فروشنده", "کارشناس ویزیت")
+MANAGER_OK = (
+    "مدیرعامل",
+    "مدیر عامل",
+    "مدیر فروش",
+    "مدیر بازرگانی",
+    "معاون",
+    "رئیس",
+    "مدیر شعبه",
+    "مدیر مرکز",
+    "مدیر کل",
+    "هیئت مدیره",
+    "هیات مدیره",
+    "خزانه",
+    "دبیر",
+    "سرپرست شعبه",
+    "سرپرست فروش",
+    "مدیر منطقه",
+    "مدیر ارشد",
+    "عضو هیئت",
+    "بازرس",
+)
+
+
+def is_sales_only(pe: str) -> bool:
+    pe = S(pe)
+    if any(k in pe for k in MANAGER_OK):
+        return False
+    return any(k in pe for k in SALES_ONLY)
+
+
 def classify(co, pe, mobs):
     hp = has_person(pe)
     hc = bool(co) and co not in ("—", "-", "")
@@ -169,21 +200,40 @@ def apply_hits(hits: list[dict]) -> dict:
     added = 0
     mobile_fills = 0
     land_updates = 0
+    skipped_sales = 0
+    skipped_dup_mobile = 0
+
+    # Global unique mobiles already in sheet (do not delete old rows; avoid new dups)
+    global_mobs: set[str] = set()
+    for i in range(2, ws.max_row + 1):
+        for x in S(ws.cell(i, 3).value).splitlines():
+            mm = to_mobile(x)
+            if mm:
+                global_mobs.add(mm)
 
     for h in hits:
         co = S(h.get("company"))
         pe = S(h.get("person"))
-        if not co or not pe:
-            continue
         mob = to_mobile(h.get("mobile") or "")
         land = normalize_land(h.get("land") or "")
+        # Require company; person optional only when mobile present (co+mob)
+        if not co:
+            continue
+        if pe and is_sales_only(pe):
+            skipped_sales += 1
+            continue
+        if not pe and not mob:
+            continue
+        if mob and mob in global_mobs:
+            # Still allow filling blank person on existing row that already owns this mobile
+            pass
         k = brand_key(co)
         rows = index.get(k) or []
 
         def append_row(company: str, person: str, mobile: str | None, landline: str | None) -> int:
             row = ws.max_row + 1
             ws.cell(row, 1, company).font = BODY
-            ws.cell(row, 2, person).font = BODY
+            ws.cell(row, 2, person or None).font = BODY
             c = ws.cell(row, 3, mobile)
             c.number_format = "@"
             c.font = BODY
@@ -194,10 +244,11 @@ def apply_hits(hits: list[dict]) -> dict:
                 if ws.cell(row, col).value:
                     ws.cell(row, col).fill = YELLOW
             index[k].append(row)
+            if mobile:
+                global_mobs.add(mobile)
             return row
 
         if rows:
-            # Prefer filling blank person on an existing row that already has this mobile
             filled_here = False
             if mob:
                 for i in rows:
@@ -206,50 +257,44 @@ def apply_hits(hits: list[dict]) -> dict:
                         for x in S(ws.cell(i, 3).value).splitlines()
                         if to_mobile(x)
                     ]
-                    if mob in cur_m and not has_person(S(ws.cell(i, 2).value)):
+                    cur_pe = S(ws.cell(i, 2).value)
+                    if mob in cur_m and pe and (not has_person(cur_pe) or is_sales_only(cur_pe)):
                         ws.cell(i, 2).value = pe
                         ws.cell(i, 2).fill = YELLOW
                         ws.cell(i, 2).font = BODY
                         filled += 1
                         filled_here = True
                         break
-            if not filled_here:
-                # If any row has empty person and no conflicting identity, fill first blank
+            if not filled_here and pe:
                 for i in rows:
-                    if not has_person(S(ws.cell(i, 2).value)):
+                    cur_pe = S(ws.cell(i, 2).value)
+                    if not has_person(cur_pe) or is_sales_only(cur_pe):
                         ws.cell(i, 2).value = pe
                         ws.cell(i, 2).fill = YELLOW
                         ws.cell(i, 2).font = BODY
                         filled += 1
-                        if mob:
-                            cur_m = [
-                                to_mobile(x)
-                                for x in S(ws.cell(i, 3).value).splitlines()
-                                if to_mobile(x)
-                            ]
-                            if mob not in cur_m:
-                                cur_m.append(mob)
-                                c = ws.cell(i, 3, "\n".join(cur_m))
+                        if mob and mob not in global_mobs:
+                            # one mobile per cell going forward — replace empty only
+                            if not S(ws.cell(i, 3).value):
+                                c = ws.cell(i, 3, mob)
                                 c.number_format = "@"
                                 c.fill = YELLOW
                                 mobile_fills += 1
+                                global_mobs.add(mob)
                         filled_here = True
                         break
-            # Additional distinct person (+ optional mobile) → new accepted row
             if not filled_here:
                 existing_people = {S(ws.cell(i, 2).value) for i in rows}
-                existing_mobs: set[str] = set()
-                for i in rows:
-                    for x in S(ws.cell(i, 3).value).splitlines():
-                        mm = to_mobile(x)
-                        if mm:
-                            existing_mobs.add(mm)
-                person_new = pe not in existing_people
-                mobile_new = bool(mob) and mob not in existing_mobs
-                if person_new or mobile_new:
+                mobile_new = bool(mob) and mob not in global_mobs
+                person_new = bool(pe) and pe not in existing_people
+                if mobile_new:
                     append_row(S(ws.cell(rows[0], 1).value) or co, pe, mob, land)
                     added += 1
-            # still merge landlines onto first row
+                elif person_new and not mob:
+                    append_row(S(ws.cell(rows[0], 1).value) or co, pe, None, land)
+                    added += 1
+                elif mob and mob in global_mobs:
+                    skipped_dup_mobile += 1
             if land:
                 i = rows[0]
                 cur_l = [x.strip() for x in S(ws.cell(i, 4).value).splitlines() if x.strip()]
@@ -259,11 +304,24 @@ def apply_hits(hits: list[dict]) -> dict:
                     c.number_format = "@"
                     land_updates += 1
         else:
-            append_row(co, pe, mob, land)
-            added += 1
+            if mob and mob in global_mobs and not pe:
+                skipped_dup_mobile += 1
+            elif mob and mob in global_mobs and pe:
+                # new company brand with known mobile — still skip duplicate mobile
+                skipped_dup_mobile += 1
+            else:
+                append_row(co, pe, mob, land)
+                added += 1
 
-    wb.save(OUT)
-    wb.save(LOCAL / "Distribution-Contact-Directory-FA.xlsx")
+    local_out = LOCAL / "Distribution-Contact-Directory-FA.xlsx"
+    wb.save(local_out)
+    try:
+        wb.save(OUT)
+    except PermissionError:
+        alt = ROOT / "artifacts/Distribution-Contact-Directory-FA-updated.xlsx"
+        wb.save(alt)
+        print(json.dumps({"warn": "artifacts xlsx locked; wrote alternate", "path": str(alt)}, ensure_ascii=False))
+
 
     wb = openpyxl.load_workbook(OUT, data_only=True)
     counts: dict[str, int] = defaultdict(int)
@@ -282,10 +340,13 @@ def apply_hits(hits: list[dict]) -> dict:
         "added": added,
         "mobile_fills": mobile_fills,
         "land_updates": land_updates,
+        "skipped_sales_person": skipped_sales,
+        "skipped_dup_mobile": skipped_dup_mobile,
         "rows": wb.active.max_row - 1,
         **counts,
         "accepted_kpi": acc,
         "gap": max(0, 5000 - acc),
+        "unique_mobiles_in_sheet": len(global_mobs),
     }
     (LOCAL / "batches/pairs_triples_stats.json").write_text(
         json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8"

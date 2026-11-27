@@ -1,8 +1,10 @@
 {
-  "filled": 3,
-  "added": 223,
+  "filled": 2,
+  "added": 406,
   "mobile_fills": 0,
-  "land_updates": 2,
+  "land_updates": 12,
+  "skipped_sales_person": 0,
+  "skipped_dup_mobile": 814,
   "rows": 7163,
   "other": 2019,
   "pair_co_mob": 675,
@@ -10,5 +12,6 @@
   "pair_co_pe": 3504,
   "pair_pe_mob": 0,
   "accepted_kpi": 5144,
-  "gap": 0
+  "gap": 0,
+  "unique_mobiles_in_sheet": 1521
 }
