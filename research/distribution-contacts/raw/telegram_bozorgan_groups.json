@@ -1,0 +1,39 @@
+{
+  "note": "Private Telegram invite groups related to بزرگان تولید و پخش. Member phone dumps are not harvested here (personal contact scraping). Public company ads posted inside the group could be used if a member exports them.",
+  "groups": [
+    {
+      "name": "بزرگان صنعت پخش",
+      "invite": "https://t.me/+QoQPM81PrhFiOTI0",
+      "admin": "@B_S_pakhsh",
+      "topic": "موادغذایی، دخانیات، نوشیدنی، آرایشی، بهداشتی، شوینده، لبنیات، حبوبات"
+    },
+    {
+      "name": "بزرگان صنعت تولید و پخش",
+      "invite": "https://t.me/joinchat/RSkCd5wWT5cgZOTa",
+      "admin": "@B_S_T_Vpakhsh",
+      "members_public_preview": 13166,
+      "topic": "موادغذایی بهداشتی حبوبات دخانیات"
+    },
+    {
+      "name": "بزرگان تولید و پخش",
+      "invite": "https://t.me/joinchat/BHIc3EGDw_OEydthTCLCrw",
+      "note": "invite preview only; legacy joinchat"
+    },
+    {
+      "name": "دورهمی پخشها و تولیدکنندگان خوشنام ایران",
+      "invite": "https://t.me/joinchat/BNizkT-zW_03oAt255vtlg",
+      "admin": "@Amir_Sh1387"
+    },
+    {
+      "name": "بازار و صنایع",
+      "invite": "https://t.me/joinchat/BNizkU3e3OQwix2-qd2BIQ",
+      "admin": "@Amir_Sh1387",
+      "instagram": "https://instagram.com/bozorgan_sanat_pakhsh"
+    },
+    {
+      "name": "ایران پخش",
+      "invite": "https://t.me/joinchat/GL5CbkgGTjq7kaTOvEVNtQ",
+      "topic": "صنایع غذایی پخش تولید سلولزی شوینده بسته‌بندی صادرات واردات مواداولیه"
+    }
+  ]
+}
