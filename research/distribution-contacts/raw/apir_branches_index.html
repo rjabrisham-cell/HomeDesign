@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP65MSD1QX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DP65MSD1QX');
+</script><base href="https://www.apir.ir/">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>انجمن ملی صنعت پخش ایران - انجمن‌های استانی</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav2.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/mycss.css" rel="stylesheet">
+
+<style>
+    /* ===== تالار گفتگو - فقط همین صفحه ===== */
+    #forumModal .modal-dialog {
+      max-width: 1180px;
+    }
+
+    #forumModal .modal-content {
+      min-height: 76vh;
+      border: 0;
+      border-radius: 0;
+      overflow: hidden;
+      box-shadow: 0 24px 70px rgba(8, 47, 73, 0.22);
+    }
+
+    #forumModal .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 22px 28px;
+      border-bottom: 1px solid rgba(14, 83, 132, 0.12);
+      background: #ffffff;
+    }
+
+    #forumModal .modal-title,
+    #forumModal h4,
+    #forumModal h5,
+    #forumModal p,
+    #forumModal label,
+    #forumModal button,
+    #forumModal input,
+    #forumModal textarea {
+      font-family: IRanSansX, sans-serif;
+    }
+
+    #forumModal .modal-title {
+      margin: 0;
+      font-weight: 900;
+      color: #0b3f6c;
+    }
+
+    #forumModal .btn-close {
+      margin: 0;
+      flex: 0 0 auto;
+    }
+
+    #forumModal .modal-body {
+      padding: 34px;
+      background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+    }
+
+    #forumModal .forum-intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    #forumModal .forum-intro h4 {
+      margin-bottom: 8px;
+      font-weight: 900;
+      color: #0b3f6c;
+    }
+
+    #forumModal .forum-intro p {
+      margin: 0;
+      color: #607b91;
+    }
+
+    #forumModal .forum-branch-card,
+    #forumModal .forum-action-card {
+      width: 100%;
+      min-height: 112px;
+      padding: 22px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-align: right;
+      background: #ffffff;
+      border: 1px solid rgba(14, 83, 132, 0.14);
+      border-right: 4px solid #2f80ed;
+      border-radius: 0;
+      box-shadow: 0 8px 24px rgba(21, 73, 111, 0.07);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+      cursor: pointer;
+    }
+
+    #forumModal button.forum-branch-card,
+    #forumModal button.forum-action-card {
+      appearance: none;
+    }
+
+    #forumModal .forum-branch-card:hover,
+    #forumModal .forum-action-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(47, 128, 237, 0.5);
+      box-shadow: 0 14px 30px rgba(21, 73, 111, 0.12);
+    }
+
+    #forumModal .forum-branch-icon,
+    #forumModal .forum-action-icon {
+      width: 46px;
+      height: 46px;
+      flex: 0 0 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eaf6ff;
+      color: #1769aa;
+      font-size: 22px;
+    }
+
+    #forumModal .forum-branch-card h5,
+    #forumModal .forum-action-card h5 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.8;
+      color: #0b3f6c;
+    }
+
+    #forumModal .forum-action-card {
+      min-height: 150px;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      border-right-width: 1px;
+      border-top: 4px solid #2f80ed;
+    }
+
+    #forumModal .forum-action-icon {
+      width: 58px;
+      height: 58px;
+      flex-basis: 58px;
+      font-size: 27px;
+    }
+
+    #forumModal .forum-panel {
+      display: none;
+    }
+
+    #forumModal .forum-panel.is-active {
+      display: block;
+    }
+
+    #forumModal .forum-selected-title {
+      text-align: center;
+      color: #0b3f6c;
+      font-weight: 900;
+      margin-bottom: 26px;
+    }
+
+    #forumModal .forum-back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 0;
+      background: transparent;
+      color: #1769aa;
+      font-weight: 800;
+      padding: 6px 0 12px;
+    }
+
+    #forumModal .forum-discussion-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    #forumModal .forum-discussion-item {
+      background: #fff;
+      border: 1px solid rgba(14, 83, 132, 0.14);
+      border-right: 4px solid #1769aa;
+      padding: 18px 20px;
+      box-shadow: 0 7px 20px rgba(21, 73, 111, 0.06);
+    }
+
+    #forumModal .forum-discussion-item h5 {
+      margin-bottom: 8px;
+      color: #0b3f6c;
+      font-weight: 900;
+    }
+
+    #forumModal .forum-discussion-meta {
+      color: #71879a;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    #forumModal .forum-discussion-text {
+      color: #415a70;
+      line-height: 2;
+      margin: 0;
+    }
+
+    #forumModal .forum-user-code {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #0b3f6c;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    #forumModal .forum-user-code i {
+      color: #2f80ed;
+      font-size: 17px;
+    }
+
+    #forumModal .forum-admin-answer {
+      margin-top: 16px;
+      padding: 14px 16px;
+      background: #f2f8fd;
+      border-right: 3px solid #2f80ed;
+    }
+
+    #forumModal .forum-admin-answer-title {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: #0b3f6c;
+      font-weight: 900;
+      margin-bottom: 7px;
+    }
+
+    #forumModal .forum-admin-answer p {
+      margin: 0;
+      color: #415a70;
+      line-height: 2;
+    }
+
+    #forumModal .forum-admin-pending {
+      color: #7b8996 !important;
+      font-style: normal;
+    }
+
+    #forumModal .forum-empty-state {
+      text-align: center;
+      background: #fff;
+      border: 1px dashed rgba(14, 83, 132, 0.25);
+      padding: 42px 18px;
+      color: #607b91;
+    }
+
+    #forumModal .forum-empty-state i {
+      display: block;
+      font-size: 36px;
+      color: #7bb9e8;
+      margin-bottom: 10px;
+    }
+
+    #forumModal .forum-question-form {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid rgba(14, 83, 132, 0.14);
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(21, 73, 111, 0.07);
+    }
+
+    #forumModal .forum-question-form label {
+      font-weight: 800;
+      color: #0b3f6c;
+      margin-bottom: 7px;
+    }
+
+    #forumModal .forum-question-form .form-control {
+      border-radius: 0;
+      min-height: 45px;
+      border-color: rgba(14, 83, 132, 0.18);
+    }
+
+    #forumModal .forum-question-form textarea.form-control {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    #forumModal .forum-submit-btn {
+      border-radius: 3px;
+      background: #1769aa;
+      border-color: #1769aa;
+      font-weight: 800;
+      min-width: 140px;
+      min-height: 44px;
+    }
+
+    #forumModal .modal-footer {
+      padding: 16px 28px;
+      border-top: 1px solid rgba(14, 83, 132, 0.10);
+      background: #ffffff;
+    }
+
+    #forumModal .forum-close-btn {
+      min-width: 110px;
+      border-radius: 3px;
+      font-weight: 700;
+      background: #1769aa;
+      border-color: #1769aa;
+    }
+
+    #forumModal .forum-branch-card {
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    #forumModal .forum-branch-content,
+    #forumModal .forum-action-content {
+      flex: 1 1 auto;
+    }
+
+    #forumModal .forum-branch-content p,
+    #forumModal .forum-action-content p {
+      margin: 7px 0 0;
+      color: #678094;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    #forumModal .forum-mini-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 24px;
+      padding: 3px 9px;
+      background: #edf6ff;
+      color: #1769aa;
+      border: 1px solid rgba(47, 128, 237, 0.16);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    #forumModal .forum-card-arrow {
+      color: #2f80ed;
+      font-size: 20px;
+      flex: 0 0 auto;
+    }
+
+    #forumModal .forum-action-header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    #forumModal .forum-action-header p {
+      margin: 8px 0 0;
+      color: #647d92;
+    }
+
+    #forumModal .forum-selected-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 14px;
+      background: #ecf6ff;
+      color: #0b3f6c;
+      border: 1px solid rgba(47, 128, 237, 0.18);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    #forumModal .forum-action-card {
+      background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+      min-height: 180px;
+      padding: 26px 22px;
+    }
+
+    #forumModal .forum-discussion-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+      background: #fff;
+      border: 1px solid rgba(14, 83, 132, 0.12);
+      padding: 14px 18px;
+      box-shadow: 0 8px 24px rgba(21, 73, 111, 0.06);
+    }
+
+    #forumModal .forum-discussion-toolbar p {
+      margin: 0;
+      color: #607b91;
+    }
+
+    #forumModal .forum-question-note {
+      max-width: 780px;
+      margin: 0 auto 18px;
+      background: linear-gradient(180deg, #ffffff 0%, #f4f9ff 100%);
+      border: 1px solid rgba(14, 83, 132, 0.12);
+      padding: 16px 18px;
+      color: #5f788d;
+      box-shadow: 0 8px 24px rgba(21, 73, 111, 0.05);
+    }
+
+    #forumModal .forum-question-note strong {
+      color: #0b3f6c;
+      font-weight: 900;
+    }
+
+    /* ===== مرحله 2 زیباسازی: نمایش گفتگو شبیه چت حرفه‌ای ===== */
+    #forumModal .forum-chat-thread {
+      display: grid;
+      gap: 22px;
+    }
+
+    #forumModal .forum-chat-item {
+      position: relative;
+      padding: 4px 0 18px;
+      border-bottom: 1px solid rgba(14, 83, 132, 0.08);
+    }
+
+    #forumModal .forum-chat-item:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    #forumModal .forum-chat-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    #forumModal .forum-chat-row.user {
+      justify-content: flex-start;
+    }
+
+    #forumModal .forum-chat-row.admin {
+      justify-content: flex-end;
+      margin-top: 12px;
+    }
+
+    #forumModal .forum-chat-avatar {
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #eaf6ff;
+      color: #1769aa;
+      border: 1px solid rgba(47, 128, 237, 0.16);
+      font-size: 20px;
+      box-shadow: 0 5px 14px rgba(21, 73, 111, 0.08);
+    }
+
+    #forumModal .forum-chat-row.admin .forum-chat-avatar {
+      background: #0b3f6c;
+      color: #ffffff;
+      border-color: #0b3f6c;
+    }
+
+    #forumModal .forum-chat-bubble {
+      width: min(82%, 760px);
+      background: #ffffff;
+      border: 1px solid rgba(14, 83, 132, 0.13);
+      padding: 16px 18px;
+      box-shadow: 0 8px 22px rgba(21, 73, 111, 0.07);
+      position: relative;
+    }
+
+    #forumModal .forum-chat-row.user .forum-chat-bubble {
+      border-right: 4px solid #2f80ed;
+      background: linear-gradient(180deg, #ffffff 0%, #f9fcff 100%);
+    }
+
+    #forumModal .forum-chat-row.admin .forum-chat-bubble {
+      border-left: 4px solid #0b3f6c;
+      background: linear-gradient(180deg, #f3f8fc 0%, #eaf3fa 100%);
+    }
+
+    #forumModal .forum-chat-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    #forumModal .forum-chat-name {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #0b3f6c;
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    #forumModal .forum-chat-time {
+      color: #8193a2;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    #forumModal .forum-chat-message {
+      margin: 0;
+      color: #3d566c;
+      line-height: 2.05;
+      font-size: 14px;
+    }
+
+    #forumModal .forum-chat-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+      padding: 4px 9px;
+      font-size: 11px;
+      font-weight: 800;
+      border: 1px solid rgba(14, 83, 132, 0.12);
+      background: #ffffff;
+      color: #5b7488;
+    }
+
+    #forumModal .forum-chat-status.answered {
+      color: #1769aa;
+      background: #eef7ff;
+      border-color: rgba(47, 128, 237, 0.18);
+    }
+
+    #forumModal .forum-chat-status.pending {
+      color: #8a6d1f;
+      background: #fff9e9;
+      border-color: rgba(197, 151, 30, 0.22);
+    }
+
+    #forumModal .forum-chat-admin-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #0b3f6c;
+      font-weight: 900;
+    }
+
+    #forumModal .forum-chat-divider {
+      width: 2px;
+      height: 18px;
+      background: linear-gradient(180deg, #b8dcf7 0%, #2f80ed 100%);
+      margin: 2px 20px 2px auto;
+      opacity: .7;
+    }
+
+    #forumModal .forum-chat-empty-admin {
+      color: #7e8b96;
+      font-style: normal;
+    }
+
+    #forumModal .forum-discussion-toolbar {
+      position: sticky;
+      top: -34px;
+      z-index: 2;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    #forumModal .forum-chat-count {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      background: #0b3f6c;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    @media (max-width: 767.98px) {
+      #forumModal .forum-chat-bubble {
+        width: calc(100% - 54px);
+        padding: 14px;
+      }
+
+      #forumModal .forum-chat-head {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      #forumModal .forum-chat-time {
+        white-space: normal;
+      }
+
+      #forumModal .forum-chat-divider {
+        margin-right: 19px;
+      }
+    }
+
+    /* وقتی پنجره تالار باز است، دکمه‌های شناور صفحه پشت مودال پنهان شوند */
+    body.modal-open #apir-contact-wrapper,
+    body.modal-open .scroll-top {
+      opacity: 0 !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+    }
+
+    @media (max-width: 767.98px) {
+      #forumModal .modal-content {
+        min-height: 100vh;
+      }
+
+      #forumModal .modal-header {
+        padding: 18px 16px;
+      }
+
+      #forumModal .modal-title {
+        font-size: 21px;
+      }
+
+      #forumModal .modal-body {
+        padding: 24px 14px;
+      }
+
+      #forumModal .forum-branch-card {
+        min-height: 88px;
+      }
+
+      #forumModal .forum-action-card {
+        min-height: 120px;
+      }
+
+      #forumModal .forum-question-form {
+        padding: 18px 14px;
+      }
+
+      #forumModal .modal-footer {
+        justify-content: center;
+        padding: 14px 16px 18px;
+      }
+
+      #forumModal .forum-discussion-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+
+<style>
+    /* ===== Forum entry banner ===== */
+    #forum-entry .forum-entry-banner {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 0 !important;
+      overflow: hidden;
+      text-decoration: none;
+    }
+
+    #forum-entry .forum-entry-banner > div {
+      border-radius: 0 !important;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid rgba(14, 83, 132, 0.14);
+      box-shadow: 0 12px 34px rgba(21, 73, 111, 0.10);
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    }
+
+    #forum-entry .forum-entry-banner:hover > div {
+      transform: translateY(-5px);
+      border-color: rgba(47, 128, 237, 0.35);
+      box-shadow: 0 18px 42px rgba(21, 73, 111, 0.15);
+    }
+
+    #forum-entry .forum-entry-banner img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 3 / 1;
+      object-fit: cover;
+      border-radius: 0 !important;
+    }
+
+    @media (max-width: 768px) {
+      #forum-entry .forum-entry-banner img {
+        aspect-ratio: 16 / 7;
+      }
+    }
+  </style>
+
+<style>
+    /* ===== Forum branch cards: equal size ===== */
+    #forumModal #forumBranchPanel .row.g-4 > [class*="col-"] {
+      display: flex;
+    }
+
+    #forumModal #forumBranchPanel .forum-branch-card {
+      width: 100%;
+      height: 205px;
+      min-height: 205px;
+      flex: 1 1 auto;
+    }
+
+    #forumModal #forumBranchPanel .forum-branch-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      min-width: 0;
+    }
+
+    @media (max-width: 991.98px) {
+      #forumModal #forumBranchPanel .forum-branch-card {
+        height: 185px;
+        min-height: 185px;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      #forumModal #forumBranchPanel .forum-branch-card {
+        height: auto;
+        min-height: 155px;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="index-page apir-subpage" style="font-family: IRanSansX;">
+
+  
+
+  <header id="header" class="header d-flex align-items-center sticky-top" dir="rtl">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="https://www.apir.ir" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="/assets/img/logoapir.webp" alt="" class="img-fluid">
+        <h1 class="sitename" style="font-family: IRanSansX; font-size: large;">انجمن ملی صنعت پخش ایران</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="https://www.apir.ir" class="" style="font-family: IRanSansX; font-size: medium;">خانه<br></a></li>&nbsp;
+          <li class="dropdown" style="font-family: IRanSansX; font-size: small;"><a href="#" style="font-family: IRanSansX; font-size: medium;"><span>درباره انجمن</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://www.apir.ir/pages/board-of-directors" style="font-family: IRanSansX; font-size: small;">هیئت مدیره</a></li>
+              <li><a href="https://www.apir.ir/committees" style="font-family: IRanSansX; font-size: small;">کمیته‌ها</a></li>
+              <li><a href="https://www.apir.ir/branches" style="font-family: IRanSansX; font-size: small;">انجمن‌های استانی</a></li>
+              <li><a href="https://www.apir.ir/pages/secretariat" style="font-family: IRanSansX; font-size: small;">دبیرخانه</a></li>
+              <li><a href="https://www.apir.ir/regulations" style="font-family: IRanSansX; font-size: small;">آیین نامه‌ها و قوانین</a></li>
+            </ul>
+          </li>    
+          <li class="dropdown" style="font-family: IRanSansX; font-size: small;"><a href="#" style="font-family: IRanSansX; font-size: medium;"><span>اعضای انجمن</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://www.apir.ir/pages/member-companies" style="font-family: IRanSansX; font-size: small;">شرکت‌های عضو انجمن</a></li>
+              <li><a href="https://www.apir.ir/membership" style="font-family: IRanSansX; font-size: small;">عضویت در انجمن</a></li>
+
+            </ul>
+          </li>
+          <li class="dropdown" style="font-family: IRanSansX; font-size: small;"><a href="#" style="font-family: IRanSansX; font-size: medium;"><span>خدمات وفعالیت‌ها</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://www.apir.ir/exhibitions" style="font-family: IRanSansX; font-size: small;">نمایشگاه صنعت پخش</a></li>
+              <li><a href="https://www.apir.ir/pages/services" style="font-family: IRanSansX; font-size: small;">خدمات انجمن</a></li>
+              <li><a href="https://www.apir.ir/articles" style="font-family: IRanSansX; font-size: small;">مقالات</a></li>
+              <li><a href="https://www.apir.ir/publications" style="font-family: IRanSansX; font-size: small;">نشریه</a></li>
+              <li><a href="https://www.apir.ir/pages/reports" style="font-family: IRanSansX; font-size: small;">گزارشات</a></li>
+              <li><a href="https://www.apir.ir/pages/glossary" style="font-family: IRanSansX; font-size: small;">واژه نامه تخصصی صنعت پخش</a></li>
+
+            </ul>
+          </li>          
+          <li><a href="https://www.apir.ir/news" style="font-family: IRanSansX; font-size: medium;">اخبار و اطلاعیه‌ها</a></li>
+          <li><a href="https://www.apir.ir/pages/calendar" style="font-family: IRanSansX; font-size: medium;">تقویم رویدادها</a></li>&nbsp;&nbsp;
+
+          <li><a href="https://www.apir.ir/contact" style="font-family: IRanSansX; font-size: medium;">ارتباط با ما</a></li>&nbsp;&nbsp;&nbsp;
+          <li><a href="https://www.apir.ir/login" style="font-family: IRanSansX; font-size: medium;">ورود مدیران</a></li>
+
+
+        </ul>
+        
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+ 
+
+      <!-- <a class="btn-getstarted" href="#about">سامانه مدیریت توزیع کالا</a> -->
+
+    </div>
+  </header>
+    
+  <div id="hero" class="hero section">
+
+         
+           <img src="assets/img/hero-bg-abstract.jpg" alt="" data-aos="fade-in" class="">
+         
+           <div class="container">
+             <div class="row justify-content-center" data-aos="zoom-out">
+               <div class="col-xl-10 col-lg-10 text-center">
+                 <h1 style="font-family: IRanSansX;">انجمن‌های استانی</h1>
+                 <h5 style="font-family: IRanSansX;">انجمن ملی صنعت پخش ایران</h5>
+               </div>
+              </div>
+            
+        </div>
+    </div>
+
+    <section id="portfolio" class="portfolio section" dir="rtl">
+
+      <!-- Section Title -->
+     
+      <div class="container">
+
+        <div  class="isotope-layout"
+        data-default-filter="*"
+        data-layout="fitRows"
+        data-sort="original-order">
+
+         
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" dir="rtl">
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-1">
+              <div >
+                <img src="assets/img/ostan/TEHRAN.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                <h5  class="card-text text-center" style="font-family: IRanSansX;">استان تهران</h5>
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+             </a>   
+
+           <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-2">
+            <div >
+              <img src="assets/img/ostan/east-azerbaijan.png" class="img-fluid" alt="">
+              <div class="portfolio-info text-center">
+              <h5  class="card-text text-center" style="font-family: IRanSansX;">استان آذربایجان شرقی</h5>
+                
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+           </a>         
+           
+           
+          <a  class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-3">
+            <div>
+              <img src="assets/img/ostan/ardabil.png" class="img-fluid" alt="">
+              <div class="portfolio-info text-center">
+                <h5  class="card-text text-center" style="font-family: IRanSansX;">استان اردبیل</h5>
+                
+                
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+          </a>
+
+              <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-4">
+                <div>
+
+                  <img src="assets/img/ostan/esfahan.png" class="img-fluid" alt="">
+                  <div class="portfolio-info text-center">
+                    <h5  class="card-text text-center" style="font-family: IRanSansX;">استان اصفهان</h5>
+                    
+                    
+                    
+                  </div>
+              </div>
+             </a>
+
+             <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-5">
+              <div>
+
+                <img src="assets/img/ostan/alborz.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان البرز</h5>
+                  
+                  
+                  
+                </div>
+            </div>
+           </a>
+                
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-6">
+              <div >
+                <img src="assets/img/ostan/bushehr.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان بوشهر</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+
+            </a>
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-7">
+              <div >
+                <img src="assets/img/ostan/chaharmahal-bakhtiari.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان چهار محال بختیاری</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-8">
+              <div >
+                <img src="assets/img/ostan/khorasan-razavi.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان خراسان رضوی</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+  
+            </a>
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-9">
+              <div >
+                <img src="assets/img/ostan/khuzestan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان خوزستان</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-10">
+              <div >
+                <img src="assets/img/ostan/zanjan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان زنجان</h5>                
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-11">
+              <div >
+                <img src="assets/img/ostan/fars.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان  فارس</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-12">
+              <div >
+                <img src="assets/img/ostan/qazvin.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان قزوین</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+
+            </a>
+
+              <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-13">
+                <div >
+                  <img src="assets/img/ostan/kordestan.png" class="img-fluid" alt="">
+                  <div class="portfolio-info text-center">
+                    <h5  class="card-text text-center" style="font-family: IRanSansX;">استان کردستان</h5>
+                    
+                    
+                    
+                  </div>
+                </div><!-- End Portfolio Item -->
+    
+              </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-14">
+              <div >
+                <img src="assets/img/ostan/kerman.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان کرمان</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-15">
+              <div >
+                <img src="assets/img/ostan/kermanshah.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-cente">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان کرمانشاه</h5>
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-16">
+              <div >
+                <img src="assets/img/ostan/golestan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان  گلستان</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+
+           <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-17">
+            <div >
+              <img src="assets/img/ostan/gilan.png" class="img-fluid" alt="">
+              <div class="portfolio-info text-center">
+                <h5  class="card-text text-center" style="font-family: IRanSansX;">استان گیلان</h5>
+               
+                
+                
+              </div>
+            </div><!-- End Portfolio Item -->
+           </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-18">
+              <div >
+                <img src="assets/img/ostan/lorestan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان لرستان</h5>
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+  
+            </a>
+
+
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-19">
+              <div >
+                <img src="assets/img/ostan/mazandaran.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان مازندران</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+           
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-20">
+              <div >
+                <img src="assets/img/ostan/hormozgan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان هرمزگان</h5>
+                 
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+
+           
+            <a class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" href="https://www.apir.ir/branches/branch-21">
+              <div>
+                <img src="assets/img/ostan/hamedan.png" class="img-fluid" alt="">
+                <div class="portfolio-info text-center">
+                  <h5  class="card-text text-center" style="font-family: IRanSansX;">استان همدان</h5>
+                  
+                  
+                  
+                </div>
+              </div><!-- End Portfolio Item -->
+            </a>
+           
+            
+            
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+ 
+
+
+    
+
+<section id="forum-entry" class="portfolio section" dir="rtl">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="font-family: IRanSansX;">تالار گفتگوی انجمن‌های استانی</h2>
+    <p style="font-family: IRanSansX; color:#607b91; margin-top:10px;">فضایی برای طرح پرسش، مشاهده پاسخ‌ها و گفتگوی مستقیم با انجمن‌های استانی</p>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-8 col-md-10 col-12">
+        <a class="forum-entry-banner"
+           href="#"
+           role="button"
+           data-bs-toggle="modal"
+           data-bs-target="#forumModal"
+           aria-label="باز کردن تالار گفتگوی انجمن‌های استانی">
+          <div>
+            <img src="assets/img/commite/forum-banner3.png" class="img-fluid w-100" alt="تالار گفتگو انجمن‌های استانی">
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===== Provincial Association Forum Modal ===== -->
+<div class="modal fade" id="forumModal" tabindex="-1" aria-labelledby="forumModalLabel" aria-hidden="true" dir="rtl">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="forumModalLabel">تالار گفتگوی انجمن‌</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="بستن"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- مرحله 1: انتخاب انجمن -->
+        <div class="forum-panel is-active" id="forumBranchPanel">
+          <div class="forum-intro">
+            <h4>تالار گفتگوی انجمن‌های استانی</h4>
+            <p>برای مشاهده گفتگوهای قبلی یا ثبت پرسش جدید، انجمن موردنظر خود را انتخاب کنید</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن تهران">
+                <span class="forum-branch-icon"><i class="bi bi-buildings"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن تهران</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی تهران</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن آذربایجان شرقی">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن آذربایجان شرقی</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی آذربایجان شرقی</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن اردبیل">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن اردبیل</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی اردبیل</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن اصفهان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن اصفهان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی اصفهان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن البرز">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن البرز</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی البرز</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن بوشهر">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن بوشهر</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی بوشهر</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن چهار محال بختیاری">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن چهار محال بختیاری</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی چهار محال بختیاری</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن خراسان رضوی">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن خراسان رضوی</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی خراسان رضوی</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن خوزستان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن خوزستان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی خوزستان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن زنجان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن زنجان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی زنجان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن فارس">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن فارس</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی فارس</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن قزوین">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن قزوین</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی قزوین</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن کردستان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن کردستان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی کردستان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن کرمان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن کرمان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی کرمان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن کرمانشاه">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن کرمانشاه</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی کرمانشاه</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن گلستان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن گلستان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی گلستان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن گیلان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن گیلان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی گیلان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن لرستان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن لرستان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی لرستان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن مازندران">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن مازندران</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی مازندران</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن هرمزگان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن هرمزگان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی هرمزگان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <button type="button" class="forum-branch-card" data-branch="انجمن همدان">
+                <span class="forum-branch-icon"><i class="bi bi-geo-alt"></i></span>
+                <div class="forum-branch-content">
+                  <span class="forum-mini-badge">تالار انجمن</span>
+                  <h5>انجمن همدان</h5>
+                  <p>پرسش‌ها، گفتگوها و موضوعات مرتبط با انجمن استانی همدان</p>
+                </div>
+                <i class="bi bi-chevron-left forum-card-arrow"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- مرحله 2: انتخاب عملیات -->
+        <div class="forum-panel" id="forumActionPanel">
+          <button type="button" class="forum-back-btn" data-forum-back="branches">
+            <i class="bi bi-arrow-right"></i>
+            بازگشت به لیست شعب
+          </button>
+
+          <div class="forum-action-header">
+            <div class="forum-selected-chip"><i class="bi bi-geo-alt"></i> <span data-selected-branch></span></div>
+            <h4 class="forum-selected-title" data-selected-branch></h4>
+            <p>یکی از گزینه‌های زیر را برای ادامه انتخاب کنید</p>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-lg-5 col-md-6">
+              <button type="button" class="forum-action-card" id="viewForumBtn">
+                <span class="forum-action-icon"><i class="bi bi-chat-left-text"></i></span>
+                <div class="forum-action-content">
+                  <span class="forum-mini-badge">مشاهده محتوا</span>
+                  <h5>مشاهده تالار گفتگو</h5>
+                  <p class="mb-0">گفتگوها، پرسش‌های قبلی و پاسخ‌های ادمین این انجمن را ببینید.</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="col-lg-5 col-md-6">
+              <button type="button" class="forum-action-card" id="newQuestionBtn">
+                <span class="forum-action-icon"><i class="bi bi-plus-circle"></i></span>
+                <div class="forum-action-content">
+                  <span class="forum-mini-badge">ثبت درخواست</span>
+                  <h5>پرسش جدید</h5>
+                  <p class="mb-0">سوال تازه خود را ثبت کنید تا توسط ادمین بررسی و پاسخ داده شود.</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- مرحله 3: گفتگوهای قبلی -->
+        <div class="forum-panel" id="forumDiscussionsPanel">
+          <button type="button" class="forum-back-btn" data-forum-back="actions">
+            <i class="bi bi-arrow-right"></i>
+            بازگشت
+          </button>
+          <h4 class="forum-selected-title" data-selected-branch></h4>
+
+          <div class="forum-discussion-toolbar">
+            <p>در این بخش می‌توانید سوالات ثبت‌شده کاربران و پاسخ ادمین انجمن را مشاهده کنید.</p>
+            <span class="forum-chat-count" id="forumChatCount"><i class="bi bi-chat-dots"></i> 0 گفتگو</span>
+          </div>
+
+          <div id="forumDiscussionList" class="forum-discussion-list"></div>
+        </div>
+
+        <!-- مرحله 4: پرسش جدید -->
+        <div class="forum-panel" id="forumQuestionPanel">
+          <button type="button" class="forum-back-btn" data-forum-back="actions">
+            <i class="bi bi-arrow-right"></i>
+            بازگشت
+          </button>
+          <h4 class="forum-selected-title" data-selected-branch></h4>
+
+          <div class="forum-question-note">
+            <strong>راهنما:</strong>
+            لطفاً اطلاعات زیر را کامل وارد کنید تا پرسش شما با شناسه کاربری ثبت شود و توسط ادمین انجمن بررسی گردد.
+          </div>
+
+          <form id="forumQuestionForm" class="forum-question-form">
+            <div class="mb-3">
+              <label for="forumAuthor" class="form-label">نام و نام خانوادگی</label>
+              <input type="text" class="form-control" id="forumAuthor" autocomplete="name" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="forumMobile" class="form-label">شماره همراه</label>
+              <input type="tel" class="form-control" id="forumMobile" inputmode="numeric" autocomplete="tel" placeholder="مثال: 09123456789" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="forumCompany" class="form-label">نام شرکت</label>
+              <input type="text" class="form-control" id="forumCompany" autocomplete="organization" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="forumPosition" class="form-label">سمت</label>
+              <input type="text" class="form-control" id="forumPosition" autocomplete="organization-title" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="forumEmail" class="form-label">آدرس ایمیل</label>
+              <input type="email" class="form-control" id="forumEmail" autocomplete="email" placeholder="example@company.com" required>
+            </div>
+
+            <div class="mb-4">
+              <label for="forumQuestion" class="form-label">متن پرسش</label>
+              <textarea class="form-control" id="forumQuestion" required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary forum-submit-btn">ثبت پرسش</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary forum-close-btn" data-bs-dismiss="modal">بستن</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- ===== /Branch Forum Modal ===== -->
+
+<footer id="footer" class="footer light-background" dir="rtl">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="https://www.apir.ir" class="logo d-flex align-items-center">
+            <img src="/assets/img/logoapirf.png" class="img-fluid" alt="">
+            <h1 class="sitename" style="font-family: IRanSansX; font-size: medium;">&nbsp;&nbsp;&nbsp;انجمن ملی صنعت پخش ایران</h1>
+          </a>
+          
+          <p style="font-family: IRanSansX; text-align: justify;">
+            انجمن ملی صنعت پخش ایران، تنها تشکل قانونی صنعت پخش کشور، در سال ۱۳۷۸ با مشارکت شرکت‌های فعال این حوزه تأسیس شد و با هدف حمایت از حقوق و منافع قانونی شرکت‌های پخش و بهبود وضعیت اقتصادی آنها، به ثبت رسیده است. این انجمن همچنین در راستای حفظ منافع جامعه و ارتقای استانداردهای حرفه‌ای صنعت پخش فعالیت می‌کند.
+          </p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://wa.me/989024261482"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/apir_ir"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.aparat.com/DistributionAssociationofIran" target="_blank">
+              <img src="/assets/img/aparat.svg.png" alt="آپارات" class="aparat-icon">
+            </a>  
+            <a href="https://ble.ir/apirir" target="_blank">
+              <img src="/assets/img/Logo07.png" alt="بله" class="aparat-icon">
+            </a>        
+           </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links text-center ">
+          <h4 style="font-family: IRanSansX;">خدمات</h4>
+          <ul class="text-center ">
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://www.apir.ir/news">اخبار و اطلاعیه‌ها</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://www.apir.ir/pages/calendar">تقویم رویدادها</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://www.apir.ir/committees">کمیته‌ها</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://www.apir.ir/branches">انجمن‌های استانی</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links text-center">
+          <h4 style="font-family: IRanSansX;">لینک‌ها</h4>
+          <ul>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://sso.ntsw.ir/Account/Login?ReturnUrl=/connect/authorize/callback%253Fclient_id=arka&response_type=code&scope=openid%2520api%2520offline_access%2520profile&redirect_uri=https%253A%252F%252Fntsw.ir%252FIndex_SSO.aspx&code_challenge=Omm6izlBUfHBUeHWXJpMZHtEbypjI8zQoZGKbV7wjvo&code_challenge_method=S256">سامانه جامع تجارت</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="https://www.nwms.ir/">سامانه جامع انبارها</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="#">سامانه سرمایه‌های انسانی</a></li>
+            <li style="font-family: IRanSansX; text-align: center; display: block;"><a href="geo.html">سامانه  GEOCORDER</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start" >
+          <h4 style="font-family: IRanSansX;"class="text-center">ارتباط با ما</h4>
+          <p style="font-family: IRanSansX;" class="text-center">تهران ، بزرگراه ستاری (جنوب به شمال)</p>
+          <p style="font-family: IRanSansX;" class="text-center">خیابان پیامبر مرکزی</p>
+          <p style="font-family: IRanSansX;" class="text-center">کوچه عزتی پور ، پلاک 6</p>
+          <p style="font-family: IRanSansX;" class="mt-4 text-center"><strong>تلفن تماس:</strong> <span>02144009809 - 02144093720</span></p>
+          <p style="font-family: IRanSansX;" class="text-center"><strong>ایمیل:</strong> <span>apir.ngo@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">www.Apir.ir</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+
+        Designed by Eng. AliTorkzaban
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  
+
+<script>window.APIR_FORUM={"type":"branch","targets":[{"id":1,"name":"شعبه تهران","slug":"branch-1"},{"id":2,"name":"شعبه آذربایجان شرقی","slug":"branch-2"},{"id":3,"name":"شعبه اردبیل","slug":"branch-3"},{"id":4,"name":"شعبه اصفهان","slug":"branch-4"},{"id":5,"name":"شعبه البرز","slug":"branch-5"},{"id":6,"name":"شعبه بوشهر","slug":"branch-6"},{"id":7,"name":"شعبه چهارمحال و بختیاری","slug":"branch-7"},{"id":8,"name":"شعبه خراسان رضوی","slug":"branch-8"},{"id":9,"name":"شعبه خوزستان","slug":"branch-9"},{"id":10,"name":"شعبه زنجان","slug":"branch-10"},{"id":11,"name":"شعبه فارس","slug":"branch-11"},{"id":12,"name":"شعبه قزوین","slug":"branch-12"},{"id":13,"name":"شعبه کردستان","slug":"branch-13"},{"id":14,"name":"شعبه کرمان","slug":"branch-14"},{"id":15,"name":"شعبه کرمانشاه","slug":"branch-15"},{"id":16,"name":"شعبه گلستان","slug":"branch-16"},{"id":17,"name":"شعبه گیلان","slug":"branch-17"},{"id":18,"name":"شعبه لرستان","slug":"branch-18"},{"id":19,"name":"شعبه مازندران","slug":"branch-19"},{"id":20,"name":"شعبه هرمزگان","slug":"branch-20"},{"id":21,"name":"شعبه همدان","slug":"branch-21"}],"indexUrl":"https://www.apir.ir/forum/discussions","storeUrl":"https://www.apir.ir/forum/questions","captchaUrl":"https://www.apir.ir/forum/captcha","csrf":"pdMuj7xarl8bSUt5wNQ0Igp9PL18s9Dx68ncrK3m"};</script><script src="https://www.apir.ir/assets/js/forum-app.js" defer></script></body>
+
+</html>
