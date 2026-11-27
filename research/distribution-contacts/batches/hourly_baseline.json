@@ -1,18 +1,17 @@
 {
-  "ts": "2026-11-26T23:01:12.945824+00:00",
-  "rows": 5368,
+  "ts": "2026-11-27T00:00:35.320962+00:00",
+  "rows": 5587,
   "triple": 841,
-  "pair_co_pe": 1832,
+  "pair_co_pe": 2052,
   "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "accepted_kpi": 3348,
-  "gap": 1652,
-  "note": "hourly report #4 apply-kpi",
-  "prev_kpi": 3275,
-  "delta_kpi": 73,
+  "accepted_kpi": 3568,
+  "gap": 1432,
+  "note": "hourly report #5 apply-kpi",
+  "prev_kpi": 3348,
+  "delta_kpi": 220,
   "sources_this_hour": [
-    "Ghasem Iran branches+HQ",
-    "APKHZ Khuzestan food members",
-    "Tabriz directory mobiles"
+    "logiscm Tehran distribution CEO directory (~200)",
+    "Ghasem Iran remaining provinces"
   ]
 }
