@@ -1,0 +1,96 @@
+{
+  "seed_query": "مدیران برتر دولت + بزرگان صنعت + مدیران روابط عمومی ها رسانه ها و هنرمندان و سرمایه گذاران",
+  "method": "cross-hop via public web mirrors (kavala/marketing-iran/talartozi/t.me previews). No private member dumps.",
+  "seed_group": {
+    "name": "مدیران برتر دولت + بزرگان صنعت + مدیران روابط عمومی + مدیران رسانه",
+    "invite": null,
+    "members_reported": 795,
+    "active_reported": 33,
+    "source": "https://marketing-iran.ir/product/%d8%a8%d8%a7%d9%86%da%a9-%d9%85%d9%88%d8%a8%d8%a7%db%8c%d9%84-%d8%a7%d8%b2-%d9%85%d8%af%db%8c%d8%b1%d8%a7%d9%86-%d8%a8%d8%b1%d8%aa%d8%b1-%d8%af%d9%88%d9%84%d8%aa-%d9%88-%d8%b5%d9%86%d8%b9%d8%aa-%d9%88/"
+  },
+  "overlap_top30_from_seed": [
+    {"name": "تالارتوزیع کنندگان ابزار ایران", "shared": 86, "invite": "https://t.me/+APTTZsD1dBVkMzY0", "username": "@talartoziir"},
+    {"name": "گروه صنعت ساختمان ایران", "shared": 81, "username": "@sanatsakhtemaniran"},
+    {"name": "انجمن تخصصی مدیران عامل و مدیران فروش Az", "shared": 73, "invite": null, "admin": "@AZ_GROUP"},
+    {"name": "روابط عمومی و تبلیغات", "shared": 66, "invite": null},
+    {"name": "بازار بزرگ تهران", "shared": 50, "invite": "https://t.me/joinchat/IxBMV1fgtQmngeR6wLNv4w"},
+    {"name": "سامانه خبرنگاران", "shared": 49, "username": "@thereportersclub"},
+    {"name": "مدیران حرفه‌ای منابع انسانی", "shared": 42, "channel": "@hrmSupergroup", "admin_mobile_public": "09123843135"},
+    {"name": "تالار پخش مواد غذایی وبهداشتی", "shared": 40, "invite": null, "admins_public": [
+      {"name": "حقیقی", "role": "مدیرگروه", "mobile": "09124267508"},
+      {"name": "واهب", "role": "مدیرگروه", "mobile": "09131030997"},
+      {"name": "جعفری", "role": "مدیرگروه", "mobile": "09361579367"}
+    ]},
+    {"name": "سوپرگروه تجاری سراسر کشور", "shared": 40},
+    {"name": "دورهمی پخشها و تولیدکنندگان خوشنام ایران", "shared": 39, "invite": "https://t.me/joinchat/BNizkT-zW_03oAt255vtlg", "admin": "@Amir_Sh1387"},
+    {"name": "مدیران صنایع و کارآفرینان کشور", "shared": 39, "invite": null},
+    {"name": "صادر کنندگان به عراق", "shared": 31, "invite": "https://t.me/+TlXiY2fPj9EWnS-7", "admin": "@AZ_GROUP", "channel": "@IRAQTEJARAT"},
+    {"name": "همبستگی کشاورزان ایران _هکا", "shared": 31, "username": "@hakairi"}
+  ],
+  "hop_invites_found": [
+    {"name": "روابط عمومی ها و اصحاب رسانه", "invite": "https://t.me/joinchat/BZ8g3z_APPnplg9e8IM2zg", "admin": "@mo20111"},
+    {"name": "گروه نخبگان ایران", "invite": "https://t.me/+pF0hYeWHxcY2MGRk", "admin": "@amirhosein_f"},
+    {"name": "گروه مدیران حرفه‌ای ایران", "invite": "https://t.me/+V7VvlZC7L6ExODNk", "admin": "@Drmsafari"},
+    {"name": "سوپرگروه مدیران خلاق ایران", "invite": "https://t.me/joinchat/ClbrxD9Mr14C9jGvCxZNsw", "channel": "@modiran_khallagh"},
+    {"name": "گروه دولت الکترونیک", "invite": "https://t.me/joinchat/GxCKNr56rJabldoM"},
+    {"name": "گروه رشته مدیریت دولتی", "invite": "https://t.me/joinchat/MMRcTRXER8rUkMsfVxQb4w", "channel": "https://t.me/PublicAdministrationChannel"},
+    {"name": "تالار تخصصی تجارت مواد غذایی", "invite": "https://t.me/joinchat/PnoABJ5QBibKJqLX"},
+    {"name": "استخدام و تبلیغات صنعت پخش مویرگی", "invite": "https://t.me/joinchat/KSgImRMit_Y2ZjE0", "admin": "@hosseinpanahdar"},
+    {"name": "آگهی استخدام صنعت پخش", "invite": "https://t.me/joinchat/BHIc3DzmDPZPzTbx7-nriw"},
+    {"name": "باشگاه فعالان خبری", "invite": "https://t.me/+O_MbD9tEGgTbbjzC"},
+    {"name": "اتاق نیازمندی‌های رسانه‌ای خراسان", "invite": "https://t.me/+QNttOE8rqoK5L3Ql"},
+    {"name": "اتاق تبادل آفیش خراسان", "invite": "https://t.me/+PAbCmwR4qa7bwuLp"},
+    {"name": "پرسون (اهالی رسانه)", "invite": "https://t.me/joinchat/JJVt-RZknwMFBSagzuWoJw", "admin": "@sajadseif"},
+    {"name": "باشگاه خبرنگاران", "invite": "https://telegram.me/joinchat/DSO_5UjUU4D0xh5rqCdLYg"},
+    {"name": "شب‌های سرد گلستان", "invite": "https://t.me/joinchat/BxQsBkOHFL7UXQBZS3h8wQ"}
+  ],
+  "hop_public_channels": [
+    {"name": "تالارتوزیع کنندگان ابزار ایران", "username": "@talartoziir", "url": "https://t.me/talartoziir"},
+    {"name": "تالارتوزیع صمت ایران", "username": "@talartozisamt", "url": "https://t.me/talartozisamt"},
+    {"name": "تالارتوزیع صنایع خودرویی", "username": "@talartozisanaye", "url": "https://t.me/talartozisanaye"},
+    {"name": "تالارتوزیع کلیه صنوف", "username": "@talartozisenf", "url": "https://t.me/talartozisenf"},
+    {"name": "کانال VIP تالارتوزیع", "username": "@Talartozi", "url": "https://t.me/Talartozi"},
+    {"name": "ربات تالارتوزیع", "username": "@talartozibot", "url": "https://t.me/talartozibot"},
+    {"name": "صنعت ساختمان ایران", "username": "@sanatsakhtemaniran", "url": "https://t.me/sanatsakhtemaniran"},
+    {"name": "کانال صنعت ساختمان", "username": "@sanat_sakhteman_iran", "url": "https://t.me/sanat_sakhteman_iran"},
+    {"name": "استخدام صنعت پخش البرز", "username": "@estekhdame_sanate_pakshe_alborz", "url": "https://t.me/estekhdame_sanate_pakshe_alborz"},
+    {"name": "باماستخدام", "username": "@bamaestekhdam", "url": "https://t.me/bamaestekhdam"},
+    {"name": "انجمن روابط عمومی ایران", "username": "@pr_ir", "url": "https://t.me/pr_ir"},
+    {"name": "انجمن صنفی روابط عمومی تهران", "username": "@pra_ir", "url": "https://t.me/pra_ir", "mobile": "09011016447"},
+    {"name": "انجمن متخصصان روابط عمومی", "username": "@iaprs", "url": "https://t.me/iaprs"},
+    {"name": "شارا", "username": "@sharapr", "url": "https://t.me/sharapr"},
+    {"name": "ماهنامه مدیریت ارتباطات", "username": "@cm_magazine", "url": "https://t.me/cm_magazine", "phone": "02188356076"},
+    {"name": "انجمن مدیران", "username": "@Managersclub", "url": "https://t.me/Managersclub"},
+    {"name": "مدیران کارآفرین", "username": "@modiran_karafarin", "url": "https://t.me/modiran_karafarin", "mobile": "09153062245"},
+    {"name": "نخبگان کارآفرین", "username": "@nokhbegankarafarin", "url": "https://t.me/nokhbegankarafarin"}
+  ],
+  "already_in_bozorgan_file": [
+    "https://t.me/+QoQPM81PrhFiOTI0",
+    "https://t.me/joinchat/RSkCd5wWT5cgZOTa",
+    "https://t.me/joinchat/BHIc3EGDw_OEydthTCLCrw",
+    "https://t.me/joinchat/BNizkT-zW_03oAt255vtlg",
+    "https://t.me/joinchat/BNizkU3e3OQwix2-qd2BIQ",
+    "https://t.me/joinchat/GL5CbkgGTjq7kaTOvEVNtQ"
+  ],
+  "still_missing_invite": [
+    "مدیران برتر دولت + بزرگان صنعت + مدیران روابط عمومی + مدیران رسانه",
+    "انجمن تخصصی مدیران عامل و مدیران فروش Az",
+    "روابط عمومی و تبلیغات",
+    "مدیران صنایع و کارآفرینان کشور",
+    "تالار پخش مواد غذایی وبهداشتی"
+  ],
+  "public_manager_mobiles_harvestable": [
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "حقیقی", "role": "مدیرگروه", "mobile": "09124267508"},
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "واهب", "role": "مدیرگروه", "mobile": "09131030997"},
+    {"company": "تالار پخش مواد غذایی و بهداشتی", "person": "جعفری", "role": "مدیرگروه", "mobile": "09361579367"},
+    {"company": "انجمن صنفی روابط عمومی تهران", "person": null, "role": "روابط عمومی", "mobile": "09011016447"},
+    {"company": "مدیران کارآفرین", "person": "وحید حامد", "role": "مدیر کانال", "mobile": "09153062245"},
+    {"company": "انجمن صنفی مدیران و مشاورین منابع انسانی", "person": null, "role": "ادمین", "mobile": "09123843135"}
+  ],
+  "next_hop_targets": [
+    "از @talartozibot لینک‌های صنفی بیشتر",
+    "از @AZ_GROUP مسیر انجمن مدیران عامل",
+    "از bio ادمین‌های بزرگان پخش آگهی‌های عمومی شرکت+موبایل",
+    "صفحات کاوالا هم‌پوشان با تالار پخش / انجمن مدیران عامل"
+  ]
+}

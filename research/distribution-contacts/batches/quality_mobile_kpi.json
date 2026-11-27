@@ -1,11 +1,11 @@
 {
-  "unique_mobiles_all": 1521,
-  "unique_mobiles_quality": 1521,
+  "unique_mobiles_all": 1527,
+  "unique_mobiles_quality": 1527,
   "target": 5000,
-  "gap": 3479,
+  "gap": 3473,
   "with_manager_person": 234,
   "company_mobile_no_person": 602,
-  "other_non_sales_person": 668,
+  "other_non_sales_person": 674,
   "mobiles_also_seen_with_sales_label": 17,
   "note": "Quality = unique 09 mobile linked to company and/or non-sales person; prefer mid/senior manager. Existing sales rows kept, not deleted."
 }

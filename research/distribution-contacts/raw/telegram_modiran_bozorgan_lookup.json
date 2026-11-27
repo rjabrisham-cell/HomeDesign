@@ -86,12 +86,12 @@
       }
     ],
     "related_groups_mentioned_without_public_invite": [
-      "روابط عمومی ها و اصحاب رسانه",
       "روابط عمومی و تبلیغات",
       "مدیران صنایع و کارآفرینان کشور",
-      "نخبگان و فرهیختگان اقتصادی",
-      "سامانه خبرنگاران"
+      "انجمن تخصصی مدیران عامل و مدیران فروش Az",
+      "تالار پخش مواد غذایی وبهداشتی"
     ]
   },
-  "limitation": "Cannot join private Telegram groups or dump member mobile numbers. Can use public channel business contacts and member-exported public ads only."
+  "hop_graph": "telegram_hop_graph.json",
+  "limitation": "Cannot join private Telegram groups or dump member mobile numbers. Cross-hop continues via public invites/channels and publicly listed admin mobiles only."
 }
