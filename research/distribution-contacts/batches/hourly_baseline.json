@@ -1,18 +1,21 @@
 {
-  "ts": "2026-11-27T01:01:43.460053+00:00",
-  "rows": 5615,
-  "triple": 843,
-  "pair_co_pe": 2078,
+  "ts": "2026-11-27T13:09:15.650119+00:00",
+  "rows": 6940,
+  "triple": 965,
+  "pair_co_pe": 3280,
   "pair_co_mob": 675,
   "pair_pe_mob": 0,
-  "accepted_kpi": 3596,
-  "gap": 1404,
-  "note": "hourly report #6 apply-kpi",
-  "prev_kpi": 3568,
-  "delta_kpi": 28,
+  "accepted_kpi": 4920,
+  "gap": 80,
+  "note": "post-gap-close apply",
+  "prev_kpi": 3596,
+  "delta_kpi": 1324,
   "sources_this_hour": [
-    "Momtaz nationwide branches (+21)",
-    "Robin logistics mobiles",
-    "APEsf CEOs"
+    "Eltiam/Sina",
+    "Tooba/Dayadarou",
+    "APIR boards",
+    "Nokhbegan/Cina/Fars",
+    "Biodep/Assoc",
+    "Shafa/Exir gap close"
   ]
 }
